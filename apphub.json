@@ -1,0 +1,16 @@
+{
+  "appId": "recite",
+  "displayName": "Recite · 英语词典与背单词",
+  "repository": "https://github.com/x-zyz/recite",
+  "identity": {
+    "issuer": "https://id.0979019203.top",
+    "organization": "apphub",
+    "status": "planned",
+    "android": {
+      "clientName": "recite-android",
+      "applicationId": "com.toastfish.mobile",
+      "certificateSha256": "363fc640c9ad79930fb9fc95a228f0e7856704f25e183483681635f6c01e3649",
+      "redirectUri": "https://apps.0979019203.top/oauth/android/recite/callback"
+    }
+  }
+}
