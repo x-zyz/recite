@@ -8,11 +8,11 @@ on:
         required: true
         type: string
       publish_github:
-        description: Publish the GitHub draft as a beta prerelease
+        description: Publish the APK as the latest stable GitHub release
         type: boolean
         default: false
       publish_update:
-        description: Publish to the Recite beta update feed
+        description: Sync the APK to the in-app update feed used by existing installs
         type: boolean
         default: false
 
@@ -45,9 +45,9 @@ jobs:
           [[ $RELEASE_TAG =~ ^v(0|[1-9][0-9]{0,3})\.(0|[1-9][0-9]{0,3})\.(0|[1-9][0-9]{0,3})$ ]] || fail 'Invalid release tag'
           version="${RELEASE_TAG#v}"
           apk="ToastFish-$version.apk"
-          gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --json isDraft,isPrerelease,assets |
-            jq -e --arg apk "$apk" '(.isDraft or .isPrerelease) and ([.assets[] | select(.name == $apk and .state == "uploaded")] | length == 1)' >/dev/null ||
-            fail 'Expected one uploaded APK in a draft or prerelease'
+          gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --json assets |
+            jq -e --arg apk "$apk" '([.assets[] | select(.name == $apk and .state == "uploaded")] | length == 1)' >/dev/null ||
+            fail 'Expected one uploaded APK for this version'
           gh release download "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --pattern "$apk" --dir "$RUNNER_TEMP"
           file="$RUNNER_TEMP/$apk"
           tools=$(for dir in "$ANDROID_HOME"/build-tools/*; do
@@ -82,7 +82,7 @@ jobs:
           printf 'apk=%s\nbuild=%s\nversion=%s\n' "$file" "$build" "$version" >> "$GITHUB_OUTPUT"
           sha256sum "$file"
 
-      - name: Publish beta update feed
+      - name: Sync in-app update feed
         if: inputs.publish_update
         env:
           APK: ${{ steps.apk.outputs.apk }}
@@ -112,7 +112,9 @@ jobs:
             https://update.0979019203.top/dictionary/beta/android/latest.json > "$RUNNER_TEMP/recite-latest.json"
           python3 scripts/prepare-recite-update.py check "$work/release.bvu" "$RUNNER_TEMP/recite-latest.json"
 
-      - name: Publish GitHub beta prerelease
+      - name: Publish latest stable GitHub release
         if: inputs.publish_github
         shell: bash
-        run: gh release edit "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --draft=false --prerelease --latest=false
+        run: |
+          gh release edit "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --draft=false --prerelease=false --latest=true \
+            --title "Recite ${RELEASE_TAG#v} · Android"
