@@ -41,24 +41,29 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          [[ $RELEASE_TAG =~ ^v(0|[1-9][0-9]{0,3})\.(0|[1-9][0-9]{0,3})\.(0|[1-9][0-9]{0,3})$ ]]
+          fail() { echo "$*" >&2; exit 1; }
+          [[ $RELEASE_TAG =~ ^v(0|[1-9][0-9]{0,3})\.(0|[1-9][0-9]{0,3})\.(0|[1-9][0-9]{0,3})$ ]] || fail 'Invalid release tag'
           version="${RELEASE_TAG#v}"
           apk="ToastFish-$version.apk"
           gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --json isDraft,isPrerelease,assets |
-            jq -e --arg apk "$apk" '(.isDraft or .isPrerelease) and ([.assets[] | select(.name == $apk and .state == "uploaded")] | length == 1)' >/dev/null
+            jq -e --arg apk "$apk" '(.isDraft or .isPrerelease) and ([.assets[] | select(.name == $apk and .state == "uploaded")] | length == 1)' >/dev/null ||
+            fail 'Expected one uploaded APK in a draft or prerelease'
           gh release download "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --pattern "$apk" --dir "$RUNNER_TEMP"
           file="$RUNNER_TEMP/$apk"
-          tools=$(find "$ANDROID_HOME/build-tools" -mindepth 1 -maxdepth 1 -type d | sort -V | tail -1)
-          [[ -x "$tools/aapt" && -x "$tools/apksigner" ]]
-          "$tools/apksigner" verify --print-certs "$file" > "$RUNNER_TEMP/recite-certs"
-          mapfile -t signers < <(sed -n 's/^Signer #[0-9]* certificate SHA-256 digest: //p' "$RUNNER_TEMP/recite-certs")
-          [[ ${#signers[@]} == 1 && ${signers[0]} == "$APK_SIGNER" ]]
-          badging=$("$tools/aapt" dump badging "$file")
+          tools=$(for dir in "$ANDROID_HOME"/build-tools/*; do
+            if [[ -x "$dir/aapt2" && -x "$dir/apksigner" ]]; then printf '%s\n' "$dir"; fi
+          done | sort -V | tail -1)
+          [[ -n $tools ]] || fail 'No installed Android build-tools with aapt2 and apksigner'
+          "$tools/apksigner" verify --print-certs "$file" > "$RUNNER_TEMP/recite-certs" ||
+            fail 'APK signature verification failed'
+          mapfile -t signers < <(awk '/^Signer #[0-9]+ certificate SHA-256 digest:/ {print tolower($NF)}' "$RUNNER_TEMP/recite-certs")
+          [[ ${#signers[@]} == 1 && ${signers[0]} == "$APK_SIGNER" ]] || fail 'Unexpected APK certificate'
+          badging=$("$tools/aapt2" dump badging "$file")
           package=$(grep '^package: ' <<< "$badging")
-          [[ $package == "package: name='com.toastfish.mobile' versionCode="* ]]
-          [[ $package == *" versionName='$version'"* ]]
+          [[ $package == "package: name='com.toastfish.mobile' versionCode="* ]] || fail "Unexpected APK package: $package"
+          [[ $package == *" versionName='$version'"* ]] || fail "APK version differs from tag: $package"
           build=$(sed -E "s/.* versionCode='([0-9]+)'.*/\1/" <<< "$package")
-          [[ $build =~ ^[1-9][0-9]{0,9}$ ]] && (( build <= 2100000000 ))
+          [[ $build =~ ^[1-9][0-9]{0,9}$ ]] && (( build <= 2100000000 )) || fail 'Invalid versionCode'
           printf 'apk=%s\nbuild=%s\nversion=%s\n' "$file" "$build" "$version" >> "$GITHUB_OUTPUT"
           sha256sum "$file"
 
