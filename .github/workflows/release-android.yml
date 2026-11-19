@@ -107,7 +107,7 @@ jobs:
           ssh -F /dev/null -T -o BatchMode=yes -o StrictHostKeyChecking=yes -o IdentitiesOnly=yes \
             -o GlobalKnownHostsFile=/dev/null -o UserKnownHostsFile=scripts/bytevirt-known-hosts \
             -o ConnectTimeout=15 -o ServerAliveInterval=20 -o ServerAliveCountMax=3 \
-            -i "$work/deploy" bytevirt-updates@141.11.138.234 publish-v1 < "$work/release.bvu"
+            -p 22016 -i "$work/deploy" recite-update@154.26.235.59 publish-v1 < "$work/release.bvu"
           curl --fail --silent --show-error --retry 3 \
             https://update.0979019203.top/dictionary/beta/android/latest.json > "$RUNNER_TEMP/recite-latest.json"
           python3 scripts/prepare-recite-update.py check "$work/release.bvu" "$RUNNER_TEMP/recite-latest.json"
