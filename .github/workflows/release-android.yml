@@ -44,7 +44,7 @@ jobs:
           fail() { echo "$*" >&2; exit 1; }
           [[ $RELEASE_TAG =~ ^v(0|[1-9][0-9]{0,3})\.(0|[1-9][0-9]{0,3})\.(0|[1-9][0-9]{0,3})$ ]] || fail 'Invalid release tag'
           version="${RELEASE_TAG#v}"
-          apk="ToastFish-$version.apk"
+          apk="Recite-$version.apk"
           gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --json assets |
             jq -e --arg apk "$apk" '([.assets[] | select(.name == $apk and .state == "uploaded")] | length == 1)' >/dev/null ||
             fail 'Expected one uploaded APK for this version'
