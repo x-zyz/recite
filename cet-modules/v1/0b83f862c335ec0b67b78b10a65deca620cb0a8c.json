@@ -1,0 +1,451 @@
+{
+ "schema": 1,
+ "paper": "六级真题/2025.12/真题PDF/cet6_2025_12_2.pdf",
+ "blob": "0b83f862c335ec0b67b78b10a65deca620cb0a8c",
+ "level": "6",
+ "date": "2025.12",
+ "title": "2025.12 大学英语六级真题",
+ "minutes": 130,
+ "audio": "六级真题/2025.12/听力音频/2025年12月六级听力第1套.mp3",
+ "sections": [
+  {
+   "part": "Part I • Writing",
+   "name": "",
+   "type": "writing",
+   "directions": "For this part, you are allowed 30 minutes to write an essay that begins with the sentence \"While striving for the Chinese Dream, young people enjoy more opportunities to realize their self-worth.\" You can make comments, cite examples or use your personal experiences to develop your essay. You should write at least 150 words but no more than 200 words."
+  },
+  {
+   "part": "Part II • Listening Comprehension",
+   "name": "Section A",
+   "type": "choice",
+   "directions": "",
+   "groups": [
+    {
+     "intro": "Questions 1 to 4 are based on the conversation you have just heard.",
+     "questions": [
+      {
+       "n": 1,
+       "options": [
+        "It is absurdly expensive.",
+        "It is appropriately priced.",
+        "It brings shame on the university.",
+        "It caters to students and teachers."
+       ]
+      },
+      {
+       "n": 2,
+       "options": [
+        "They never really appeal to her.",
+        "They are never actually good value.",
+        "They are within students' budgets.",
+        "They always come at a high speed."
+       ]
+      },
+      {
+       "n": 3,
+       "options": [
+        "The food.",
+        "The space.",
+        "The speed.",
+        "The environment."
+       ]
+      },
+      {
+       "n": 4,
+       "options": [
+        "A complete refurnishing.",
+        "A ruinous burning down.",
+        "A substantial expansion.",
+        "A massive renovation."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 5 to 8 are based on the conversation you have just heard.",
+     "questions": [
+      {
+       "n": 5,
+       "options": [
+        "They have a poor work ethic.",
+        "They don't get along with managers.",
+        "They are struggling in the workplace.",
+        "They aren't as varied as their predecessors."
+       ]
+      },
+      {
+       "n": 6,
+       "options": [
+        "Learning about the way they adhere to their own values.",
+        "Recognizing how they try to strike a work-life balance.",
+        "Knowing how they struggle to connect with managers.",
+        "Understanding the way they seek career advancement."
+       ]
+      },
+      {
+       "n": 7,
+       "options": [
+        "In terms of the number of hours spent.",
+        "By the amount of work they perform.",
+        "In terms of the work done in 8 hours.",
+        "By the quality of the work they do."
+       ]
+      },
+      {
+       "n": 8,
+       "options": [
+        "Those whose culture facilitates their advancement.",
+        "Those allowing them to do projects of their choice.",
+        "Those whose values align with their own.",
+        "Those refraining from discrediting their perspectives."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part II • Listening Comprehension",
+   "name": "Section B",
+   "type": "choice",
+   "directions": "",
+   "groups": [
+    {
+     "intro": "Questions 9 to 11 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 9,
+       "options": [
+        "They may unconsciously help customers choose greener dishes.",
+        "They may unintentionally encourage customers to eat meat.",
+        "They raise customers' environmental awareness.",
+        "They enable customers to eat in a healthy way."
+       ]
+      },
+      {
+       "n": 10,
+       "options": [
+        "By inviting them to taste different kinds of food.",
+        "By observing the eating behaviour of strict vegetarians.",
+        "By comparing participants eating vegetarian food frequently with those doing so rarely.",
+        "By requiring participants to choose a meal as if they were feasting at a family gathering."
+       ]
+      },
+      {
+       "n": 11,
+       "options": [
+        "They are less likely to choose a vegetarian dish.",
+        "They find vegetarian dishes become more appealing.",
+        "They tend to consume larger portions of unhealthy food.",
+        "They are less likely to choose dishes recommended by chefs."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 12 to 15 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 12,
+       "options": [
+        "They have found a solution to the global problem of air pollution.",
+        "They have managed to freeze polluting particles to around -180C.",
+        "They have been seeking a way to prevent pollutants from penetrating indoors.",
+        "They have been cooperating closely on developing a new type of air-conditioner."
+       ]
+      },
+      {
+       "n": 13,
+       "options": [
+        "They can be costly and inefficient.",
+        "They are by-products of health research.",
+        "They are constantly being perfected.",
+        "They can save over 40,000 lives each year."
+       ]
+      },
+      {
+       "n": 14,
+       "options": [
+        "They keep their windows closed.",
+        "They make more use of air-conditioners.",
+        "They spend a lot more time indoors.",
+        "They try various ways to purify indoor air."
+       ]
+      },
+      {
+       "n": 15,
+       "options": [
+        "It shows the importance of eliminating indoor pollution.",
+        "It may change the way of future environmental research.",
+        "It demonstrates the fruitful cooperation between UK and Chinese scientists.",
+        "It may make household appliances serve an additional air cleaner function."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part II • Listening Comprehension",
+   "name": "Section C",
+   "type": "choice",
+   "directions": "",
+   "groups": [
+    {
+     "intro": "Questions 16 to 18 are based on the recording you have just heard.",
+     "questions": [
+      {
+       "n": 16,
+       "options": [
+        "It distinguishes different species of animals.",
+        "It reflects distinct traits in animal behaviour.",
+        "It demonstrates animals' ability to recognise themselves.",
+        "It gauges the level of intelligence of various animal species."
+       ]
+      },
+      {
+       "n": 17,
+       "options": [
+        "It meets few of the behavioural criteria set in the mirror test.",
+        "It behaves similarly to animals capable of self-recognition.",
+        "It removes marks from itself to show self-awareness.",
+        "It matches children over 18 months in intelligence."
+       ]
+      },
+      {
+       "n": 18,
+       "options": [
+        "They have conclusively established the criteria of animal intelligence.",
+        "They have advanced the concept of self-awareness to a higher level.",
+        "They incorporate more perspectives than one.",
+        "They raise more questions than answers."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 19 to 21 are based on the recording you have just heard.",
+     "questions": [
+      {
+       "n": 19,
+       "options": [
+        "Small children are even more keen on screens than their elders.",
+        "Both parents and children preferred to read electronic books.",
+        "Parents differed from children in reading behavior.",
+        "Children reading electronic books learned more."
+       ]
+      },
+      {
+       "n": 20,
+       "options": [
+        "They came to conflicting conclusions.",
+        "They were based on small samples.",
+        "They yielded unanticipated findings.",
+        "They were focused on younger kids."
+       ]
+      },
+      {
+       "n": 21,
+       "options": [
+        "Those that prove simple enough for them to comprehend.",
+        "Those that produce both audio and visual effects on them.",
+        "Those that draw their attention to the educational content.",
+        "Those that contribute to their increased interest in reading."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 22 to 25 are based on the recording you have just heard.",
+     "questions": [
+      {
+       "n": 22,
+       "options": [
+        "Regret having wasted much time in making them.",
+        "Think how different we could have made them.",
+        "Keep ourselves from regretting them.",
+        "Live with them for the time being."
+       ]
+      },
+      {
+       "n": 23,
+       "options": [
+        "It has made us the person we are now.",
+        "It has been made with a lot of thinking.",
+        "It stems from our valuable knowledge.",
+        "It benefits us greatly one way or another."
+       ]
+      },
+      {
+       "n": 24,
+       "options": [
+        "Challenging things to do.",
+        "Beautiful things to share.",
+        "Choices to make.",
+        "Lessons to learn."
+       ]
+      },
+      {
+       "n": 25,
+       "options": [
+        "Foreseeing the possibility for regret later.",
+        "Making proper use of the lessons learned.",
+        "Perfecting the decision-making strategies.",
+        "Seeing them as obstacles to moving forward."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part III • Reading Comprehension",
+   "name": "Section C",
+   "type": "choice",
+   "directions": "",
+   "groups": [
+    {
+     "title": "Passage One",
+     "paragraphs": [
+      "As interdependent beings we cannot thrive independent of others. We like to work with people who are like-minded, with whom we share a common interest, or who also believe in a cause we are serious about. This is evident in how we have organised ourselves into various collective groups such as nations, regions, communities, organisations, and families.",
+      "Does the group you belong to have a strong collective consciousness or shared beliefs? Is there interdependence among its members? Do you consider this group a significant part of your existence? If your answers are affirmative, then you are experiencing a micro version of solidarity.",
+      "What is solidarity? Its simplest definition in the dictionary is: \"...a unifying opinion, feeling, purpose or interest among a group of people.\"",
+      "In this increasingly diverse society we live in, solidarity takes on a complex and multifaceted character as it forms bonds of interdependence among unique individuals living in a fast-changing environment and working within a complex division of labour.",
+      "One facet of solidarity fits well with the principles of communitarianism. In this setting, individuals give up their own interests to serve the common good. However, its strict adherence to social cohesiveness and exclusiveness restricts expression and practice of individual differences and preferences. Consequently, individuality and autonomy is sacrificed to maintain the unity of the group.",
+      "Solidarity is also viewed as a reaction to the extreme emphasis on individualism and freedom of choice. It goes against the liberal idea of unrestricted individuals who see society as a hindrance to their freedom to make choices and to act according to what is good for them regardless of how these will affect others.",
+      "But despite its many facets, social theorists have viewed solidarity as a key factor in bringing about order and progress in society. They believe that for human society to survive as it becomes more diverse, more new bonds need to be formed based on the differences. In the light of this, they regard a genuine solidarity as more than just shallow relationships based on common interests. Solidarity is not just a product of strategic calculations of how much it will benefit the self. It is not an exclusive class founded on the you-and-me-against-the-world principle. Rather, it is inclusive and is not forced. Acting out of solidarity means supporting and standing up for each other—in recognition that one's fate is in the fate of the other. It is a bond characterised by cooperative practices and strengthened by the concern for the well-being of others or the common good. It fights for the protection of human dignity and listens to and acts on the cries of the most vulnerable."
+     ],
+     "questions": [
+      {
+       "n": 46,
+       "options": [
+        "They cannot prosper without cooperating with each other.",
+        "They share a common interest and believe in a just cause.",
+        "They think and behave alike in different social groups.",
+        "They cannot gain independence without fighting for it."
+       ],
+       "stem": "What does the author say about human beings?"
+      },
+      {
+       "n": 47,
+       "options": [
+        "It gives rise to a complicated division of labour.",
+        "It involves many aspects with great complexity.",
+        "It brings individuals together as environment changes.",
+        "It embraces the characteristics of different individuals."
+       ],
+       "stem": "What do we learn about solidarity in an increasingly diverse society?"
+      },
+      {
+       "n": 48,
+       "options": [
+        "Ruling of social norms and ridding of individuality.",
+        "Emphasis on the adherence to individual differences.",
+        "Sacrifice of personal interests for the common good.",
+        "Elimination of individualism and personal choices."
+       ],
+       "stem": "What would we witness in the setting of communitarianism?"
+      },
+      {
+       "n": 49,
+       "options": [
+        "A limit to personal differences.",
+        "An opposition to individualism.",
+        "A hindrance to social advancement.",
+        "An inevitable end to liberal pursuits."
+       ],
+       "stem": "What does solidarity entail according to the passage?"
+      },
+      {
+       "n": 50,
+       "options": [
+        "It is especially relevant to the most vulnerable.",
+        "It is most effective in protecting human dignity.",
+        "It is essential to progress and order in society.",
+        "It is indispensable to avoiding shallow relationships."
+       ],
+       "stem": "What do social theorists think of solidarity?"
+      }
+     ]
+    },
+    {
+     "title": "Passage Two",
+     "paragraphs": [
+      "People who repeatedly give unwanted advice can be well-meaning and genuinely want to help. Others might do this out of a sense of self-worth around the ability to influence others. One study found that people with a high tendency to seek power were more likely to give advice than those with an opposite tendency. Under the guise of unselfishness, people may be driven to give you unwanted advice because it makes them feel powerful or in control. They may not be fully aware of this drive, however.",
+      "These people may also display a problematic degree of emotional vulnerability, becoming upset very quickly, and taking a long time to calm down. It is possible that their emotions were only validated in childhood when they were at their loudest, encouraging them to adopt responses to discomfort that are excessive in most situations.",
+      "When someone is giving advice in order to make themselves feel more powerful, there is underlying anxiety to their behavior that recipients of the advice tend to notice. It can be tempting in this situation to react harshly to the advice giver and to accuse them of being manipulative, but this approach might produce an undesirable result.",
+      "If the act of giving advice is contributing actively to someone's feelings of self- worth, an outright rejection may be perceived as a threat, activating their fight-or- flight response, possibly causing them to double down on their validation-seeking behavior, or leading to a larger conflict.",
+      "The key is to validate without over-identifying. You can let them know that you have heard them and appreciate where they are coming from without taking on the potentially damaging narrative that you could not have gotten by without their help. You had better say something like, \"Thanks for the idea. I have my own plan for handling this, but I really appreciate your perspective and will take it into consideration. Can I let you know when I need help in the future?\"",
+      "If you have trouble setting boundaries tactfully, prioritize working on your own ability to self-regulate. As uncomfortable as it may make you continuously receiving unwanted advice, if you can respond with compassion, the situation will likely diffuse much faster.",
+      "Though it is usually not the intended outcome of giving unsolicited advice, many who receive it often feel stressed, offended, or simply annoyed by unwanted suggestions. Setting a boundary in this regard, if you feel you need one, is perfectly reasonable and something that can bring you increased emotional safety. It is best to set boundaries in a way that takes into account the individual's underlying reasons for doing what they are doing to avoid unnecessary conflict and more stress."
+     ],
+     "questions": [
+      {
+       "n": 51,
+       "options": [
+        "They turn out to be well-meaning.",
+        "They are genuinely kind-hearted.",
+        "They are capable of influencing others.",
+        "They are inclined to crave for power."
+       ],
+       "stem": "What is the finding of one study about people who keep giving unsolicited advice?"
+      },
+      {
+       "n": 52,
+       "options": [
+        "They may be quick to upset others.",
+        "They may be emotionally vulnerable.",
+        "They want their voice to be the loudest.",
+        "They respond to discomfort excessively."
+       ],
+       "stem": "What is the problem with people who are driven to give you unsolicited advice?"
+      },
+      {
+       "n": 53,
+       "options": [
+        "Reveal the undesirable result of their approach.",
+        "Refuse their advice in an undisguised manner.",
+        "Bring their real motives to the surface.",
+        "Accuse them of trying to control others."
+       ],
+       "stem": "What is the advice receiver tempted to do when noticing the advice giver's underlying anxiety?"
+      },
+      {
+       "n": 54,
+       "options": [
+        "They may regard it as a threat.",
+        "They may modify their behavior.",
+        "They get ready for a larger conflict.",
+        "They begin to doubt their self-worth."
+       ],
+       "stem": "How is the advice giver likely to react to the rejection of their advice?"
+      },
+      {
+       "n": 55,
+       "options": [
+        "Concede the advice is perfectly reasonable.",
+        "Give their reasons for not taking the advice.",
+        "Understand why the advice giver offers the advice.",
+        "Explain their chosen way of handling the situation."
+       ],
+       "stem": "What should the advice receiver do to avoid unnecessary conflict?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part •V • Translation",
+   "name": "",
+   "type": "translation",
+   "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2.",
+   "paragraphs": [
+    "〖中文原文〗中华民族崇尚自强自立的精神，这一精神深植于中国文化之中，是民族生存与发展的重要支撑。改革开放以来，中国在自强自立的征程上，持续加大科研投入，在信息技术、人工智能、航天工程等领域不断取得新突破。 5G 网络覆盖全国，远程医疗发展迅速，电子支付的使用全球领先，嫦娥探月工程展现了航天领域引人注目的发展。自强自立精神成为推动国家现代化进程的强大动力，激励着中国人民为实现民族复兴"
+   ]
+  }
+ ],
+ "key": ".......................................................",
+ "notes": {},
+ "reference": {},
+ "source": {}
+}

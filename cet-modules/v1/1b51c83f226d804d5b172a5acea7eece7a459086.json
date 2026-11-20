@@ -1,0 +1,454 @@
+{
+ "schema": 1,
+ "paper": "四级真题/2018.06/真题PDF/2018.06四级真题第1套.pdf",
+ "blob": "1b51c83f226d804d5b172a5acea7eece7a459086",
+ "level": "4",
+ "date": "2018.06",
+ "title": "2018.06 大学英语四级真题",
+ "minutes": 125,
+ "audio": "",
+ "sections": [
+  {
+   "part": "Part I Writing (30 minutes)",
+   "name": "",
+   "type": "writing",
+   "directions": "For this part, you are allowed 30minutes to write a short essay on the importance of reading ability and how to develop it. You should write at least 120 words but no more than 180 words."
+  },
+  {
+   "part": "Part 11 Listening Comprehension (25 minutes)",
+   "name": "Section A",
+   "type": "choice",
+   "directions": "In this section, you will hear three news reports. At the end of each news report, you will hear two or three questions. Both the news report and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 1 and 2 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 1,
+       "options": [
+        "The return of a bottled message to its owner's daughter.",
+        "A New Hampshire man's joke with friends on his wife.",
+        "A father's message for his daughter.",
+        "The history of a century-old motel."
+       ]
+      },
+      {
+       "n": 2,
+       "options": [
+        "She wanted to show gratitude for his kindness.",
+        "She wanted to honor her father's promise.",
+        "She had been asked by her father to do so.",
+        "She was excited to see her father's handwriting."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 3 and 4 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 3,
+       "options": [
+        "People were concerned about the number of bees.",
+        "Several cases of Zika disease had been identified.",
+        "Two million bees were infected with disease.",
+        "Zika virus had destroyed some bee farms."
+       ]
+      },
+      {
+       "n": 4,
+       "options": [
+        "It apologized to its customers.",
+        "It was forced to kill its bees.",
+        "It lost a huge stock of bees.",
+        "It lost 2.5 million dollars."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 5 to 7 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 5,
+       "options": [
+        "It stayed in the air for about two hours.",
+        "It took off and landed on a football field.",
+        "It proved to be of high commercial value.",
+        "It made a series of sharp turns in the sky."
+       ]
+      },
+      {
+       "n": 6,
+       "options": [
+        "Engineering problems.",
+        "The air pollution it produced.",
+        "Inadequate funding.",
+        "The opposition from the military."
+       ]
+      },
+      {
+       "n": 7,
+       "options": [
+        "It uses the latest aviation technology.",
+        "It flies faster than a commercial jet.",
+        "It is a safer means of transportation.",
+        "It is more environmentally friendly."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part 11 Listening Comprehension (25 minutes)",
+   "name": "Section B",
+   "type": "choice",
+   "directions": "In this section, you will hear two long conversations. At the end of each conversation, you will hear four questions. Both the conversation and the questions will bespo ken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet Iwith a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 8 to 11 are based on the conversation you have just heard.",
+     "questions": [
+      {
+       "n": 8,
+       "options": [
+        "It seems a depressing topic.",
+        "It sounds quite alarming.",
+        "It has little impact on our daily life.",
+        "It is getting more serious these days."
+       ]
+      },
+      {
+       "n": 9,
+       "options": [
+        "The man doesn't understand Spanish.",
+        "The woman doesn't really like dancing.",
+        "They don't want something too noisy.",
+        "They can't make it to the theatre in time."
+       ]
+      },
+      {
+       "n": 10,
+       "options": [
+        "It would be more fun without Mr. Whitehead hosting.",
+        "It has too many acts to hold the audience's attention.",
+        "It is the most amusing show he has ever watched.",
+        "It is a show inappropriate for a night of charity."
+       ]
+      },
+      {
+       "n": 11,
+       "options": [
+        "Watch a comedy.",
+        "Go and see the dance.",
+        "Book the tickets online.",
+        "See a film with the man."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 12 to 15 are based on the conversation you have just heard.",
+     "questions": [
+      {
+       "n": 12,
+       "options": [
+        "Most of her schoolmates are younger than she is.",
+        "She simply has no idea what school to transfer to.",
+        "There are too many activities for her to cope with.",
+        "She worries she won't fit in as a transfer student."
+       ]
+      },
+      {
+       "n": 13,
+       "options": [
+        "Seek advice from senior students.",
+        "Pick up some meaningful hobbies.",
+        "Participate in after-school activities.",
+        "Look into what the school offers."
+       ]
+      },
+      {
+       "n": 14,
+       "options": [
+        "Give her help whenever she needs it.",
+        "Accept her as a transfer student.",
+        "Find her accommodation on campus.",
+        "Introduce her to her roommates."
+       ]
+      },
+      {
+       "n": 15,
+       "options": [
+        "She has interests similar to Mr. Lee's.",
+        "She has become friends with Catherine.",
+        "She has chosen the major Catherine has.",
+        "She has just transferred to the college."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part 11 Listening Comprehension (25 minutes)",
+   "name": "Section C",
+   "type": "choice",
+   "directions": "In this section, you will hear three passages. At the end of each passage, you will hear three or four questions. Both the passage and the questions will be spoken only once.Afte r you hear a question, you must choose the best answer from the four choices marked A),B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 16 to 18 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 16,
+       "options": [
+        "To investigate how being overweight impacts on health.",
+        "To find out which physical drive is the most powerful.",
+        "To discover what most mice like to eat.",
+        "To determine what feelings mice have."
+       ]
+      },
+      {
+       "n": 17,
+       "options": [
+        "When they are hungry.",
+        "When they are thirsty.",
+        "When they smell food.",
+        "When they want company."
+       ]
+      },
+      {
+       "n": 18,
+       "options": [
+        "They search for food in groups.",
+        "They are overweight when food is plenty.",
+        "They prefer to be with other mice.",
+        "They enjoy the company of other animals."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 19 to 21 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 19,
+       "options": [
+        "Its construction started before World War I.",
+        "Its construction cost more than $ 40 billion.",
+        "It is efficiently used for transport.",
+        "It is one of the best in the world."
+       ]
+      },
+      {
+       "n": 20,
+       "options": [
+        "To improve transportation in the countryside.",
+        "To move troops quickly from place to place.",
+        "To enable people to travel at a higher speed.",
+        "To speed up the transportation of goods."
+       ]
+      },
+      {
+       "n": 21,
+       "options": [
+        "In the 1970s.",
+        "In the 1960s.",
+        "In the 1950s.",
+        "In the 1940s."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 22 to 25 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 22,
+       "options": [
+        "Chatting while driving.",
+        "Messaging while driving.",
+        "Driving under age.",
+        "Speeding on highways."
+       ]
+      },
+      {
+       "n": 23,
+       "options": [
+        "A gadget to hold a phone on the steering wheel.",
+        "A gadget to charge the phone in a car.",
+        "A device to control the speed of a vehicle.",
+        "A device to ensure people drive with both hands."
+       ]
+      },
+      {
+       "n": 24,
+       "options": [
+        "The car keeps flashing its headlights.",
+        "The car slows down gradually to a halt.",
+        "They are alerted with a light and a sound.",
+        "They get a warning on their smart phone."
+       ]
+      },
+      {
+       "n": 25,
+       "options": [
+        "Installing a camera.",
+        "Using a connected app.",
+        "Checking their emails.",
+        "Keeping a daily record"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension (40 minutes)",
+   "name": "Section A",
+   "type": "bank",
+   "directions": "In this section, there is a passage with10 blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letten Please mark the corresponding letterfor each item on Answer Sheet 2 with a single line through the centre. You may not use any of the words in the bank more than once.",
+   "paragraphs": [
+    "An office tower on Miller Street in Manchester is completely covered in solar panels. They are used to create some of the energy used by the insurance company inside. When the tower was first _[[26]]_ in 1962, it was covered with thin square stones. These small square stones became a problem for the building and continued to fall off the face for 40 years until a major renovation was _ [[27]] . During this renovation the building's owners, CIS, [[28]] the solar panel company, Solar century. They agreed to cover the entire building in solar panels. In 2004, the completed CIS tower became Europe's largest _[[29]]_ of vertical solar panels. A vertical solar project on such a large _[[30]]_ has never been repeated since. Covering a skyscraper with solar panels had never been done before, and the CIS tower was chosen as one of the \"10 best green energy projects\". For a long time after this renovation project, it was the tallest building in the United Kingdom, but it was _[[31]] overtaken by the Mill bank Tower.",
+    "Green buildings like this aren't _[[32]]_ cost-efficient for the investor, but it does produce much less pollution than that caused by energy _ [[33]] through fossil fuels. As solar panels get _[[34]] , the world is likely to see more skyscrapers covered in solar panels, collecting energy much like trees do. Imagine a world where building the tallest skyscraper wasn't a race of [[35]] but rather one to collect the most solar energy."
+   ],
+   "bank": [
+    "cheaper",
+    "cleaner",
+    "collection",
+    "competed",
+    "constructed",
+    "consulted",
+    "dimension",
+    "discovered",
+    "eventually",
+    "height",
+    "necessarily",
+    "production",
+    "range",
+    "scale",
+    "undertaken"
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension (40 minutes)",
+   "name": "Section B",
+   "type": "match",
+   "directions": "In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once. Each paragraph is marked with a letter. Answer the questions by marking the corresponding letter on Answer Sheet 2.",
+   "title": "Some College Students Are Angry That They Have to Pay to Do Their Homework",
+   "paragraphs": [
+    {
+     "label": "A",
+     "text": "Digital learning systems now charge students for access codes needed to complete coursework, take quizzes, and turn in homework. As universities go digital, students are complaining of a new hit to their finances that's replacing—and sometimes joining—expensive textbooks: pricey online access codes that are required to complete coursework and submit assignments."
+    },
+    {
+     "label": "B",
+     "text": "The codes—which typically range in price from $ 80 to $ 155 per course—give students online access to systems developed by education companies like McGraw Hill and Pearson. These companies, which long reaped big profits as textbook publishers, have boasted that their new online offerings, when pushed to students through universities they partner with, represent the future of the industry."
+    },
+    {
+     "label": "C",
+     "text": "But critics say the digital access codes represent the same profit-seeking ethos (XYL,€) of the textbook business, and are even harder for students to opt out of. While they could once buy second-hand textbooks, or share copies with friends, the digital systems are essentially impossible to avoid."
+    },
+    {
+     "label": "D",
+     "text": "\"When we talk about the access code we see it as the new face of the textbook monopoly M), a new way to lock students around this system,\" said Ethan Senack, the higher education advocate for the U.S. Public Interest Research Group, to BuzzFeed News. \"Rather than $250 (for a print textbook) you're paying $ 120,\" said Senack. \"But because it's all digital it eliminates the used book market and eliminates any sharing and because homework and tests are through an access code, it eliminates any ability to opt out.\""
+    },
+    {
+     "label": "E",
+     "text": "Sarina Harpet, a 19-year-old student at Virginia Tech, was faced with a tough dilemma when she first started college in 2015—pay rent or pay to turn in her chemistry homework. She told BuzzFeed News that her freshman chemistry class required her to use Connect, a system provided by McGraw Hill where students can submit homework, take exams and track their grades. But the code to access the program cost $ 120—a big sum for Harper, who had already put down $ 450 for textbooks, and had rent day approaching."
+    },
+    {
+     "label": "F",
+     "text": "She decided to wait for her next work-study paycheck, which was typically $ 150- $ 200, to pay for the code. She knew that her chemistry grade may take a dive as a result. \"It's a balancing act,\" she said. \"Can I really afford these access codes now?\" She didn't hand in her first two assignments for chemistry, which started her out in the class with a failing grade."
+    },
+    {
+     "label": "G",
+     "text": "The access codes may be another financial headache for students, but for textbook businesses, they're the future. McGraw Hill, which controls 21% of the higher education market, reported in March that its digital content sales exceeded print sales for the first time in 2015. The company said that 45% of its $ 140 million revenue in 2015 \"was derived from digital products. \""
+    },
+    {
+     "label": "H",
+     "text": "A Pearson spokesperson told BuzzFeed News that \"digital materials are less expensive and a good investment\" that offer new features, like audio texts, personalized knowledge checks and expert videos. Its digital course materials save students up to 60% compared to traditional printed textbooks, the company added. McGraw Hill didn't respond to a request for comment, but its CEO David Levin told the Financial Times in August that \"in higher education, the era of the printed textbook is now over. \""
+    },
+    {
+     "label": "I",
+     "text": "The textbook industry insists the online systems represent a better deal for students. \"These digital products aren't just mechanisms for students to submit homework, they offer all kinds of features,\" David Anderson, the executive director of higher education with the Association of American Publishers, told BuzzFeed News. \"It helps students understand in a way that you can't do with print homework assignments. \""
+    },
+    {
+     "label": "J",
+     "text": "David Hunt, an associate professor in sociology at Augusta University, which has rolled out digital textbooks across its math and psychology departments, told BuzzFeed News that he understands the utility of using systems that require access codes. But he doesn't require his students to buy access to a learning program that controls the class assignments. \"I try to make things as inexpensive as possible, \" said Hunt, who uses free digital textbooks for his classes but designs his own curriculum. \"The online systems may make my life a lot easier but I feel like I'm giving up control. The discussions are the things where my expertise can benefit the students most.\""
+    },
+    {
+     "label": "K",
+     "text": "A 20-year-old junior at Georgia Southern University told BuzzFeed News that she normally spends $ 500-$600 on access codes for class. In one case, the professor didn't require students to buy a textbook, just an access code to turn in homework. This year she said she spent $ 900 on access codes to books and programs. \"That's two months of rent,\" she said. \"You can't sell any of it back. With a traditional textbook you can sell it for $ 30 - $ 50 and that helps to pay for your new semester's books. With an access code, you're out of that money."
+    },
+    {
+     "label": "L",
+     "text": "Benjamin Wolverton, a 19-year-old student at the University of South Carolina, told BuzzFeed News that \"it's ridiculous that after paying tens of thousands in tuition we have to pay for all these access codes to do our homework.\" Many of the access codes he's purchased have been required simply to complete homework or quizzes. \"Often it's only 10% of your grade in class.\" he said. \"You're paying so much money for something that hardly affects your grade—but if you didn't have it, it would affect your grades enough. It would be bad to start out at a B or C.\" Wolverton said he spent $ 500 on access codes for digital books and programs this semester."
+    },
+    {
+     "label": "M",
+     "text": "Harper, a poultry (*fi) science major, is taking chemistry again this year and had to buy a new access code to hand in her homework. She rented her economics and statistics textbooks for about $ 20 each. But her access codes for homework, which can't be rented or bought second-hand, were her most expensive purchases: $ 120 and $ 85."
+    },
+    {
+     "label": "N",
+     "text": "She still remembers the sting of her first experience skipping an assignment due to the high prices. \"We don't really have a missed assignment policy,\" she said. \"If you miss it, you just miss it. I just got zeros on a couple of first assignments. I managed to pull everything back up. But as a scared freshman looking at their grades, it's not fun. \""
+    }
+   ],
+   "statements": [
+    {
+     "n": 36,
+     "text": "A student's yearly expenses on access codes may amount to their rent for two months."
+    },
+    {
+     "n": 37,
+     "text": "The online access codes may be seen as a way to tie the students to the digital system."
+    },
+    {
+     "n": 38,
+     "text": "If a student takes a course again, they may have to buy a new access code to submit their assignments."
+    },
+    {
+     "n": 39,
+     "text": "McGraw Hill accounts for over one-fifth of the market share of college textbooks."
+    },
+    {
+     "n": 40,
+     "text": "Many traditional textbook publishers are now offering online digital products, which they believe will be the future of the publishing business."
+    },
+    {
+     "n": 41,
+     "text": "One student complained that they now had to pay for access codes in addition to the high tuition."
+    },
+    {
+     "n": 42,
+     "text": "Digital materials can cost students less than half the price of traditional printed books according to a publisher."
+    },
+    {
+     "n": 43,
+     "text": "One student decided not to buy her access code until she received the pay for her part-time job."
+    },
+    {
+     "n": 44,
+     "text": "Online systems may deprive teachers of opportunities to make the best use of their expertise for their students."
+    },
+    {
+     "n": 45,
+     "text": "Digital access codes are criticized because they are profit-driven just like the textbook business.Section C Directions:"
+    }
+   ]
+  },
+  {
+   "part": "Part IV Translation (30 minutes)",
+   "name": "",
+   "type": "translation",
+   "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2.",
+   "paragraphs": [
+    "E ” g 五叻， You s / 7 伊 / W' ， 01 伊 answer 0 “ Answer Sheet 2 ，过去，乘飞机出行对大多数中国人来说是难以想象的。如今，随着经济的发展和生活水平的提高，越来越多的中国人包括许多农民和外出务工人员都能乘飞机出行。他们可以乘飞机到达所有大城市，还有很多城市也在筹建机场。航空服务不断改进，而且经常会有廉价机票。近年来，节假日期间选择乘飞机外出旅游的人数在不断增加。"
+   ]
+  }
+ ],
+ "key": ".......................................................",
+ "notes": {},
+ "reference": {},
+ "source": {}
+}
