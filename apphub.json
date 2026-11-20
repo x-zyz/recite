@@ -9,7 +9,7 @@
     "android": {
       "clientName": "recite-android",
       "applicationId": "com.toastfish.mobile",
-      "certificateSha256": "363fc640c9ad79930fb9fc95a228f0e7856704f25e183483681635f6c01e3649",
+      "certificateSha256": "228ac57f44fac1cce4f4f5e49ab98574435b599de9be7c43783878ca834af66f",
       "redirectUri": "https://apps.0979019203.top/oauth/android/recite/callback"
     }
   }

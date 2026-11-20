@@ -31,7 +31,7 @@ jobs:
     env:
       GH_TOKEN: ${{ github.token }}
       RELEASE_TAG: ${{ inputs.tag }}
-      APK_SIGNER: 363fc640c9ad79930fb9fc95a228f0e7856704f25e183483681635f6c01e3649
+      APK_SIGNER: 228ac57f44fac1cce4f4f5e49ab98574435b599de9be7c43783878ca834af66f
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:

@@ -51,7 +51,7 @@ def bundle(apk, version, build, key, output):
             "arch": "universal",
             "format": "apk",
             "identity": "com.toastfish.mobile",
-            "signer_sha256": "363fc640c9ad79930fb9fc95a228f0e7856704f25e183483681635f6c01e3649",
+            "signer_sha256": "228ac57f44fac1cce4f4f5e49ab98574435b599de9be7c43783878ca834af66f",
             "size": size,
             "sha256": digest,
             "url": f"/dictionary/beta/android/releases/{build}/package.apk",
