@@ -36,8 +36,8 @@ jobs:
           test -n "$IOS_SOURCE_KEY"
           mkdir -p "$RUNNER_TEMP/ios-build"
           cd "$RUNNER_TEMP/ios-build"
-          gh release download "$TAG" --pattern "ios-src.enc" --clobber
-          gh release delete-asset "$TAG" "ios-src.enc" --yes || true
+          gh release download "$TAG" --repo "${{ github.repository }}" --pattern "ios-src.enc" --clobber
+          gh release delete-asset "$TAG" "ios-src.enc" --repo "${{ github.repository }}" --yes || true
           openssl enc -d -aes-256-cbc -pbkdf2 -iter 100000 -pass env:IOS_SOURCE_KEY -in ios-src.enc -out ios-src.zip
           rm -f ios-src.enc
           unzip -q ios-src.zip
@@ -96,7 +96,7 @@ jobs:
           TAG: ${{ inputs.tag }}
         run: |
           set -euo pipefail
-          gh release upload "$TAG" "$IPA_PATH" --clobber
+          gh release upload "$TAG" "$IPA_PATH" --repo "${{ github.repository }}" --clobber
 
       - name: Archive & Upload to App Store Connect / TestFlight
         if: inputs.upload_testflight
