@@ -4,8 +4,8 @@
   "modules": {
     "376f5d6e200e3617ea2feb5f4c0a244314c20e99": {
       "file": "376f5d6e200e3617ea2feb5f4c0a244314c20e99.json",
-      "size": 40322,
-      "sha256": "b9fac4d74f3beee072000f21d5548517668f67c7a62c0b41bc51cee01494c0f8",
+      "size": 39698,
+      "sha256": "594c1e0f4eed6a8299755288ce69d880140aae1cef92fc0cd112b4b6c5dcdaed",
       "level": "6",
       "date": "2026.06",
       "title": "2026 年 6 月大学英语六级考试真题（第 1套）",
@@ -15,8 +15,8 @@
     },
     "e43298eb3fe61677156d2943d094261061f89e21": {
       "file": "e43298eb3fe61677156d2943d094261061f89e21.json",
-      "size": 31740,
-      "sha256": "ec8c0898a5c8b2f40e66f1ed9710cc55e9931c3b25700dc195d93d6b2e42b050",
+      "size": 31152,
+      "sha256": "14eed78914fb592b035639c3312ddccfbe0988e19dd6ee5be7dfed897aa67806",
       "level": "4",
       "date": "2025.06",
       "title": "大学英语四级考试 2025 年 6 月真题(第一套)",
