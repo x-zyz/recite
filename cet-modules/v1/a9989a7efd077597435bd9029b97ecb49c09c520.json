@@ -1,0 +1,611 @@
+{
+ "schema": 1,
+ "paper": "四级真题/2017.12/真题PDF/2017.12四级真题（卷2）.pdf",
+ "blob": "a9989a7efd077597435bd9029b97ecb49c09c520",
+ "level": "4",
+ "date": "2017.12",
+ "title": "2017 年 12 月大学英语四级考试真题(第 2 套)",
+ "minutes": 125,
+ "audio": "",
+ "sections": [
+  {
+   "part": "Part I Writing (30 minutes)",
+   "name": "",
+   "type": "writing",
+   "directions": "For this part, you are allowed 30 minutes to write a short essay on how to best handle the relationship between teachers and students. You should write at least 120 words but no more than 180 words."
+  },
+  {
+   "part": "Part II Listening Comprehension (25 minutes)",
+   "name": "Section A",
+   "type": "choice",
+   "directions": "In this section, you will hear three news reports. At the end of each news report, you will hear two or three questions. Both the news report and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 1 and 2 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 1,
+       "options": [
+        "It tries to entertain its audience.",
+        "It tries to look into the distance.",
+        "It wants to catch people’s attention.",
+        "It has got one of its limbs injured."
+       ]
+      },
+      {
+       "n": 2,
+       "options": [
+        "It was spotted by animal protection officials.",
+        "It was filmed by a local television reporter.",
+        "Its videos were posted on social media.",
+        "Its picture won a photography prize."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 3 and 4 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 3,
+       "options": [
+        "The distance travelled.",
+        "The incidence of road accidents.",
+        "The spending on gas.",
+        "The number of people travelling."
+       ]
+      },
+      {
+       "n": 4,
+       "options": [
+        "Fewer people are commuting.",
+        "Gas consumption is soaring.",
+        "Job growth is slowing down.",
+        "Rush-hour traffic is worsening."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 5 to 7 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 5,
+       "options": [
+        "He told a stranger the sad story about himself.",
+        "He helped a stranger to carry groceries to his car.",
+        "He went up to a stranger and pulled at his sleeves.",
+        "He washed a stranger’s car in return for some food."
+       ]
+      },
+      {
+       "n": 6,
+       "options": [
+        "He ordered a lot of food for his family.",
+        "He gave him a job at his own company.",
+        "He raised a large sum of money for him.",
+        "He offered him a scholarship for college."
+       ]
+      },
+      {
+       "n": 7,
+       "options": [
+        "He works hard to support his family.",
+        "He is an excellent student at school.",
+        "He is very good at making up stories.",
+        "He has been disabled since boyhood."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part II Listening Comprehension (25 minutes)",
+   "name": "Section B",
+   "type": "choice",
+   "directions": "In this section, you will hear two long conversations. At the end of each conversation, you will hear four questions. Both the conversation and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C), and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 8 to 11 are based on the conversation you have just heard.",
+     "questions": [
+      {
+       "n": 8,
+       "options": [
+        "Attended an economics lecture.",
+        "Taken a walk on Charles Street.",
+        "Had a drink at Queen Victoria.",
+        "Had dinner at a new restaurant."
+       ]
+      },
+      {
+       "n": 9,
+       "options": [
+        "Treat a college friend to dinner.",
+        "Make preparations for a seminar.",
+        "Attend his brother’s birthday party.",
+        "Visit some of his high school friends."
+       ]
+      },
+      {
+       "n": 10,
+       "options": [
+        "Gather statistics for his lecture.",
+        "Throw a surprise birthday party.",
+        "Meet with Jonathan’s friends on the weekend.",
+        "Join him in his brother’s birthday celebration."
+       ]
+      },
+      {
+       "n": 11,
+       "options": [
+        "By car.",
+        "By train.",
+        "By taxi.",
+        "By bus."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 12 to 15 are based on the conversation you have just heard.",
+     "questions": [
+      {
+       "n": 12,
+       "options": [
+        "Taking a vacation abroad.",
+        "Reviewing for his last exam.",
+        "Saving enough money for a rainy day.",
+        "Finding a better way to earn money."
+       ]
+      },
+      {
+       "n": 13,
+       "options": [
+        "Preparing for his final exams.",
+        "Negotiating with his boss for a raise.",
+        "Working part time as a waiter.",
+        "Helping the woman with her courses."
+       ]
+      },
+      {
+       "n": 14,
+       "options": [
+        "Finish her term paper.",
+        "Save enough money.",
+        "Learn a little bit of Spanish.",
+        "Ask her parent’s permission."
+       ]
+      },
+      {
+       "n": 15,
+       "options": [
+        "He has rich sailing experience.",
+        "He speaks Spanish fluently.",
+        "He is also eager to go to Spain.",
+        "He is easy to get along with."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part II Listening Comprehension (25 minutes)",
+   "name": "Section C",
+   "type": "choice",
+   "directions": "In this section, you will hear three passages. At the end of each passage, you will hear three or four questions. Both the passage and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C), D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 16 to 18 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 16,
+       "options": [
+        "She went to the same university as her mother.",
+        "She worked as a nurse in the First World War.",
+        "She won the Nobel Prize two times.",
+        "She was also a Nobel Prize winner."
+       ]
+      },
+      {
+       "n": 17,
+       "options": [
+        "She fought bravely in a series of military operations.",
+        "She developed X-ray facilities for military hospitals.",
+        "She helped to set up several military hospitals.",
+        "She made donations to save wounded soldiers."
+       ]
+      },
+      {
+       "n": 18,
+       "options": [
+        "Both died of blood cancer.",
+        "Both fought in World War I.",
+        "Both won military medals.",
+        "Both married their assistants."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 19 to 21 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 19,
+       "options": [
+        "They were the first settlers in Europe.",
+        "They were the conquerors of Norway.",
+        "They discovered Iceland in the ninth century.",
+        "They settled on a small island north of England."
+       ]
+      },
+      {
+       "n": 20,
+       "options": [
+        "It was some five hundred miles west of Norway.",
+        "It was covered with green most time of the year.",
+        "It was the Vikings’ most important discovery.",
+        "It was a rocky mass of land covered with ice."
+       ]
+      },
+      {
+       "n": 21,
+       "options": [
+        "The Vikings’ ocean explorations.",
+        "The making of European nations.",
+        "The Vikings’ everyday life.",
+        "The Europeans’ Arctic discoveries."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 22 to 25 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 22,
+       "options": [
+        "Work hard for a better life.",
+        "Make mistakes now and then.",
+        "Dream about the future.",
+        "Save against a rainy day."
+       ]
+      },
+      {
+       "n": 23,
+       "options": [
+        "Teach foreign languages for the rest of his life.",
+        "Change what he has for his past imaginary world.",
+        "Exchange his two-story house for a beach cottage.",
+        "Dwell on the dreams he had dreamed when young."
+       ]
+      },
+      {
+       "n": 24,
+       "options": [
+        "Criminal law.",
+        "City planning.",
+        "Oriental architecture.",
+        "International business."
+       ]
+      },
+      {
+       "n": 25,
+       "options": [
+        "Dream and make plans.",
+        "Take things easy in life.",
+        "Be content with what you have.",
+        "Enjoy whatever you are doing."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension (40 minutes)",
+   "name": "Section A",
+   "type": "bank",
+   "directions": "In this section, there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. Please mark the corresponding letter for each item on Answer Sheet 2 with a single line through the centre. You may not use any of the words in the bank more than once.",
+   "paragraphs": [
+    "Technological changes brought dramatic new options to Americans living in the 1990s. During this decade new forms of entertainment, commerce, research, and communication became commonplace in the U. S. The driving force behind much of this change was a(n) [[26]] popularly known as the Internet.",
+    "The Internet was developed during the 1970s by the Department of Defense. In the case of an attack, military advisers suggested the [[27]] of being able to operate one computer from another terminal. In the early days, the Internet was used mainly by scientists to communicate with other scientists. The Internet [[28]] under government control until 1984. One early problem faced by Internet users was speed. Phone lines could only transmit information at a [[29]] rate. The development of fiber-optic(光纤) cables allowed for billions of bits of information to be received every minute. Companies like Intel developed faster microprocessors, so personal computers could process the [[30]] signals at a more rapid rate. In the early 1990s, the World Wide Web was developed, in large part, for [[31]] purposes. Corporations created home pages where they could place text and graphics to sell products. Soon airline tickets, hotel [[32]] ,and even cars and homes could be purchased online. Universities [[33]] research data on the Internet, so students could find [[34]] information without leaving their dormitories. Companies soon discovered that work could be done at home and [[35]] online, so a whole new class of telecommuters began to earn a living from home offices unshaven and wearing pajamas(睡衣)."
+   ],
+   "bank": [
+    "advantage",
+    "commercial",
+    "conservation",
+    "equipped",
+    "incoming",
+    "innovation",
+    "limited",
+    "local",
+    "maintained",
+    "occupations",
+    "posted",
+    "remained",
+    "reservations",
+    "submitted",
+    "valuable"
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension (40 minutes)",
+   "name": "Section B",
+   "type": "match",
+   "directions": "In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once. Each paragraph is marked with a letter. Answer the questions by marking the corresponding letter on Answer Sheet 2.",
+   "title": "The Health Benefits of Knitting",
+   "paragraphs": [
+    {
+     "label": "A",
+     "text": "About 15 years ago, I was invited to join a knitting group. I agreed to give it a try."
+    },
+    {
+     "label": "B",
+     "text": "My mother had taught me to knit at 15, and I knitted in class throughout college and for a few years thereafter. Then decades passed without my touching a knitting needle. But within two Mondays in the group, I was hooked, not only on knitting but also on crocheting(钩织)，and I was on my way to becoming a highly productive crafter."
+    },
+    {
+     "label": "C",
+     "text": "I’ve made countless baby blankets, sweaters, scarves, hats, caps for newborns. I take a knitting project with me everywhere, especially when I have to sit still and listen. As I discovered in college, when my hands are busy, my mind stays focused on the here and now."
+    },
+    {
+     "label": "D",
+     "text": "It seems, too, that I’m part of a national renewal of interest in needle and other handicrafts(手工艺). The Craft Yarn Council reports that a third of women ages 25-35 now knit or crochet. Even men and schoolchildren are swelling the ranks, among them my friend’s three small grandsons. Last April, the council created a “Stitch Away Stress” campaign in honor of National Stress Awareness Month. Dr. Herbert Benson, a pioneer in mind/body medicine and author of The Relaxation Response, says that the repetitive action of needlework can induce a relaxed stats like that associated with meditation(沉思)and yoga. Once you get beyond the initial learning curve, knitting and crocheting can lower heart rate and blood pressure."
+    },
+    {
+     "label": "E",
+     "text": "But unlike meditation, craft activities result in tangible and often useful products that can enhance self-esteem. I keep photos of my singular accomplishments on my cellphone to boost my spirits when needed."
+    },
+    {
+     "label": "F",
+     "text": "Since the 1990s, the council has surveyed hundreds of thousands of knitters and crocheters, who routinely list stress relief and creative fulfillment as the activities’ main benefits. Among them is the father of a prematurely born daughter who reported that during the baby’s five weeks in the intensive care unit, “learning how to knit infant hats gave me a sense of purpose during a time that I felt very helpless. It’s a hobby that I’ve stuck with, and it continues to help me cope with stress at work, provide a sense of order in hectic(忙乱的) days, and allow my brain time to solve problems.”"
+    },
+    {
+     "label": "G",
+     "text": "A recent email from the yarn(纺纱) company Red Heart titled “Health Benefits of Crocheting and Knitting” prompted me to explore what else might be known about the health value of activities like knitting. My research revealed that the rewards go well beyond replacing stress and anxiety with the satisfaction of creation."
+    },
+    {
+     "label": "H",
+     "text": "For example, Karen Hayes, a life coach in Toronto, conducts knitting therapy programs, including Knit to Quit to help smokers give up the habit, and Knit to Heal for people coping with health crises, like a cancer diagnosis or serious illness of a family member. Schools and prisons with craft programs report that they have a calming effect and enhance social skills. And having to follow instructions on complex craft projects can improve children’s math skills."
+    },
+    {
+     "label": "I",
+     "text": "Some people find that craftwork helps them control their weight. Just as it’s challenging to smoke while knitting, when hands are holding needles and hooks, there’s less snacking and mindless eating out of boredom."
+    },
+    {
+     "label": "J",
+     "text": "I’ve found that my handiwork with yarn has helped my arthritic(患关节炎的) fingers remain more dexterous(灵巧的) as I age. A woman encouraged to try knitting and crocheting after developing an autoimmune disease that caused a lot of hand pain reported on the Craft Yarn Council site that her hands are now less stiff and painful."
+    },
+    {
+     "label": "K",
+     "text": "A 2009 University of British Columbia study of 38 women with an eating disorder who were taught to knit found that learning the craft led to significant improvements. Seventy-four percent of the women said the activity lessened their fears and kept them from thinking about their problem."
+    },
+    {
+     "label": "L",
+     "text": "Betsan Corkhill, a wellness coach in Bath, England, and author of the book Knit for Health & Wellness, established a website, Stitchlinks, to explore the value of what she calls therapeutic knitting. Among her respondents, 54 percent of those who were clinically depressed said that knitting made them feel happy or very happy. In a study of 60 self-selected people with persistent pain, Ms. Corkhill and colleagues reported that knitting enabled them to redirect their focus, reducing their awareness of pain. She suggested that the brain can process just so much at once, and that activities like knitting and crocheting make it harder for the brain to register pain signals. Perhaps most exciting is research that suggests that crafts like knitting and crocheting may help to keep off a decline in brain function with age. In a 2011 study, researchers led Dr. Yonas Geda at the Mayo Clinic in Rochester interviewed a random(随机的) sample of 1,321 people ages 70-89, most of whom were cognitively(在认知方面) normal, about the cognitive activities they engaged in late in life. The study, published in the Journal of Neuropsychiatry & Clinical Neurosciences, found that those who engaged in crafts like knitting and crocheting had a diminished chance of developing mild cognitive disorder and memory loss."
+    },
+    {
+     "label": "M",
+     "text": "Although it is possible that only people who are cognitively healthy would pursue such activities, those who read newspapers or magazines or played music did not show similar benefits. The researchers speculate that craft activities promote the development of nerve pathways in the brain that help to maintain cognitive health."
+    },
+    {
+     "label": "N",
+     "text": "In support of that suggestion, a 2014 study by Denise C. Park of the University of Texas at Dallas and colleagues demonstrated that learning to knit or do digital photography enhanced memory function in older adults. Those who engaged in activities that were not intellectually challenging either in a social group or alone, did not show such improvements."
+    },
+    {
+     "label": "O",
+     "text": "Given that sustained social contacts have been shown to support health and a long life, those wishing to maximize the health value of crafts might consider joining a group of like-minded folks. I for one try not to miss a single weekly meeting of my knitting group."
+    }
+   ],
+   "statements": [
+    {
+     "n": 36,
+     "text": "When the author was a college student, she found that knitting helped her concentrate."
+    },
+    {
+     "n": 37,
+     "text": "Knitting can help people stay away from tobacco."
+    },
+    {
+     "n": 38,
+     "text": "Even men and children are now joining the army of knitters."
+    },
+    {
+     "n": 39,
+     "text": "Being a member of a crafts group enhances one’s health and prolongs one’s life."
+    },
+    {
+     "n": 40,
+     "text": "Knitting diverts people’s attention from their pain."
+    },
+    {
+     "n": 41,
+     "text": "The author learnt to knit as a teenager, but it was not until she was much older that she became keenly interested."
+    },
+    {
+     "n": 42,
+     "text": "When people are knitting, they tend to eat fewer snacks."
+    },
+    {
+     "n": 43,
+     "text": "Survey findings show that knitting can help people relieve stress."
+    },
+    {
+     "n": 44,
+     "text": "According to a study, knitters and crocheters are less likely to suffer mild cognitive damage."
+    },
+    {
+     "n": 45,
+     "text": "The products of knitting can increase one’s sense of self-respect."
+    }
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension (40 minutes)",
+   "name": "Section C",
+   "type": "choice",
+   "directions": "There are 2 passages in this section. Each passage is followed by some questions or unfinished statements. For each of them there are four choices marked A), B), C) and D). You should decide on the best choice and mark the corresponding letter on Answer Sheet 2 with a single line through the centre.",
+   "groups": [
+    {
+     "title": "Passage One",
+     "paragraphs": [
+      "Nobody really knows how big Lagos is. What’s indisputable is that it’s growing very quic Between now and 2050, the urban population of Africa could triple. Yet cities in sub-Saharan Africa not getting richer the way cities in the rest of the world have. Most urban Africans live in slums(贫民窟); migrants are often not much better off than they were in the countryside. Why?",
+      "The immediate problem is poverty. Most of Africa is urbanizing at a lower level of income than other regions of the world did. That means there’s little money around for investment that would make cities liveable and more productive. Without upgrades and new capacity, bridges, roads and power systems are unable to cope with expanding populations. With the exception of South Africa, the only light rail metro system in sub-Saharan Africa is in Addis Ababa, Ethiopia. Traffic jam leads to expense and unpredictability, things that keep investors away.",
+      "In other parts of the world, increasing agricultural productivity and industrialization went together. More productive farmers meant there was a surplus that could feed cities; in turn, that created a pool of labour for factories. But African cities are different. They are too often built around consuming natural resources. Government is concentrated in capitals, so is the money. Most urban Africans work for a small minority of the rich, who tend to be involved in either cronyish(有裙带关系的)businesses or politics. Since African agriculture is still broadly unproductive, food is imported, consuming a portion of revenue.",
+      "So what can be done? Though African countries are poor, not all African cities are. In Lagos, foreign oil workers can pay as much as $ 65,000 per year in rent for a modest apartment in a safe part of town. If that income were better taxed, it might provide the revenue for better infrastructure. If city leaders were more accountable to their residents, they might favour projects designed to help them more. Yet even as new roads are built, new people arrive. When a city’s population grows by 5% a year, it is difficult to keep up."
+     ],
+     "questions": [
+      {
+       "n": 46,
+       "options": [
+        "They have more slums than other cities in the world.",
+        "They are growing fast without becoming richer.",
+        "They are as modernized as many cities elsewhere.",
+        "They attract migrants who want to be better off."
+       ],
+       "stem": "What do we learn from the passage about cities in sub-Saharan Africa?"
+      },
+      {
+       "n": 47,
+       "options": [
+        "It benefited from the contribution of immigrants.",
+        "It started when people’s income was relatively high.",
+        "It benefited from the accelerated rise in productivity.",
+        "It started with the improvement of people’s livelihood."
+       ],
+       "stem": "What does the author imply about urbanization in other parts of the world?"
+      },
+      {
+       "n": 48,
+       "options": [
+        "It lacks adequate transport facilities.",
+        "The living expenses there are too high.",
+        "It is on the whole too densely populated.",
+        "The local governments are corrupted."
+       ],
+       "stem": "Why is sub-Saharan Africa unappealing to investors?"
+      },
+      {
+       "n": 49,
+       "options": [
+        "They have attracted huge numbers of farm labourers.",
+        "They still rely heavily on agricultural productivity.",
+        "They have developed at the expense of nature.",
+        "They depend far more on foreign investment."
+       ],
+       "stem": "In what way does the author say African cities are different?"
+      },
+      {
+       "n": 50,
+       "options": [
+        "Lowering of apartment rent.",
+        "Better education for residents.",
+        "More rational overall planning.",
+        "A more responsible government."
+       ],
+       "stem": "What might be a solution to the problems facing African cities?"
+      }
+     ]
+    },
+    {
+     "title": "Passage Two",
+     "paragraphs": [
+      "For the past several decades, it seems there’s been a general consensus on how to get ahead in America: Get a college education, find a reliable job, and buy your own home. But do Americans still believe in that path, and if they do, is it attainable?",
+      "The most recent National Journal poll asked respondents about the American dream, what it takes to achieve their goals, and whether or not they felt a significant amount of control over their ability to be successful. Overwhelmingly, the results show that today, the idea of the American dream—and what it takes to achieve it—looks quite different than it did in the late 20th century.",
+      "By and large, people felt that their actions and hard work—not outside forces—were the deciding factor in how their lives turned out. But respondents had decidedly mixed feelings about what actions make for a better life in current economy. In the last seven years, Americans have grown more pessimistic about the power of education to lead to success. Even though they see going to college as a fairly achievable goal, a majority—52 percent—think that young people do not need a four-year college education in order to be successful.",
+      "Miguel Maeda, 42, who has a master’s degree and works in public health, was the first in his family to go to college, which has allowed him to achieve a sense of financial stability his parents and grandparents never did. While some, like Maeda, emphasized the value of the degree rather than the education itself, others still see college as a way to gain new perspectives and life experiences.",
+      "Sixty-year-old Will Fendley, who had a successful career in the military and never earned a college degree, thinks “personal drive” is far more important than just going to college. To Fendley, a sense of drive and purpose, as well as an effective high-school education, and basic life skills, like balancing a checkbook, are the necessary ingredients for a successful life in America."
+     ],
+     "questions": [
+      {
+       "n": 51,
+       "options": [
+        "an advanced academic degree",
+        "an ambition to get ahead",
+        "a firm belief in their dream",
+        "a sense of drive and purpose"
+       ],
+       "stem": "It used to be commonly acknowledged that to succeed in America, one had to have ."
+      },
+      {
+       "n": 52,
+       "options": [
+        "More and more Americans are finding it hard to realize.",
+        "It remains alive among the majority of American people.",
+        "Americans’ idea of it has changed over the past few decades.",
+        "An increasing number of young Americans are abandoning it."
+       ],
+       "stem": "What is the finding of the latest National Journal poll concerning the American dream?"
+      },
+      {
+       "n": 53,
+       "options": [
+        "It still remains open to debate.",
+        "It has proved to be beyond doubt.",
+        "It is no longer as important as it used to be.",
+        "It is much better understood now than ever."
+       ],
+       "stem": "What do Americans now think of the role of college education in achieving success?"
+      },
+      {
+       "n": 54,
+       "options": [
+        "It promotes gender equality.",
+        "It needs to be strengthened.",
+        "It adds to cultural diversity.",
+        "It helps broaden their minds."
+       ],
+       "stem": "How do some people view college education these days?"
+      },
+      {
+       "n": 55,
+       "options": [
+        "A desire to learn and to adapt.",
+        "A strong sense of responsibility.",
+        "A willingness to commit oneself.",
+        "A clear aim and high motivation."
+       ],
+       "stem": "What is one factor essential to success in America, according to Will Fendley?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part IV Translation (30 minutes)",
+   "name": "",
+   "type": "translation",
+   "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2.",
+   "paragraphs": [
+    "华山位于华阴市，距西安 120 公里。华山是秦岭的一部分，秦岭不仅分割陕南与陕北，也分隔华南与华北。与从前人们常去朝拜的泰山不同，华山过去很少有人光临，因为上山的道路极其危险。然而，希望长寿的人却经常上山，因为山上生长着许多草药，特别是一些稀有的药草。自上世纪 90 年代安装缆车以来，参观人数大大增加。"
+   ]
+  }
+ ],
+ "key": "I..A.A..I...II.........................................",
+ "notes": {
+  "36": "When the author was a college student, she found that knitting helped her concentrate. 译文：当作者是一名大学生时，她发现编织有助于她集 中注意力。 定位：由题干中的 college, found 和 concentrate 定位到原 文画线处。 C) I’ve made countless baby blankets, sweaters, scarves, hats, caps for newborns. I take a knitting project with me everywhere, especially when I have to sit still and listen. As I discovered in college, when my hands are busy, my mind stays focused on the here and now. 详解：C 段末句提到，正如我在大学时发现的那样，当我的双手忙碌时，我的头脑就会专注于当下。题干中的 found 对应原文中的 discovered; concentrate 对应 stays focused on，题干是对定位句的同义转述，故答案为 C。",
+  "37": "Knitting can help people stay away from tobacco. 译文：编织可以帮助人们远离烟草。 定位：由题干中的 Knitting，help 和 tobacco 定位到原文画线处。 H)For example, Karen Hayes, a life coach in Toronto, conducts knitting therapy programs, including Knit to Quit to help smokers give up the habit, and Knit to Heal for people coping with health crises, like a cancer diagnosis or serious illness of a family member. Schools and prisons with craft programs report that they have a calming effect and enhance social skills. And having to follow instructions on complex craft projects can improve children’s math skills. 详解：H 段定位句前半句提到，多伦多的一名人生教练海伦·海耶斯实施了编织治疗方案，其中就包括用“编 织戒烟”方案来帮助抽烟者戒烟。题干中的 stay away from tobacco 对应原文中的 give up the habit,题干是对定位句的 概括归纳，故答案为 H。",
+  "39": "Being a member of a crafts group enhances one’s health and prolongs one’s life. 译文：成为某个手工艺小组的成员可以增进健康，延长 生命。 定位：由题干中的 crafts group 和 health 定位到原文画线 处。 O) Given that sustained social contacts have been shown to support health and a long life, those wishing to maximize the health value of crafts might consider joining a group of like-minded folks. I for one try not to miss a single weekly meeting of my knitting group. 详解：定位句提到，鉴于持续的社会交往已被证明有助于健康和长寿，那些希望最大程度发挥手工艺健康价值 的人可以考虑加入感兴趣的小组。题干是对定位句的概括归纳，故答案为 O。",
+  "42": "When people are knitting, they tend to eat fewer snacks. 译文：当人们编织时，吃的零食往往会变少。 定位：由题干中的 knitting 和 fewer snacks 定位到原文画 线处。 I）Some people find that craftwork helps them control their weight. Just as it’s challenging to smoke while knitting, when hands are holding needles and hooks, there’s less snacking and mindless eating out of boredom. 详解：I 段提到，一些人发现，手艺活可以帮助他们控制体重。就像边编织边抽烟很困难一样，当手里拿着编织 针和钩针时，因无聊而吃零食和瞎吃就会减少。简言之，编织时，人们就会减少吃零食。题干中的 eat fewer snacks 对应原文中的 less snacking and mindless eating，题干是对定位句的同义转述，故答案为 I。",
+  "45": "The products of knitting can increase one’s sense of self-respect. 译文：编织的物品可以增强人们的自尊。 定位：由题干中的 products 和 sense of self-respect 定位 到原文画线处。 E)But unlike meditation, craft activities result in tangible and often useful products that can enhance self-esteem. I keep photos of my singular accomplishments on my cellphone to boost my spirits when needed. 详解：定位句提到，与沉思不同的是，手艺活能做出有形且实用的物品，这些物品能增强自尊，由此可知，编织 的物品可以增强自尊。题干中的 increase one’s sense of self-respect 对应原文中的 enhance self-esteem，故答案为 E。",
+  "46": "答案：B 定位：由题干中的 cities in sub-Saharan Africa 定位到首段第四至五句：Yet cities in sub-Saharan Africa are not getting richer the way cities in the rest of the world have. Most urban Africans live in slums(贫民窟); migrants are often not much better off than they were in the countryside. 详解：推理判断题。文章开篇指出拉各斯在快速增大，并用数字突出其人口增长之快。但是定位句话锋一转， 表明撒哈拉沙漠以南地区的非洲城市并没有像世界其他地方的城市那样日益富有。绝大多数的非洲城市人口居住在 贫民窟。由此可见，以拉各斯为代表的撒哈拉沙漠以南的非洲城市虽然人口快速增长，但并没有变得更加富有，故 答案为 B。",
+  "47": "答案：B 定位：由题干中的 urbanization in other parts of the world 定位到第二段第二句：Most of Africa is urbanizing at a lower level of income than other regions of the world did. 详解：推理判断题。定位句提到，相对于世界其他地区，大多数非洲地区的城市化进程是在一个较低的收入水 平上进行的。反之，其他地区的城市化进程是在较高的收入水平上进行的，故答案为 B。",
+  "48": "答案：A 定位：由题干中的 unappealing to investors 定位到第二段末句：Traffic jam leads to expense and unpredictability, things that keep investors away. 详解：推理判断题。定位句提到，交通拥挤引起的成本上升以及不确定性等都让投资者望而却步，且第二段第 五句指出，除了南非之外，撒哈拉沙漠以南地区只有埃塞俄比亚的亚迪斯亚贝巴有地铁轻轨系统。由此可见。撒哈 拉沙漠以南地区的城市的基础设施并不健全，无法跟人口扩张所带来的需求的增加，换言之，交通拥挤是该地区的 短板，打消了投资者的投资念头，故答案为 A。",
+  "49": "答案：C 定位：由题干中的 African cities 和 different 定位到第三段第三至四句：But African cities are different. They are too often built around consuming natural resources. 详解：实施细节题。第三段前两句提到，在世界其他地方，不断提高的农业生产力和工业化进程是相辅相成的。 高产的农民越多意味着过剩的粮食供给城市；反过来，这样又为工厂创造了大量的劳动力。由此可见，在城镇化进 程中，农业的基础作用十分重要。定位句提到，但是非洲的城市不同。它们大多是建立在消耗自然资源的基础之上， 度答案为 C。",
+  "51": "答案：A 定位：由题干中的 used to be commonly acknowledged 和 succeed in America 定位到第一段第一句：For the past several decades, it seems there’s been a general consensus on how to get ahead in America: Get a college education, find a reliable job, and buy your own home. 详解：实施细节题。定位句指出，在过去的几十年里，关于如何在美国出人头地似乎有一个共识：获得大学文 凭，找一份稳定的工作，买一幢自己的房子。由此可知，上大学，找份稳定的工作，买房子曾是美国成功人士的标 志，故答案为 A。",
+  "52": "答案：C 定位：由题干中的 the finding of the latest National Journal poll 和 the American dream 定位到第二段第二句： Overwhelmingly, the results show that today, the idea of the American dream—and what it takes to achieve it—looks quite different than it did in the late 20th century. 详解：推理判断题。文章第二段指出，最近一期的国家杂志就美国梦这一话题对受访者进行了民意调查，定位 句指出，结果显示，绝大多数人认为，当今人们对美国梦的定义以及实现美国梦的途径与二十世纪晚期人们的看法 相去甚远。换句话说，当今美国人对美国梦的看法已经发生了巨大的变化，故答案为 C。",
+  "53": "答案：C 定位：由题干中的 the role of college education in achieving success 定位到第四段：In the last seven years, Americans have grown more pessimistic about the power of education to lead to success. Even though they see going to college as a fairly achievable goal, a majority—52 percent—think that young people do not need a four-year college education in order to be successful. 详解：事实细节题。定位段提到，在过去的七年中，美国人对知识改变命运的看法越来越悲观。即使他们认为 读大学是很多人想要实现的目标，但是 52%的人认为，年轻人想要成功并不需要四年的大学教育。此外，文章在接 下来的三段用米格尔·梅达和威尔·芬德利两个例子，对定位段的观点进行了论证，故答案为 C。",
+  "54": "答案：D 定位：由题干中的 some people 和 view college education these days 定位到第六段：While some, like Maeda, emphasized the value of the degree rather than the education itself, others still see college as a way to gain new perspectives and life experiences. 详解：推理判断题。本题提问在当今社会，一些人对于大学教育的看法。定位段指出，虽然像梅达一样的人强 调，学位的价值要高于教育本身，但其他人仍然认为，大学是一种获取新视野和生活经历的途径。由此可见，当今 社会中，一些人仍然认为大学教育是必不可少的一个过程，可以给人们带来新的视野和经历，故答案为 D。",
+  "55": "答案：D 定位：由题干中的 one factor essential to success 和 Will Fendley 定位到文章最后一段末句：To Fendley, a sense of drive and purpose, as well as an effective high-school education, and basic life skills, like balancing a checkbook, are the necessary ingredients for a successful life in America. 详解：推理判断题。定位句提到，对芬德利来说，驱动力以及目标，再加上有效的高中教育和类似于收支平衡 这样的基本生活技能，才是在美国拥有成功人生的必备要素。由此可见，在芬德利的心目中，驱动力以及目标是至 关重要的，故答案为 D。"
+ },
+ "reference": {
+  "writing": [
+   "Teacher-student Relationship Is Never Complex \n The relationship between teachers and students has been hotly discussed in recent years in China for more and more \nattention has been paid to education. Today I would like to share some tips on how to get along well with teachers from \nstudents’ perspective. \n First and foremost, leave a good first impression on your teacher. As the saying goes, well begun is half done. A good \nfirst impression is important for teachers to remember your name among your fellow students. Secondly, study hard and be \nactive in class. A student who loves study can definitely impress teachers deeply. Finally, keep contact with your teacher \nafter. \n To conclude, teacher-student relationship is never complex if you could have an excellent academic performance, be \ncooperative in class or make friends with your teacher. \n全文翻译： \n              师生关系并不复杂 \n 由于人们对教育越来越关注，师生关系近几年来中国引起热议。今天，我想从学生角度分享几条关于如何与老\n师和睦相处的建议。 \n首先，给老师留下良好的第一印象。常言道：良好的开端是成功的一半。良好的第一印象对于让老师从你的众\n多同学中记住你非常重要。第二，努力学习，在课堂上积极表现。一个热爱学习的学生一定会让老师印象深刻。最\n后，课下经常与老师沟通，这样你们就会成为朋友。 \n总结而言，如果你学业表现良好、课上积极配合或与老师成为朋友，那么师生关系就绝对不会复杂。"
+  ],
+  "translation": [
+   "Huashan(Mount Hua) is situated in Huayin City, 120 kilometers away from Xi'an. It is part of the Qinling Mountains, \nwhich divides not only Southern and Northern Shaanxi, but also South and North China. Unlike Taishan, which became a \npopular place of pilgrimage, Huashan was not well visited in the past because it is dangerous for the climbers to reach its \nsummit. Huashan was also an important place frequented by immortality seekers, as many herbs grow there especially some \nrare ones. Since the installation of the cable cars in the 1990s, the number of visitors has increased significantly."
+  ]
+ },
+ "source": {}
+}

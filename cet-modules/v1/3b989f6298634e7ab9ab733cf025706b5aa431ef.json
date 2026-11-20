@@ -1,0 +1,598 @@
+{
+ "schema": 1,
+ "paper": "四级真题/2026.06/真题PDF/cet4_2026_06_2.pdf",
+ "blob": "3b989f6298634e7ab9ab733cf025706b5aa431ef",
+ "level": "4",
+ "date": "2026.06",
+ "title": "2026 年 6 月大学英语四级考试真题(第 2 套)",
+ "minutes": 125,
+ "audio": "",
+ "sections": [
+  {
+   "part": "Part I Writing (30 minutes)",
+   "name": "",
+   "type": "writing",
+   "directions": "Suppose you are invited to put forward a proposal to the university on how to make students’ campus life easier. You are now to write an essay to make your proposal. You will have 30 minutes to write the essay. You should write at least 120 words but no more than 180 words."
+  },
+  {
+   "part": "Part II Listening Comprehension (25 minutes)",
+   "name": "Section A",
+   "type": "choice",
+   "directions": "In this section, you will hear three news reports. At the end of each news report, you will hear two or three questions. Both the news report and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 1 and 2 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 1,
+       "options": [
+        "She was born months after the end of World War I.",
+        "She has been living in her house throughout her life.",
+        "She suffered a great deal during the Second World War.",
+        "She is a 102-year-old woman living in Somerset Village."
+       ]
+      },
+      {
+       "n": 2,
+       "options": [
+        "She has been persuaded by the estate agent.",
+        "She needs the money badly for her health.",
+        "She is leaving Glastonbury Village.",
+        "She is moving to a nursing home."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 3 and 4 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 3,
+       "options": [
+        "The navy’s timely arrival.",
+        "His rich sailing experience.",
+        "The word HELP written on the boat.",
+        "His use of a mirror to send a signal."
+       ]
+      },
+      {
+       "n": 4,
+       "options": [
+        "He lost all consciousness.",
+        "He was in good condition.",
+        "He was too distressed to pick himself up.",
+        "He entirely abandoned himself to despair."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 5 to 7 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 5,
+       "options": [
+        "Their efforts to provide social services have been ignored.",
+        "They have been criticized by the Denver school board.",
+        "They have taken various steps to get more funding.",
+        "Their enrollment has been on a noticeable decline."
+       ]
+      },
+      {
+       "n": 6,
+       "options": [
+        "Approve criteria for closing schools with decreased funding.",
+        "Enroll 3,000 fewer elementary and middle school students.",
+        "Decide which elementary and middle schools to close.",
+        "Alter its per-pupil funding policy on a rational basis."
+       ]
+      },
+      {
+       "n": 7,
+       "options": [
+        "To enable the district to remain competitive.",
+        "To avoid a negative impact on its economy.",
+        "To keep the district free of debt.",
+        "To obtain the expected funding. four questions. Both the passage and the questions will be spoken only once. After you hear a"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part II Listening Comprehension (25 minutes)",
+   "name": "Section B",
+   "type": "choice",
+   "directions": "In this section, you will hear two long conversations. At the end of each conversation, you will hear four questions. Both the conversation and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 8 to 11 are based on the conversation you have just heard.",
+     "questions": [
+      {
+       "n": 8,
+       "options": [
+        "To book tickets for a musical.",
+        "To enquire about the price of cats.",
+        "To pay for her afternoon flight to London.",
+        "To have her personal computer repaired."
+       ]
+      },
+      {
+       "n": 9,
+       "options": [
+        "He frequents the Lion Theatre.",
+        "He knows how to sell things well.",
+        "He is a computer science expert.",
+        "He is away on a business trip."
+       ]
+      },
+      {
+       "n": 10,
+       "options": [
+        "They are sold at a discount.",
+        "They are in low demand.",
+        "They are no longer available.",
+        "They are not too expensive."
+       ]
+      },
+      {
+       "n": 11,
+       "options": [
+        "Heights.",
+        "Circus.",
+        "Wild animals.",
+        "Dark nights."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 12 to 15 are based on the conversation you have just heard.",
+     "questions": [
+      {
+       "n": 12,
+       "options": [
+        "He finds it bothersome to reply.",
+        "He has switched off his phone.",
+        "He hasn’t got the time to text back.",
+        "He doesn’t know how to respond."
+       ]
+      },
+      {
+       "n": 13,
+       "options": [
+        "His lack of sufficient sleep at night.",
+        "His addiction to mobile phone games.",
+        "His excessive use of the mobile phone.",
+        "His high frequency of surfing the net."
+       ]
+      },
+      {
+       "n": 14,
+       "options": [
+        "Shopping online and paying for his purchases.",
+        "Communicating with friends on social media.",
+        "Exploring whatever content to his liking.",
+        "Sharing and posting pictures and videos."
+       ]
+      },
+      {
+       "n": 15,
+       "options": [
+        "She prefers chatting with others online to meeting them.",
+        "There are few physical stores near where she lives.",
+        "Ordering meals online is a great convenience to her.",
+        "She needs to talk with her friends and family far away."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part II Listening Comprehension (25 minutes)",
+   "name": "Section C",
+   "type": "choice",
+   "directions": "In this section, you will hear three passages. At the end of each passage, you will hear three or question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 16 to 18 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 16,
+       "options": [
+        "It is now narrowing.",
+        "It keeps increasing.",
+        "It has remained huge.",
+        "It will soon disappear."
+       ]
+      },
+      {
+       "n": 17,
+       "options": [
+        "It is fluctuating between 5–7%.",
+        "It is slowing down for everyone.",
+        "It is faster for those who stay in their jobs.",
+        "It is inadequate for dealing with inflation."
+       ]
+      },
+      {
+       "n": 18,
+       "options": [
+        "Booming.",
+        "Stabilizing.",
+        "Struggling.",
+        "Cooling."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 19 to 21 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 19,
+       "options": [
+        "They have smaller amounts of nutrients than unprocessed diets.",
+        "Their contribution to calorie consumption is hard to determine.",
+        "They account for nearly half of the average American diet.",
+        "Their low price and convenience negatively impact health."
+       ]
+      },
+      {
+       "n": 20,
+       "options": [
+        "A strong desire to overeat.",
+        "A lack of nutrients like fiber.",
+        "A higher risk of cancer and obesity.",
+        "A greater intake of sugar and salt."
+       ]
+      },
+      {
+       "n": 21,
+       "options": [
+        "Eat more quickly.",
+        "Feel full sooner.",
+        "Chew thoroughly.",
+        "Swallow bit by bit."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 22 to 25 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 22,
+       "options": [
+        "By attributing them to current cultural influences.",
+        "By attributing them to conservative thinking.",
+        "In terms of new genetic findings.",
+        "In terms of personal preferences."
+       ]
+      },
+      {
+       "n": 23,
+       "options": [
+        "Sharing with women the chores they see necessary.",
+        "Dividing housework that is demanding for women.",
+        "Performing household tasks that they enjoy.",
+        "Doing tasks that are physically challenging."
+       ]
+      },
+      {
+       "n": 24,
+       "options": [
+        "The large within-group differences.",
+        "The great similarities across groups.",
+        "The researchers’ subjective biases.",
+        "The noticeable overgeneralizations."
+       ]
+      },
+      {
+       "n": 25,
+       "options": [
+        "They seem to be universal.",
+        "They impact people’s whole life.",
+        "They shape one’s role in society.",
+        "They appear at an early age."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension (40 minutes)",
+   "name": "Section A",
+   "type": "bank",
+   "directions": "In this section, there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. Please mark the corresponding letter for each item on Answer Sheet 2 with a single line through the centre. You may not use any of the words in the bank more than once.",
+   "paragraphs": [
+    "It may sound surprising, but people who are supersensitive to coffee’s bitter taste actually drink more of it, a new study finds.",
+    "This sensitivity isn’t [[26]] a matter of taste, either, but rather is influenced by a person’s genetic makeup, the researchers said in the study.",
+    "“You'd expect that people who are particularly sensitive to the bitter taste of caffeine would drink less coffee,” said study senior researcher Marilyn Cornelis. “The [[27]] results of our study suggest coffee consumers acquire a taste for or an ability to detect the bitterness of caffeine due to the learned positive [[28]] brought out by caffeine.”",
+    "Put another way, people who have a [[29]] ability to taste the bitterness of coffee learn to associate “good things with it,” Cornelis said. This finding is surprising, given that bitterness often serves as a warning mechanism to [[30]] people to spit out harmful substances, scientists said.",
+    "Researchers conducted the study to understand how genetics influences people’s [[31]] of tea, coffee and alcohol which tend to taste bitter, said lead study researcher Jue Sheng Ong.",
+    "“While all bitter flavors may seem the same, we [[32]] the bitterness of Brussels sprouts (抱子甘蓝), quinine (奎宁) and caffeine [[33]] ,” Ong told Live Science. “The degree to which we find these flavors bitter is, in part, determined by your genes.”",
+    "People with the genes to taste the bitterness of green vegetables are more likely to prefer tea to coffee. In [[34]] , people who were more sensitive to quinine’s bitter flavors and those found in green vegetables tended to [[35]] coffee."
+   ],
+   "bank": [
+    "addition",
+    "approximately",
+    "avoid",
+    "consumption",
+    "converted",
+    "convince",
+    "heightened",
+    "omission",
+    "opposite",
+    "perceive",
+    "prospect",
+    "reinforcement",
+    "separately",
+    "simply",
+    "targeted"
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension (40 minutes)",
+   "name": "Section B",
+   "type": "match",
+   "directions": "In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once. Each paragraph is marked with a letter. Answer the questions by marking the corresponding letter on Answer Sheet 2.",
+   "title": "Exercise and Dementia",
+   "paragraphs": [
+    {
+     "label": "A",
+     "text": "If this doesn’t encourage you to squeeze in a workout today, nothing will: a new study from Sweden shows that women who were highly fit in mid-life were nearly 90% less likely to get dementia (失智) decades later."
+    },
+    {
+     "label": "B",
+     "text": "After initial exercise tests in middle age, researchers followed the women for 44 years. Both groups lived just as long, but those who could ride an exercise bike at a fast rate for 6 minutes in the initial test had a much lower risk of dementia later on than those who couldn’t complete the workout."
+    },
+    {
+     "label": "C",
+     "text": "The study, published Wednesday in the journal Neurology, couldn’t prove that exercise prevented dementia, and the findings aren’t a surprise—it’s long been known there’s a correlation between exercise and decreased dementia risk—but the results were particularly dramatic. About 5% of the women with the highest peak workload—those who were able to bike the hardest over those 6 minutes—developed dementia, compared to 25% of those with medium fitness and 45% who weren’t fit enough to finish the test, the study found. Overall, women who were highly fit compared to those who were moderately fit decreased their risk of dementia by 88%. The few highly fit women who did develop dementia became symptomatic at age 90 on average, 11 years later than the moderately fit."
+    },
+    {
+     "label": "D",
+     "text": "“I’m very surprised that the finding was so strong,” said Ingmar Skoog, the paper’s senior author and a psychiatry (精神病学) professor at The University of Gothenburg in Sweden. “It really shows the importance of exercise.”"
+    },
+    {
+     "label": "E",
+     "text": "Dementia, as defined in medical dictionaries, is a broad term that describes a loss of thinking ability, memory, attention, logical reasoning, and other mental abilities. These changes are severe enough to interfere with social or occupational functioning. Dementia isn’t a disease. Instead, it’s a group of symptoms caused by other conditions. It happens when the parts of your brain used for learning, memory, decision making, and language are damaged or diseased. About 5%–8% of adults over age 65 have some form of dementia. This percentage doubles every 5 years after 65. As many as half of people in their 80s have some dementia."
+    },
+    {
+     "label": "F",
+     "text": "Dementia is not temporary confusion or forgetfulness that might result from an infection that heals without treatment. It can also come from an underlying (潜在的) illness or side effects of medications. Dementia typically gets worse over time. People with dementia have problems with thinking and remembering that affect their ability to manage their daily life."
+    },
+    {
+     "label": "G",
+     "text": "Dementia is typically associated with declines in cognitive function. Yet researchers have found an association between dementia and declines in hearing and other basic sensory functions."
+    },
+    {
+     "label": "H",
+     "text": "Though the study mentioned above was fairly small(only 191 women took the initial fitness test, which means it’s hard to maintain statistical significance while breaking the group down into sub- categories of more or less fit), it does give us hope that dementia can be prevented or delayed through exercise in one’s middle age."
+    },
+    {
+     "label": "I",
+     "text": "Alzheimer’s (阿尔茨海默症) and other dementias are believed to begin 15–20 years before symptoms even appear, so it makes sense that exercising in mid-life would affect the risk, Skoog said. Exercise alone is not likely to prevent Alzheimer’s, but the study shows people are not helpless in the face of one of the most feared, costliest and common diseases of old age, he added. And the same activities that help prevent Alzheimer’s—including avoiding smoking, getting adequate exercise and sleep and eating a healthy diet—also prevent heart disease, he said, making them even more worthwhile.“ You can do something yourself to decrease your odds,” Skoog said."
+    },
+    {
+     "label": "J",
+     "text": "Maintaining a healthy lifestyle in mid-life, decades before disease sets in, makes sense, said David Knopman, a fellow of the American Academy of Neurology, who was not involved in the study. “I suspect it’s a dose,” said Knopman, also associate director of the Alzheimer’s Disease Research Center at Mayo Clinic in Rochester, Minnesota. “Starting in late life is better than not starting at all, but starting in mid-life seems to offer a larger benefit.”"
+    },
+    {
+     "label": "K",
+     "text": "Although it is not entirely clear why exercise helps put off or prevent Alzheimer’s, Knopman said it’s likely that exercise maintains good blood flow to the brain. “When the brain is healthier from a vascular (血管的) point of view, it can absorb more Alzheimer’s pathogen (病原体) before people become symptomatic,” he said."
+    },
+    {
+     "label": "L",
+     "text": "The message isn’t that everyone needs to run marathons in middle age, Knopman said, but a healthy lifestyle pays off."
+    },
+    {
+     "label": "M",
+     "text": "This type of study can’t say exactly what kind of exercise is best, or how much is needed—only a study that has a placebo (安慰剂) group and tracks people going forward can do that, said Keith Fargo, director of scientific programs and outreach at the non-profit Alzheimer’s Association. “The literature has not yet settled on an amount or type of exercise that is going to be key, although the bulk of literature has suggested that aerobic (有氧的) exercise is what you need to be doing,” he said. That doesn’t mean you have to compete in marathons but “more than a 10-min dog walk” would be a good idea, Fargo said."
+    },
+    {
+     "label": "N",
+     "text": "Several lifestyle studies are getting underway soon, including one backed by the Alzheimer’s Association called the US POINTER study, which will offer at-risk adults, ages 60–79, a series of lifestyle interventions (干预) to see if they impact Alzheimer’s risk. That and other Alzheimer’s- related studies are always looking for volunteers to participate, he said."
+    },
+    {
+     "label": "O",
+     "text": "In the next three to five years, these studies should allow researchers to provide clearer recommendations for exercise and other lifestyle modifications that might reduce Alzheimer’s risk, such as sleep, diet and social activities, Fargo said. But it’s already quite clear that exercising at any point in life is better for your brain than not exercising at all, Fargo added."
+    },
+    {
+     "label": "P",
+     "text": "“If you don’t want to have dementia when you’re 80, the time to start getting fit is now,” he said. “It may not necessarily give you a longer life, but there’s a compelling body of work that it will give you more good years.”"
+    }
+   ],
+   "statements": [
+    {
+     "n": 36,
+     "text": "It is typical for dementia to worsen with the passage of time."
+    },
+    {
+     "n": 37,
+     "text": "According to Knopman, the study gives the message that a healthy lifestyle is beneficial, but not that all the middle-aged need heavy exercise."
+    },
+    {
+     "n": 38,
+     "text": "The results of a new study will encourage middle-aged women to find time exercising however busy they are."
+    },
+    {
+     "n": 39,
+     "text": "Hopefully, one can postpone or prevent dementia by exercising in their mid-life."
+    },
+    {
+     "n": 40,
+     "text": "In a few years, researchers should be able to offer clearer advice on exercise and other lifestyle changes for reducing the incidence of Alzheimer’s."
+    },
+    {
+     "n": 41,
+     "text": "Dementia refers to a loss of multiple mental abilities such as memory and logical reasoning."
+    },
+    {
+     "n": 42,
+     "text": "One researcher believes that exercise may keep the brain well supplied with blood."
+    },
+    {
+     "n": 43,
+     "text": "Medical literature has not concluded as to what exercise or how much exercise is crucial, although it generally agrees that people should do aerobic exercise."
+    },
+    {
+     "n": 44,
+     "text": "It has long been common knowledge that exercise correlates with reduced risk of dementia."
+    },
+    {
+     "n": 45,
+     "text": "Activities helpful in the prevention of Alzheimer’s also prevent heart disease."
+    }
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension (40 minutes)",
+   "name": "Section C",
+   "type": "choice",
+   "directions": "There are 2 passages in this section. Each passage is followed by some questions or unfinished statements. For each of them there are four choices marked A), B), C) and D). You should decide on the best choice and mark the corresponding letter on Answer Sheet 2 with a single line through the centre.",
+   "groups": [
+    {
+     "title": "Passage One",
+     "paragraphs": [
+      "People who systematically underestimate themselves and their own performance suffer from the so- called Impostor Phenomenon. They think that any success is due to external circumstances or just luck and chance. Those people live in constant fear that their “deception” will be exposed.",
+      "It is common for people to question their abilities now and again. A healthy amount of reflection and self-doubt can protect a person from acting impulsively. However, there are people who are permanently plagued by a massive amount of self-doubt despite delivering a good performance. They think that all of their successes are not a product of their skill or hard work, instead they attribute their own successes to external circumstances, for example, to luck and chance, or believe that their performance is massively overestimated by others. Failures, on the other hand, are always internalised as the result of their own shortcomings.",
+      "Psychologists from Martin Luther University Halle-Wittenberg examined the topic for the first time under real-life conditions. Seventy-six participants completed a range of intelligence tests and received positive feedback on them, regardless of their actual performance. They were then asked why they think they did so well.",
+      "The study showed two things: First, the self-reported degree of Impostor Phenomenon is not related to actual measured intelligence or performance. Secondly, the test supported the assumption that people with a tendency to exhibit the Impostor Phenomenon devalue their objectively measured performance and attribute positive results to external causes such as luck and chance, but not to their own abilities. These results are also completely unrelated to age and gender.",
+      "A permanent underestimation of one’s own abilities is often accompanied by the fear that this supposed intellectual deception will be exposed sooner or later and that they will pay the price for this. The Impostor Phenomenon was first described in 1978 by US psychologists Pauline Clance and Suzanne Imes. They observed that there is a particularly high number of successful women who do not think they are very intelligent. The Impostor Phenomenon is not defined as a mental illness. However, people who suffer from it show a higher vulnerability to depression."
+     ],
+     "questions": [
+      {
+       "n": 46,
+       "options": [
+        "They systematically underestimate their chance of success.",
+        "They tend to attribute their achievements to good fortune.",
+        "They seem to live in constant fear of being deceived.",
+        "They generally rely on luck and chance for success."
+       ],
+       "stem": "What do we learn from the passage about people who suffer from the so-called Impostor Phenomenon?"
+      },
+      {
+       "n": 47,
+       "options": [
+        "Credit all their successes to hard work.",
+        "Strive hard to perfect their skills.",
+        "Refrain from acting on impulse.",
+        "Deliver a better performance."
+       ],
+       "stem": "What do people with a healthy amount of reflection and self-doubt tend to do?"
+      },
+      {
+       "n": 48,
+       "options": [
+        "Attribute their accomplishments to others.",
+        "Deny their actual measured intelligence.",
+        "Claim to have confidence in their own abilities.",
+        "Mark down their objectively rated performance."
+       ],
+       "stem": "What do Impostor Phenomenon sufferers often do according to psychologists from Martin Luther University Halle-Wittenberg?"
+      },
+      {
+       "n": 49,
+       "options": [
+        "They will focus their attention on external factors.",
+        "They will be fearful of potential consequences.",
+        "They will count on good fortune for success.",
+        "They will keep improving their own skills."
+       ],
+       "stem": "What happens when a person permanently underestimates their own abilities?"
+      },
+      {
+       "n": 50,
+       "options": [
+        "They are more liable to have depression.",
+        "They seldom realise their potential fully.",
+        "They will develop mental illnesses.",
+        "They will pay higher prices one day."
+       ],
+       "stem": "What did US psychologists Pauline Clance and Suzanne Imes say about Impostor Phenomenon sufferers?"
+      }
+     ]
+    },
+    {
+     "title": "Passage Two",
+     "paragraphs": [
+      "Music is a universal language. In every culture and country, you will find music. It is vitally important across the globe and has the potential to bring people together in peace and harmony. One of my favorite experiences in music is seeing musicians from different cultures come together and perform as a group. When each culture brings its own unique qualities to the group, an entirely new sound is achieved. This can create extraordinary results. People can communicate with each other using music as the common language.",
+      "One common musical thread between cultures is known as the pentatonic scale. It is astonishing how many cultures share this tool in approaching music. The pentatonic scale consists of five notes; “penta-” meaning 5, and “tonic” meaning tone or note. This scale can be found in music everywhere including that of Native Americans, Africans, and Asians. It is also found in popular music, blues, jazz, and rock. Using this five-note scale, musicians from around the globe have a medium through which they can relate, communicate, perform, and ultimately understand each other.",
+      "Music is tied to specific perceptual (感知的), mental, and emotional faculties, including language (all societies put words to their songs), motor control (people in all societies dance), sound analysis (all musical systems have a distinct pitch and quality), and aesthetics (美感) (their tunes and rhythms are balanced between repetitiveness and chaos).",
+      "There is no known society that existed without music. Although each culture has their own specific style and approach to music, you will find that the purposes behind music are very similar across the board. Music essentially serves to express or change emotions. It can cheer you up, sadden you, anger you or excite you. Music is often ceremonial: used in religion, ceremony, and celebration. Music can simply be recreational: entertaining, joyful and fun. Any way you have used music, it is almost certain that every other culture has used music in the very same way. And that is something that bonds all of us. We all share a deep love for music and it has the power to unite us."
+     ],
+     "questions": [
+      {
+       "n": 51,
+       "options": [
+        "It is able to create novel and extraordinary emotions.",
+        "It has the power to unite people throughout the world.",
+        "It allows different cultural groups to sing in harmony.",
+        "It is the only language favored by all peoples of the world."
+       ],
+       "stem": "In what way is music important?"
+      },
+      {
+       "n": 52,
+       "options": [
+        "Their musical experience can be compared.",
+        "A novel language can be created.",
+        "Their unique skills can be displayed.",
+        "Fantastic results can be achieved."
+       ],
+       "stem": "Why does the author like to see musicians from different cultures perform together?"
+      },
+      {
+       "n": 53,
+       "options": [
+        "It is present in music all around the world.",
+        "It is helpful to understanding music.",
+        "It is the basis for musicians’ creation.",
+        "It is a medium for ordinary people to relate."
+       ],
+       "stem": "What does the passage say about the pentatonic scale?"
+      },
+      {
+       "n": 54,
+       "options": [
+        "To bring them together.",
+        "To show their identity.",
+        "To express their emotions.",
+        "To keep them entertained."
+       ],
+       "stem": "What is the fundamental role of music in people’s life?"
+      },
+      {
+       "n": 55,
+       "options": [
+        "The way people respond to it.",
+        "The role it plays in society.",
+        "The joy it brings to people.",
+        "The way it is made use of."
+       ],
+       "stem": "In what aspect is music similar throughout the world?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part IV Translation (30 minutes)",
+   "name": "",
+   "type": "translation",
+   "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2.",
+   "paragraphs": [
+    "餐桌礼仪(dining etiquette)是中华传统文化的重要组成部分，蕴含着热情有礼的待客之道。为了招待客人，主人会根据客人的口味和喜好准备丰富精致的菜肴。就餐座位的安排非常讲究，主人坐在正对大门的位置，在主人身边就座的是最重要的客人。进餐时，主人会不时地为客人添酒加菜。这种独特的餐桌礼仪已延续了数千年，对促进和谐的人际交往起到了重要作用。"
+   ]
+  }
+ ],
+ "key": "ADCBDBCADCABCBDABDDCABCADNILGFDJMACFLAHOEKMCIBCDBABDACD",
+ "notes": {},
+ "reference": {},
+ "source": {}
+}

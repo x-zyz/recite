@@ -1,0 +1,577 @@
+{
+ "schema": 1,
+ "paper": "四级真题/2019.06/真题PDF/2019.06四级真题（第2套）.pdf",
+ "blob": "63d4bd0cff39e704f5f33a121d8980d7680d4465",
+ "level": "4",
+ "date": "2019.06",
+ "title": "2019 年 6 月大学英语四级考试真题(第二套)",
+ "minutes": 125,
+ "audio": "",
+ "sections": [
+  {
+   "part": "Part I Writing (30 minutes)",
+   "name": "",
+   "type": "writing",
+   "directions": "For this part, you are allowed 30 minutes to write a news report to your campus newspaper on a visit to a local farm organized by your Student Union. You should writeatleast120wordsbutnomorethan180words."
+  },
+  {
+   "part": "Part II Listening Comprehension (25 minutes)",
+   "name": "Section A",
+   "type": "choice",
+   "directions": "In this section, you will hear three news reports.At the end of each news report, you willheartwo orthree questions.Boththe newsreportandthen questionswill bespokenonly once. Afteryou hearaquestion,youmustchoosethebestanswerfrom the fourchoicesmarkedA),B), C)and D).Thenmark the correspondingletter on Answer Sheet 1 with asingle line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 1 and 2 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 1,
+       "options": [
+        "Heavyfloods.",
+        "Safety concerns.",
+        "Badeconomy.",
+        "Workers’strikes."
+       ]
+      },
+      {
+       "n": 2,
+       "options": [
+        "Itiscompetitive withitsnumeroustouristdestinations.",
+        "ItprovidesmanyjobopportunitiesforFrenchpeople.",
+        "ItisthebiggestconcernoftheFrenchgovernment.",
+        "Itplaysanimportantroleinthenation’seconomy."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 3 and 4 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 3,
+       "options": [
+        "Tocarryoutascientific survey.",
+        "Toestablishanewresearchstation.",
+        "TorescuetwosickAmericanworkers.",
+        "Todeliverurgentmedicalsupplies."
+       ]
+      },
+      {
+       "n": 4,
+       "options": [
+        "Thedarknessandcold.",
+        "Theheavysnowandfog.",
+        "Thebitingwinds.",
+        "Theiceallaround."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 5 to 7 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 5,
+       "options": [
+        "Bytyingittoadoorhandle.",
+        "Byshakingitbackandforth.",
+        "Witharemotecontrolcraft.",
+        "Withafull-sized helicopter."
+       ]
+      },
+      {
+       "n": 6,
+       "options": [
+        "HehaslotsoffansonFacebook.",
+        "Hehasrichexperienceinflying.",
+        "Heoftensuffersfromtoothaches.",
+        "Hehaslearnedtopullteethfromavideo."
+       ]
+      },
+      {
+       "n": 7,
+       "options": [
+        "Spendmoretime together.",
+        "Tellthemadventurestories.",
+        "Dosomethingfunandcreative.",
+        "Play withtheminasafeplace."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part II Listening Comprehension (25 minutes)",
+   "name": "Section B",
+   "type": "choice",
+   "directions": "In this section, you will hear two long conversations.At the end of each conversation, you will hear four questions. Both the conversation and the questions will be spoken only once. Afteryou hearaquestion,you mustchoosethe bestanswerfrom thefourchoicesmarkedA),B)，C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through thecentre.",
+   "groups": [
+    {
+     "intro": "Questions 8 to 11 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 8,
+       "options": [
+        "Toconfirmanurgentappointment.",
+        "Tocollectapackagefromthewoman.",
+        "Toaskthewoman tosignadocument.",
+        "Toarrangethedelivery ofapackage."
+       ]
+      },
+      {
+       "n": 9,
+       "options": [
+        "Sheisdoingshopping.",
+        "Sheisvisitingafriend.",
+        "Sheisnotathome.",
+        "Sheisnotfeelingwell."
+       ]
+      },
+      {
+       "n": 10,
+       "options": [
+        "Hewillbeoffdutythewholeday.",
+        "Hewillbeworkingsomewhereelse.",
+        "Hewillhavetohavehiscarrepaired.",
+        "Hewillbetoobusytospareandtime."
+       ]
+      },
+      {
+       "n": 11,
+       "options": [
+        "Sign hername.",
+        "Confirmonline.",
+        "Payasmallfee.",
+        "Showupinperson."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 12 to 15 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 12,
+       "options": [
+        "VacationinItaly.",
+        "Studyabroad.",
+        "Throwafarewellparty.",
+        "GotoafashionshowinMilan."
+       ]
+      },
+      {
+       "n": 13,
+       "options": [
+        "Quitesleepy.",
+        "Veryexcited.",
+        "Ratherdepressed.",
+        "Nearlyexhausted."
+       ]
+      },
+      {
+       "n": 14,
+       "options": [
+        "Hehastoattendaparty.",
+        "Hehastomeetafriend.",
+        "Hehastomakeapresentation.",
+        "Hehastofinishanassignment."
+       ]
+      },
+      {
+       "n": 15,
+       "options": [
+        "Saygoodbyetothewomanattheairport.",
+        "Meetthewoman attheBlack CatCafe.",
+        "DrivetheWomantotheairport.",
+        "Have lunchwith thewoman."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part II Listening Comprehension (25 minutes)",
+   "name": "Section C",
+   "type": "choice",
+   "directions": "In this section,you will hearthree passages.At the end of each passage, you will hear three or four questions. Both the passage and the questions will be spoken only once. After you hear a question, you must choose the best answer from the fourchoices markedA), B), C) and D). Thenmarkthecorrespondingletter on Answer Sheet 1 with asinglelinethroughthecentre.",
+   "groups": [
+    {
+     "intro": "Questions 16 to 18 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 16,
+       "options": [
+        "Ithaskeptgrowingoverthecenturies.",
+        "Itstopishiddenincloudsofvolcanicsmoke.",
+        "Itsheightchangeswith eachvolcaniceruption.",
+        "Ithasarecordedhistoryof1500years."
+       ]
+      },
+      {
+       "n": 17,
+       "options": [
+        "Theyarenowatouristdestination.",
+        "Theyattractalotofmigratingbirds.",
+        "Theyprovide shelterforthefarmers.",
+        "Theymake goodfieldsforfarming."
+       ]
+      },
+      {
+       "n": 18,
+       "options": [
+        "Theynestonthe volcano’sslopes.",
+        "Theyfeedoncertainsmallmammals.",
+        "Theycompete witheachotherforfood.",
+        "Theymatchlargemammalsinstrength."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 19 to 21 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 19,
+       "options": [
+        "Heisself-employed.",
+        "Heisacareeradvisor.",
+        "Hestudiestalent.",
+        "Heownsamagazine."
+       ]
+      },
+      {
+       "n": 20,
+       "options": [
+        "Doingwhattheylike best.",
+        "Lovingtheworktheydo.",
+        "Makingnoexcusesforfailures.",
+        "Followingtheirnaturalinstinct."
+       ]
+      },
+      {
+       "n": 21,
+       "options": [
+        "Itdoesnotcometoanythingwithouthardwork.",
+        "Itmayprovetobequitedifferentfromhardwork.",
+        "Itisanaturalgiftonlysome specialpeoplecanpossess.",
+        "Itdoesnotcometoyouuntilsomethingspecialhappens."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 22 to 25 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 22,
+       "options": [
+        "Itisabitdifficulttolearn.",
+        "ItwaspopularinNewZealand.",
+        "Itisatraditionaltypeofballet.",
+        "Itevolvedinthemid-1970s."
+       ]
+      },
+      {
+       "n": 23,
+       "options": [
+        "She wantedhertobeaballetdancer.",
+        "She usedtobeaballetdancerherself.",
+        "She hatedtoseeheridlingabout.",
+        "She wastoobusytolookafterher."
+       ]
+      },
+      {
+       "n": 24,
+       "options": [
+        "Aftershestarted teachingEnglish.",
+        "BeforesheleftforNewZealand.",
+        "WhenshemovedtoNewYorkcity.",
+        "Onceshebegantoliveonherown."
+       ]
+      },
+      {
+       "n": 25,
+       "options": [
+        "Ithasrenewedherpassionforlife.",
+        "Ithasmadeherhappyandenergetic.",
+        "Ithashelpedhermakenewfriends.",
+        "Ithasenabledhertostartanewcareer."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension (40 minutes)",
+   "name": "Section A",
+   "type": "bank",
+   "directions": "In this section, there is a passage with ten blanks.You are required to select one word foreachblankfrom alist of choicesgiven in a word bankfollowing the passage.Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. Please mark the corresponding letter for each item on Answer Sheet 2 with a single line throughthecentre.Youmaynotuseanyofthewordsinthebankmorethanonce．",
+   "paragraphs": [
+    "Just because they can’t sing opera or ride a bicycle doesn’t mean that animals don’t have culture. There’s no better example of this than killer whales.As one of the most __[[26]]__ predators (食肉动物)，killer whales may notfit the [[27]] of a cultured creature. However,these beasts of the sea do display a vast range of highly __[[28]]__ behaviors that appear to be driving their geneticdevelopment.",
+    "The word “culture” comes from the Latin “colere,” which [[29]] means “to cultivate.” In otherwords,it refersto anything thatis __[[30]]__ orlearnt,rather than instinctive or natural.Among human populations, culture not only affects the way we live, but also writes itself into our genes, affecting who we are. For instance, having spent many generations hunting the fat marine mammals of the Arctic, the Eskimos of Greenland have developed certain genetic [[31]] that help them digest and utilize this fat-rich diet, thereby allowing them to __[[32]]__ in their cold climate.",
+    "Like humans, killer whales have colonized a range of different __[[33]]__ across the globe, occupying every ocean basin on the planet, with an empire that [[34]] from pole to pole. As such, different populations of killer whales have had to learn different hunting techniques in order togain theupperhandovertheirlocalprey(猎物).This,inturn,hasamajoreffectontheirdiet, leadingscientiststo [[35]] thatthe ability tolearn population-specific huntingmethodscouldbe drivingtheanimals’genetic development."
+   ],
+   "bank": [
+    "acquired",
+    "adaptations",
+    "brutal",
+    "deliberately",
+    "expressed",
+    "extends",
+    "habitats",
+    "humble",
+    "image",
+    "litereally",
+    "refined",
+    "revolves",
+    "speculate",
+    "structure",
+    "thrive"
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension (40 minutes)",
+   "name": "Section B",
+   "type": "match",
+   "directions": "In this section, you are going to read a passage with ten statements attached to each statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once.",
+   "title": "Each paragraph is marked with a letter. Answer the questions by marking the corresponding letter on Answer Sheet 2. Living with parents edges out other living arrangements for 18-to 34-year-olds",
+   "paragraphs": [
+    {
+     "label": "A",
+     "text": "Broad demographic (人 口 的)shifts is marital status, educational attainment and employment have transformed the way young adults in the U.S. are living, and a new Pew Research Center analysis highlights the implications of these changes for the most basic element of their lives—where they call home. In 2014, for the first time in more than 130 years, adults ages 18 to 34 were slightly more likely to be living in their parents’ home than they were to be livingwithaspouseorpartnerintheirownhousehold."
+    },
+    {
+     "label": "B",
+     "text": "This turn of events is fueled primarily by the dramatic drop in the share of young Americans who are choosing to settle down romantically before age 35. Dating back to 1880, the most common living arrangement among young adults has been living with a romantic partner, whether a spouse or a significant other.This type of arrangement peaked around 1960, when 62% ofthe nation’s18-to 34-year-olds were living with a spouse orpartnerin their own household,and onlyone-in-five werelivingwiththeirparents."
+    },
+    {
+     "label": "C",
+     "text": "By 2014, 31.6% of young adults were living with a spouse or partner in their own household, below the share living in the home of their parent(s) (32.1%). Some 14% of young adults lived alone, were a single parent or lived with one or more roommates. The remaining 22% livedin the home ofanotherfamily member(suchasagrandparent,in-law orsibling(兄弟姐妹)), anon-relative,oringroupquarterslike collegedormitories."
+    },
+    {
+     "label": "D",
+     "text": "It’sworth notingthatthe overall shareofyoung adultsliving with theirparentswasnotat a record high in 2014. This arrangement peaked around 1940, when about 35% of the nation’s 18-to 34-year-olds lived with mom and/or dad (compared with 32% in 2014). What has changed, instead, is the relative share adopting different ways of living in early adulthood, with the decline of romantic coupling pushing living at home to the top of a much less uniform list of living arrangements."
+    },
+    {
+     "label": "E",
+     "text": "Among young adults, living arrangements differ significantly by gender.For men ages 18 to 34, living at home with mom and/or dad has been the dominant living arrangement since 2009, In 2014,28% of young men were living with a spouse of partner in their own home, while 35% were living in the home of their parent(s). Young women, however, are still more likely to be livingwithaspouseofromantic partner(35%)thantheyaretobelivingwith theirparent(s)(29%)."
+    },
+    {
+     "label": "F",
+     "text": "In 2014, more young women (16%) than young men (13%) were heading up a household without a spouse or partner. This is mainly because women are more likely than men to be single parents living with their children. For their part, young men (25%) are more likely than young women (19%) to be living in the home of another family member, a non-relative or in some type ofgroupquarters."
+    },
+    {
+     "label": "G",
+     "text": "A variety of factors contribute to the long-run increase in the share of young. Adults living with the parents.The first in the postponement of, if notretreat from, marriage.The average age of first marriage has risen steadily for decades. In addition, a growing share of young adult may be avoiding marriage altogether.A previous Pew Research Center analysis projected that as manyasone-in-fouroftoday’syoungadultmay nevermarry.While cohabitation(同居)hasbeen onthe rise,theoverall shareofyoungadultseithermarried orliving with anunmarried partnerhas substantiallyfallensince1990."
+    },
+    {
+     "label": "H",
+     "text": "In addition, trends in both employment status and wages have likely contributed to the growing share of young adults who are living in the home of their parent(s), and this is especially true of young men. Employed young men are much less likely to live at home than young men without a job, and employment among young men has fallen significantly in recent decades. The share of young men with jobs peaked around 1960 at 84%. In 2014, only 71% of 18-to-34-year-old men were employed. Similarly with earnings, young men’s wages (after adjusting for inflation) have been on a downward trajectory (轨 迹) since 1970 and fell significantly form 2000 to 2010.As wages have fallen ,the share of young men living in the home oftheirparent(s)hasrisen."
+    },
+    {
+     "label": "I",
+     "text": "Economic factors seem to explain less of why young adult women are increasingly likely to live at home. Generally,young women have had growing success in the paid labormarket since 1960 and hence might increasingly be expected to be a be to afford to afford to live independently of their parents. For women, delayed marriage—which is related, in part, to labor market outcomesformen—mayexplainmoreoftheincreaseintheirlivinginthefamilyhome."
+    },
+    {
+     "label": "J",
+     "text": "The Great Recession (and modest recovery) has also been associated with an increase in young adults living at home. Initially in the wake of the recession, college enrollments expanded, boosting the ranks of young adults living at home. And given the weak job opportunities facing young adults, living at home was part of the private safety net help young adults to weather the economicstorm."
+    },
+    {
+     "label": "K",
+     "text": "Beyond gender, young adult’s living arrangements differ considerable by education—which is tied to financial means. For young adults without a bachelor’s degree, as of 2008 living at home with their parents was more prevalent than living with a romantic partner. By 2014, 36% of 18-to 34-year-olds who had not completed a bachelor’s degree were living with their parent(s) while 27% were living with a spouse or partner.Among college graduates, in 2014 46% were married or living with a partner, and only 19% were living with their parent(s). Young adults with a college degree have fared much better in the labor market than their less-educated counterparts,whichhasinturnmadeiteasiertoestablishtheirownhouseholds."
+    }
+   ],
+   "statements": [
+    {
+     "n": 36,
+     "text": "Unemployedyoungmenaremorelikelytolive withtheirparentsthantheemployed."
+    },
+    {
+     "n": 37,
+     "text": "In 2014, the percentage of men aged 18 to 34 living with their parents was greater than thatoftheirfemalecounterparts."
+    },
+    {
+     "n": 38,
+     "text": "The percentage of young people who are married or live with a partner has greatly decreasedinthepastthreedecadesorso."
+    },
+    {
+     "n": 39,
+     "text": "Around the mid-20th century, only 20 percent of 18- to 34-year-old lived in their parents’ home."
+    },
+    {
+     "n": 40,
+     "text": "Youngadultswith acollegedegreefounditeasiertolive independentlyoftheirparents."
+    },
+    {
+     "n": 41,
+     "text": "Youngmenarelesslikelytoendupassingleparentsthanyoungwomen."
+    },
+    {
+     "n": 42,
+     "text": "Moreyoungadultwomenlivewith theirparentsthanbeforeduetodelayedmarriage."
+    },
+    {
+     "n": 43,
+     "text": "Thepercentage ofyoungmen wholive with theirparentshasgrown dueto theirdecreased payinrecentdecades."
+    },
+    {
+     "n": 44,
+     "text": "Theriseinthenumberofcollegestudentsmademoreyoungadultslivewiththeirparents."
+    },
+    {
+     "n": 45,
+     "text": "Onereason for young adults to live with their parents isthat get married late or stay single alltheirlives."
+    }
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension (40 minutes)",
+   "name": "Section C",
+   "type": "choice",
+   "directions": "There are 2 passages in this section. Each passage is followed by some questions or unfinished statements. For each of them there are four choices marked A), B), C) and D). You should decide on the best choice and mark the corresponding letter on Answer Sheet 2 with a singlelinethroughthecentre.",
+   "groups": [
+    {
+     "title": "Passage One",
+     "paragraphs": [
+      "According to the majority of Americans, women are every bit as capable of being good politicalleadersasmen.Thesame canbesaid oftheirability todominatethe corporateboardroom. And according to a new Pew Research Center survey on women and leadership, most Americans find women indistinguishable from men on key leadership traits such as intelligence and capacity for innovation, with many saying they’re stronger than men in terms of being passionate and organizedleaders.",
+      "So why,then, are women in short supply at the top of government and business in the United States? According to the public, at least, it’s not that they lack toughness, management talent or properskillsets.",
+      "It’s also not all about work-life balance. Although economic research and previous survey findings have shown that career interruptions related to motherhood may make it harder for women to advance in their careers and compete for top executive jobs, relatively few adults in the recent survey point to this as a key barrier for women seeking leadership roles. Only about one-in-five say women’s family responsibilities are a major reason why there aren’t more females intopleadershippositionsinbusinessandpolitics.",
+      "Instead, topping the list of reasons, about four-in-ten Americans point to a double standard for women seeking to climb to the highest levels of either politics or business, where they have to do more than their male counterparts to prove themselves. Similar shares say the electorate(选民)andcorporateAmericaarejustnotreadytoputmorewomen intopleadershippositions.",
+      "As a result, the public is divided about whether the imbalance in corporate America will change inthe foreseeable future, eventhough womenhave made majoradvancesin the workplace. While 53% believe men will continue to hold more top executive positions in business in the future, 44% say it’s only a matter of time before as many women are in top executive positions as men.Americans are less doubtful when it comes to politics: 73% expect to see a female president intheirlifetime."
+     ],
+     "questions": [
+      {
+       "n": 46,
+       "options": [
+        "Theyhavetodomoretodistinguishthemselves.",
+        "Theyhavetostrivehardertowintheirpositions.",
+        "Theyarestrongerthanmenintermsofwillpower.",
+        "Theyarejustasintelligentandinnovativeasmen."
+       ],
+       "stem": "What do most Americans think of women leaders according to a new Pew Research Center survey?"
+      },
+      {
+       "n": 47,
+       "options": [
+        "Theyhaveunconquerabledifficultiesontheirwaytosuccess.",
+        "Theyarelackinginconfidencewhencompetingwith men.",
+        "Theirfailuresmayhavesomethingtodowith familyduties.",
+        "Relativelyfewarehinderedintheircareeradvancement."
+       ],
+       "stem": "Whatdowelearnfromprevioussurveyfindingsaboutwomenseeking leadershiproles?"
+      },
+      {
+       "n": 48,
+       "options": [
+        "Personality traits.",
+        "Familyresponsibilities.",
+        "Genderbias.",
+        "Lackofvacancies."
+       ],
+       "stem": "What is the primary factor keeping women from taking top leadership positions according to therecentsurvey?"
+      },
+      {
+       "n": 49,
+       "options": [
+        "Moreandmorewomen willsitintheboardroom.",
+        "Genderimbalanceinleadershipislikelytochange.",
+        "Thepublicisundecidedaboutwhetherwomenwillmake goodleaders.",
+        "Peoplehaveopposingopinionsastowhetheritwillhavemorewomen leaders."
+       ],
+       "stem": "WhatdoesthepassagesayaboutcorporateAmericainthenearfuture?"
+      },
+      {
+       "n": 50,
+       "options": [
+        "Awomaninthehighestpositionofgovernment.",
+        "Moreandmorewomen activelyengagedinpolitics.",
+        "Amajorityofwomen votingforafemalepresident.",
+        "Asmanywomenintopgovernmentpositionsasmen."
+       ],
+       "stem": "WhatdomostAmericansexpecttoseesoononAmerica’spoliticalstage?"
+      }
+     ]
+    },
+    {
+     "title": "Passage Two",
+     "paragraphs": [
+      "People have grown taller over the last century, with South Korean women shooting up by more than 20cm on average, and Iranian men gaining. 16.5cm. A global study looked at the average heightof18-year-oldsin200countries1914and2014.",
+      "The results reveal that while Swedes were the tallest people in the world in 1914, Dutch men have risen from 12th place to claim top spot with an average height of 182.5cm. Latvian women. Meanwhile,rose from 28thplacein 1914to become the tallestin the world a centurylater,with an average heightof169.8cm.",
+      "James Bentham, a co-author of the research from Imperial College, London, says the global trend is likely to be due primarily to improvements in nutrition and healthcare. “An individual’s genetics has a big influence on their height, but once you average over whole populations, geneticsplaysalesskeyrole,”headded.",
+      "A little extra height brings a number of advantages, says Elio Riboli of Imperial College. “Being taller is associated with longer life expectancy,” he said. “This is largely due to a lower riskofdying ofcardiovascular(心血管的)diseaseamongtallerpeople.”",
+      "But while height has increased around the world, the trend in many countries of north and sub-Saharan Africa causes concern, says Riboli. While height increased in Uganda and Niger during the early 20th century,the trend has reversed in recent years, with height decreasing among 18-year-olds.",
+      "“One reason for these decreases in height is the economic situation in the 1980s,” said Alexander Moradi of the University of Sussex. The nutritional and health crises that followed the policy of structural adjustment, he says, led to many children and teenagers failing to reach their fullpotentialintermsofheight.",
+      "Bentham believe the global trend of increasing height has important implications. “How tall we are now is strongly influenced by the environment we grew up in,” he said. “If we give children the best possible start in life now, they will be healthier and more productive for decades tocome.”"
+     ],
+     "questions": [
+      {
+       "n": 51,
+       "options": [
+        "Thereisaremarkabledifferenceacrosscontinents.",
+        "Therehasbeenamarkedincreaseinmostcountries.",
+        "Theincreaseinpeople’sheighthasbeenquickening.",
+        "Theincreaseinwomen’sheightisbiggerthaninmen’s."
+       ],
+       "stem": "Whatdoestheglobalstudytellusaboutpeople’sheightinthelasthundredyears?"
+      },
+      {
+       "n": 52,
+       "options": [
+        "Itcountslessthangenerallythought.",
+        "Itoutweighsnutrition andhealthcare.",
+        "Itimpactsmoreonanindividualthanonpopulation.",
+        "Itplaysamore significantroleinfemalesthaninmales."
+       ],
+       "stem": "WhatdoesJamesBenthamsayaboutgeneticsintheincreaseofpeople’sheight?"
+      },
+      {
+       "n": 53,
+       "options": [
+        "Theytendtolivelonger.",
+        "Theyenjoyaneasierlife.",
+        "Theygenerally riskfewerfataldiseases.",
+        "Theyhavegreaterexpectationsinlife."
+       ],
+       "stem": "WhatdoesElio Ribolisayabouttallerpeople?"
+      },
+      {
+       "n": 54,
+       "options": [
+        "Theygrowupslowerthantheirpeersinothercountries.",
+        "Theyareactuallyshorterthantheirearliergenerations.",
+        "Theyfindithardtobringtheirpotentialintofullplay.",
+        "Theyhaveexperiencedmanychangesofgovernment"
+       ],
+       "stem": "Whatdowelearnabout18-year-oldsinUgandaandNiger?"
+      },
+      {
+       "n": 55,
+       "options": [
+        "Watchcloselytheglobaltrendinchildren’sdevelopment.",
+        "Makesurethatourchildrengrowuptotheirfullheight.",
+        "Tryeverymeanspossibletoimproveourenvironment.",
+        "Ensureourchildrengrowupinanidealenvironment."
+       ],
+       "stem": "WhatdoesJamesBenthamsuggestwedo?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part IV Translation (30 minutes)",
+   "name": "",
+   "type": "translation",
+   "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English.Youshouldwriteyouranswer on Answer Sheet 2.",
+   "paragraphs": [
+    "舞狮作为中国传统民间表演已有 2000 多年历史。在狮子舞中，两位表演者同披一件狮子服，一个舞动头部，另一个舞动身体和尾巴。他们熟练配合，模仿狮子的各种动作。狮子也是兽中之王，象征幸福和好运，所以人们通常在春节和其他节日期间表演狮子舞。狮子舞也可能出现在其他重要场合，如商店开业和结婚典礼，往往吸引许多人观赏。"
+   ]
+  }
+ ],
+ "key": ".......................................................",
+ "notes": {},
+ "reference": {},
+ "source": {}
+}
