@@ -1,0 +1,178 @@
+name: Release Recite iOS
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Release tag holding ios-src.enc (e.g. v0.3.18)
+        required: true
+        type: string
+      upload_testflight:
+        description: Upload signed IPA to App Store Connect / TestFlight (requires Apple secrets)
+        required: false
+        default: false
+        type: boolean
+      attach_unsigned_ipa:
+        description: Attach compiled unsigned IPA to GitHub Release
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  build-ios:
+    runs-on: macos-15
+    timeout-minutes: 30
+    steps:
+      - name: Download and decrypt iOS source bundle
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          IOS_SOURCE_KEY: ${{ secrets.IOS_SOURCE_KEY }}
+          TAG: ${{ inputs.tag }}
+        run: |
+          set -euo pipefail
+          test -n "$IOS_SOURCE_KEY"
+          mkdir -p "$RUNNER_TEMP/ios-build"
+          cd "$RUNNER_TEMP/ios-build"
+          gh release download "$TAG" --pattern "ios-src.enc" --clobber
+          gh release delete-asset "$TAG" "ios-src.enc" --yes || true
+          openssl enc -d -aes-256-cbc -pbkdf2 -iter 100000 -pass env:IOS_SOURCE_KEY -in ios-src.enc -out ios-src.zip
+          rm -f ios-src.enc
+          unzip -q ios-src.zip
+          rm -f ios-src.zip
+
+      - name: Generate Xcode project with XcodeGen
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP/ios-build"
+          if ! command -v xcodegen >/dev/null 2>&1; then
+            brew install xcodegen
+          fi
+          xcodegen generate
+
+      - name: Build iOS App Bundle (Release arm64)
+        env:
+          TAG: ${{ inputs.tag }}
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP/ios-build"
+          VERSION="${TAG#v}"
+          xcodebuild \
+            -project Recite.xcodeproj \
+            -scheme Recite \
+            -configuration Release \
+            -sdk iphoneos \
+            -derivedDataPath "$RUNNER_TEMP/DerivedData" \
+            MARKETING_VERSION="$VERSION" \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            clean build
+
+          APP_PATH="$RUNNER_TEMP/DerivedData/Build/Products/Release-iphoneos/Recite.app"
+          test -d "$APP_PATH"
+          mkdir -p "$RUNNER_TEMP/ipa-stage/Payload"
+          cp -R "$APP_PATH" "$RUNNER_TEMP/ipa-stage/Payload/Recite.app"
+          cd "$RUNNER_TEMP/ipa-stage"
+          IPA_NAME="Recite-${VERSION}-ios-unsigned.ipa"
+          zip -qry "$RUNNER_TEMP/$IPA_NAME" Payload
+          ls -lh "$RUNNER_TEMP/$IPA_NAME"
+          echo "IPA_PATH=$RUNNER_TEMP/$IPA_NAME" >> "$GITHUB_ENV"
+          echo "IPA_NAME=$IPA_NAME" >> "$GITHUB_ENV"
+
+      - name: Upload compiled iOS IPA artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.IPA_NAME }}
+          path: ${{ env.IPA_PATH }}
+          retention-days: 30
+
+      - name: Attach unsigned IPA to GitHub Release
+        if: inputs.attach_unsigned_ipa
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ inputs.tag }}
+        run: |
+          set -euo pipefail
+          gh release upload "$TAG" "$IPA_PATH" --clobber
+
+      - name: Archive & Upload to App Store Connect / TestFlight
+        if: inputs.upload_testflight
+        env:
+          ASC_KEY_ID: ${{ secrets.APP_STORE_CONNECT_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.APP_STORE_CONNECT_ISSUER_ID }}
+          ASC_KEY_P8: ${{ secrets.APP_STORE_CONNECT_API_KEY_P8 }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+          CERT_P12_BASE64: ${{ secrets.IOS_DIST_CERT_P12_BASE64 }}
+          CERT_PASSWORD: ${{ secrets.IOS_DIST_CERT_PASSWORD }}
+        run: |
+          set -euo pipefail
+          if [ -z "$ASC_KEY_ID" ] || [ -z "$ASC_ISSUER_ID" ] || [ -z "$ASC_KEY_P8" ] || [ -z "$APPLE_TEAM_ID" ]; then
+            echo "::error::Missing Apple Developer / App Store Connect API secrets (APP_STORE_CONNECT_KEY_ID, APP_STORE_CONNECT_ISSUER_ID, APP_STORE_CONNECT_API_KEY_P8, APPLE_TEAM_ID)."
+            exit 1
+          fi
+
+          mkdir -p "$RUNNER_TEMP/private_keys"
+          KEY_PATH="$RUNNER_TEMP/private_keys/AuthKey_${ASC_KEY_ID}.p8"
+          printf "%s" "$ASC_KEY_P8" > "$KEY_PATH"
+
+          if [ -n "$CERT_P12_BASE64" ]; then
+            KEYCHAIN_PATH="$RUNNER_TEMP/app-signing.keychain-db"
+            KEYCHAIN_PASS="$(openssl rand -hex 16)"
+            echo "$CERT_P12_BASE64" | base64 --decode > "$RUNNER_TEMP/dist.p12"
+            security create-keychain -p "$KEYCHAIN_PASS" "$KEYCHAIN_PATH"
+            security set-keychain-settings -lut 21600 "$KEYCHAIN_PATH"
+            security unlock-keychain -p "$KEYCHAIN_PASS" "$KEYCHAIN_PATH"
+            security import "$RUNNER_TEMP/dist.p12" -P "$CERT_PASSWORD" -A -t cert -f pkcs12 -k "$KEYCHAIN_PATH"
+            security set-key-partition-list -S apple-tool:,apple: -k "$KEYCHAIN_PASS" "$KEYCHAIN_PATH"
+            security list-keychain -d user -s "$KEYCHAIN_PATH"
+          fi
+
+          cd "$RUNNER_TEMP/ios-build"
+          cat > ExportOptions.plist <<EOF
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0">
+          <dict>
+              <key>method</key>
+              <string>app-store-connect</string>
+              <key>teamID</key>
+              <string>${APPLE_TEAM_ID}</string>
+              <key>signingStyle</key>
+              <string>automatic</string>
+              <key>uploadSymbols</key>
+              <true/>
+          </dict>
+          </plist>
+          EOF
+
+          xcodebuild \
+            -project Recite.xcodeproj \
+            -scheme Recite \
+            -configuration Release \
+            -sdk iphoneos \
+            -archivePath "$RUNNER_TEMP/Recite.xcarchive" \
+            DEVELOPMENT_TEAM="$APPLE_TEAM_ID" \
+            -allowProvisioningUpdates \
+            -authenticationKeyPath "$KEY_PATH" \
+            -authenticationKeyID "$ASC_KEY_ID" \
+            -authenticationKeyIssuerID "$ASC_ISSUER_ID" \
+            archive
+
+          xcodebuild \
+            -exportArchive \
+            -archivePath "$RUNNER_TEMP/Recite.xcarchive" \
+            -exportPath "$RUNNER_TEMP/export" \
+            -exportOptionsPlist ExportOptions.plist \
+            -allowProvisioningUpdates \
+            -authenticationKeyPath "$KEY_PATH" \
+            -authenticationKeyID "$ASC_KEY_ID" \
+            -authenticationKeyIssuerID "$ASC_ISSUER_ID"
+
+          xcrun altool --upload-app \
+            --type ios \
+            --file "$RUNNER_TEMP/export/Recite.ipa" \
+            --apiKey "$ASC_KEY_ID" \
+            --apiIssuer "$ASC_ISSUER_ID"
