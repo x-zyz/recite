@@ -1,0 +1,588 @@
+{
+ "schema": 1,
+ "paper": "四级真题/2025.06/真题PDF/cet4_2025_06_1.pdf",
+ "blob": "e43298eb3fe61677156d2943d094261061f89e21",
+ "level": "4",
+ "date": "2025.06",
+ "title": "大学英语四级考试 2025 年 6 月真题(第一套)",
+ "minutes": 125,
+ "audio": "四级真题/2025.06/听力音频/2025年6月四级音频1.MP3",
+ "sections": [
+  {
+   "part": "Part I Writing (30 minutes)",
+   "name": "",
+   "type": "writing",
+   "directions": "Suppose your university is seeking students’ opinions on the necessity of making College Chinese a compulsory course. You are now to write an essay to express your view. You will have 30 minutes to write the essay. You should write at least 120 words but no more than 180 words."
+  },
+  {
+   "part": "Part II Listening Comprehension (25 minutes)",
+   "name": "Section A",
+   "type": "choice",
+   "directions": "In this section, you will hear three news reports. At the end of each news report, you will hear two or three questions. Both the news report and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 1 and 2 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 1,
+       "options": [
+        "By slapping some butter on it.",
+        "By enhancing its nourishment.",
+        "By growing it in South Dakota.",
+        "By cooking it in vegetable oil."
+       ]
+      },
+      {
+       "n": 2,
+       "options": [
+        "To introduce their corn to tourists.",
+        "To attend an honorary ceremony.",
+        "To share experience with other corn growers.",
+        "To exhibit their corn at the state’s Corn Palace."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 3 and 4 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 3,
+       "options": [
+        "Stole mail several times.",
+        "Forged postal keys illegally.",
+        "Attacked postmen on multiple occasions.",
+        "Broke a number of postal collection boxes."
+       ]
+      },
+      {
+       "n": 4,
+       "options": [
+        "A sentence for life.",
+        "Loss of all their possessions.",
+        "Twenty-three years’ hard labor.",
+        "Up to fifteen years in prison."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 5 to 7 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 5,
+       "options": [
+        "It escapes regulation and misleads consumers.",
+        "It ignores economically feasible recycling options.",
+        "It creates waste and severely impacts the environment.",
+        "It produces clothes affordable only to a tiny minority."
+       ]
+      },
+      {
+       "n": 6,
+       "options": [
+        "To cut consumers’ expenses in buying quality clothes.",
+        "To enable the whole fast-fashion industry to be sustainable.",
+        "To incentivize manufacturers to be more consumer-friendly.",
+        "To urge manufacturers and consumers to reduce waste."
+       ]
+      },
+      {
+       "n": 7,
+       "options": [
+        "Recognizing the impact on consumers.",
+        "Identifying the source of the problem.",
+        "Abandoning the current business model.",
+        "Establishing powerful regulatory bodies."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part II Listening Comprehension (25 minutes)",
+   "name": "Section B",
+   "type": "choice",
+   "directions": "In this section, you will hear two long conversations. At the end of each conversation, you will hear four questions. Both the conversation and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 8 to 11 are based on the conversation you have just heard.",
+     "questions": [
+      {
+       "n": 8,
+       "options": [
+        "The city’s rush-hour traffic is intolerable.",
+        "She cannot avoid rush-hour traffic.",
+        "The local government is inefficient.",
+        "The city is too big to move around easily."
+       ]
+      },
+      {
+       "n": 9,
+       "options": [
+        "Upgrading subway carriages.",
+        "Increasing the number of bus routes.",
+        "Air conditioning the city’s subway.",
+        "Learning from other big cities."
+       ]
+      },
+      {
+       "n": 10,
+       "options": [
+        "He suffers from rush-hour crowding too.",
+        "He is fortunate to live very near to work.",
+        "He takes a half-hour bus ride to work.",
+        "He is going to move closer to his office."
+       ]
+      },
+      {
+       "n": 11,
+       "options": [
+        "Recommend to her a good house near his office.",
+        "Send her his housing agent’s telephone number.",
+        "Tell her exactly what kind of property to look for.",
+        "Make sure the agent finds something good for her."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 12 to 15 are based on the conversation you have just heard.",
+     "questions": [
+      {
+       "n": 12,
+       "options": [
+        "He was remembered for the scar on his cheek.",
+        "He received a heart operation a few days ago.",
+        "He used to wear a sad face in school.",
+        "He had some plastic surgery done."
+       ]
+      },
+      {
+       "n": 13,
+       "options": [
+        "The man’s deep sympathy for Johnny.",
+        "The man’s use of the expression ‘fixed’.",
+        "The man’s covering up of what happened.",
+        "The man’s good memory of his childhood."
+       ]
+      },
+      {
+       "n": 14,
+       "options": [
+        "It gave him a noticeable smartness.",
+        "It made him appear even more manly.",
+        "It seemed to give him a certain uniqueness.",
+        "It seemed to make up for his physical defects."
+       ]
+      },
+      {
+       "n": 15,
+       "options": [
+        "Liberal.",
+        "Hostile.",
+        "Indifferent.",
+        "Critical."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part II Listening Comprehension (25 minutes)",
+   "name": "Section C",
+   "type": "choice",
+   "directions": "In this section, you will hear three passages. At the end of each passage, you will hear three or four questions. Both the passage and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 16 to 18 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 16,
+       "options": [
+        "Through deliberation.",
+        "Through evolution.",
+        "Through invention.",
+        "Through collaboration."
+       ]
+      },
+      {
+       "n": 17,
+       "options": [
+        "With people imitating sounds around them.",
+        "With people interacting with animals close by.",
+        "With people showing each other things nearby.",
+        "With people trying to string sounds together."
+       ]
+      },
+      {
+       "n": 18,
+       "options": [
+        "Making sounds can free one’s hands for doing other things.",
+        "Making sounds proves markedly easier than sign languages.",
+        "Making sounds enables one to express their ideas more explicitly.",
+        "Making sounds helps one communicate with people they can’t see."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 19 to 21 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 19,
+       "options": [
+        "Well disciplined.",
+        "Quite confident.",
+        "Somewhat selfish.",
+        "Highly intelligent."
+       ]
+      },
+      {
+       "n": 20,
+       "options": [
+        "When they wanted to have a competitive team member.",
+        "When they were looking for a cooperative workmate.",
+        "When they found collaboration essential to them.",
+        "When they were seeking someone to help them."
+       ]
+      },
+      {
+       "n": 21,
+       "options": [
+        "Avoid frightening competitors.",
+        "Make clear their social goal.",
+        "Adopt persuasive strategies.",
+        "Consider the consequences."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 22 to 25 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 22,
+       "options": [
+        "Much evidence of humans capturing animals.",
+        "More images of animals than humans.",
+        "Fewer images of buildings than animals.",
+        "Little proof of human fascination with animals."
+       ]
+      },
+      {
+       "n": 23,
+       "options": [
+        "They were open to the public.",
+        "They were primarily native.",
+        "They were kept by royalty.",
+        "They were hardly injured."
+       ]
+      },
+      {
+       "n": 24,
+       "options": [
+        "To enable the public to watch animals close by.",
+        "To introduce to Egyptians animals from Punt.",
+        "To protect the endangered animals.",
+        "To show off her riches and power."
+       ]
+      },
+      {
+       "n": 25,
+       "options": [
+        "It was part of the royal estate.",
+        "It was a shelter for wild animals.",
+        "It was the kingdom’s best-equipped zoo.",
+        "It was the first public exhibit of animals."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension (40 minutes)",
+   "name": "Section A",
+   "type": "bank",
+   "directions": "In this section, there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. Please mark the corresponding letter for each item on Answer Sheet 2 with a single line through the centre. You may not use any of the words in the bank more than once.",
+   "paragraphs": [
+    "Psychologists have long been interested in how we construct our identities and the sorts of strategies that we use to present ourselves in society. New findings suggest that the kinds of [[26]] and strategic self-presentation behaviour we see in adults appear at a much younger age than [[27]] known.",
+    "Research shows that a child’s awareness of social standing comes from adults. Like grown-ups, kids want to be [[28]] by those they admire. Interactive experiences may provide opportunities for children to learn about what [[29]] a desirable reputation and the kinds of strategies that are effective for [[30]] a good reputation in their social environment.",
+    "Five-year-olds aren’t just aware of their reputations, they also behave strategically to alter their outward image. They will [[31]] their behaviour in order to appear moral or socially good in the eyes of key observers. While we know that adults use a large variety of attributes to manage and create impressions, we don’t yet know whether children [[32]] and use the fact that different attributes are valuable at different times to different [[33]]. It’s important for us to further consider where in this process children succeed in controlling their reputation and where they [[34]].",
+    "A question to think about is, “What happens even earlier than age five?” Children don’t just show up to the first day of kindergarten and have the idea of reputation pop [[35]] into existence. The logical question to ask is, “What happens even earlier?”"
+   ],
+   "bank": [
+    "accepted",
+    "audiences",
+    "building",
+    "complex",
+    "constitutes",
+    "deputies",
+    "previously",
+    "revolving",
+    "samples",
+    "selected",
+    "solemn",
+    "struggle",
+    "suddenly",
+    "understand",
+    "vary"
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension (40 minutes)",
+   "name": "Section B",
+   "type": "match",
+   "directions": "In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once. Each paragraph is marked with a letter. Answer the questions by marking the corresponding letter on Answer Sheet 2.",
+   "title": "Getting young minds into design",
+   "paragraphs": [
+    {
+     "label": "A",
+     "text": "Recently, a leading design federation in the UK warned that the UK could face a creative skills shortage, after the latest figures revealed a drop of almost 10 percent in students studying Design and Technology. These figures showed that the number of pupils that sat exams in Design and Technology fell 10 percent from 204,788 to 185,279 last year."
+    },
+    {
+     "label": "B",
+     "text": "Chief executive John Kampfner of the Creative Industries Federation thinks that this drop in figures has worrying implications for the skills pipeline in Britain’s hugely successful arts and creative industries. He said, “We already have skills shortages in many jobs such as animation (动画制作) and special effects.” He added: “Engineering, which requires a similar mix of creative and technical skills, also has recruitment problems.”"
+    },
+    {
+     "label": "C",
+     "text": "Many other designers and architects have expressed concern over the future supply of home-grown talent for UK firms, and industry bodies have pointed out that there has been a lack of roots-level support. However, if these designers had visited the Design Museum shop in London earlier this year their fears may have been eased. With £10 to spend, they could have bought a fascinating children’s toy called “Dazzle Racer”. An automotive cylinder(圆柱体), it included a wind-up, elastic (有弹性的)-band-powered mechanism, minimal parts, all 100 percent recycled and lots of stickers. It was good fun, simple, eye-catching and very original."
+    },
+    {
+     "label": "D",
+     "text": "Well you’d expect the Design Museum to commission and make some interesting items, but this one was different. Designed by a group of six Year 9 and Year 10 boys from Finchley Catholic High School, the toy was the winning entry in the museum’s 2015 Design Ventura competition, which brings the business of design to life for students aged 13 to 16 by challenging them to develop a new creative, sustainable and commercially feasible product for the Design Museum shop and attracts hundreds of entries nationwide."
+    },
+    {
+     "label": "E",
+     "text": "“We did Design Ventura in my previous school,” says Liam Hourican, Finchley Catholic High School’s design technology curriculum leader. “Then when I changed schools four years ago, I introduced it here because it helps to develop so many skills.”"
+    },
+    {
+     "label": "F",
+     "text": "The theme for last year’s competition was “Move”, and Hourican began with three groups working in lunch breaks and after school before selecting the group with the most innovative idea. Each participating school may submit just one proposal. “It’s the taking part and doing the work which is important,” he says. “And I never dreamt we’d win.”"
+    },
+    {
+     "label": "G",
+     "text": "Catherine Ritman Smith, head of learning at the Design Museum, is expecting around 10,000 participants aged 13 to 16 to take part this year and says that the project — funded by Deutsche Bank as part of its youth engagement programme Born To Be — is the biggest event in the museum’s calendar. “We started Design Ventura with around 800 young people in 2010 and it has grown steadily since,” she says. “Teachers like it because the skills are all transferable and it helps to validate the value of design as a subject,” she explains, telling me that nearly 600 schools have taken part so far."
+    },
+    {
+     "label": "H",
+     "text": "So how does the competition work? A single-word theme is announced in the summer. This year it is “Change”. Schools work with groups to produce imaginative design ideas for a product in simple materials that could sell for £10 in the Design Museum Shop. Participating schools then register by November and eventually submit their design idea. Along the way there is training and support for teachers and tutoring for students from designers. An additional bonus is when the winners see their design on sale in the spring of the following year."
+    },
+    {
+     "label": "I",
+     "text": "Hourican and his pupils have happy memories of spending a whole day at the museum, having been selected as one of 10 shortlisted schools to present their idea to a panel of judges, including designer Jasper Conran. Then they worked with the Kin Design Studio in Shoreditch, met designers at their school and attended a lunch with Deutsche Bank employees. The students helped to make decisions and there were plenty of discussions — they changed the product’s name, for example."
+    },
+    {
+     "label": "J",
+     "text": "“One of the really useful things about this competition,” says Hourican, “is that there’s a commercial element because the product is going on sale for real and the boys had to learn about budgeting and marketing, as well as designing their game.” Profits go to charity. “The winning team chooses where it wants the profits to go,” says Ritman Smith. “The Finchley Catholic High School product raised about £1,000 for Great Ormond Street Hospital.” Winning entries in past years have included a make-your-own cloth kit called Dove Bunting and a threefold, wallet-sized travel game with goals at each end, called Badoiiing."
+    },
+    {
+     "label": "K",
+     "text": "It costs the schools nothing to participate in Design Ventura; the professional designers provide their services for free. Among them are architect Asif Khan, a Design Museum trustee who has worked as designer-in-residence at the museum, helping emerging architects. He has recently been commissioned to design the new Museum of London building in Smithfield."
+    },
+    {
+     "label": "L",
+     "text": "Another is television presenter and interior designer Naomi Cleaver, who is one of the competition’s judges. “I'm very keen to encourage young people,” she says, observing that design brings together other subjects such as literature, art, history, geography and science. “Now that design education is limited in the curriculum, I’m all in favour of competitions such as Design Ventura, which helps to bring the standard curriculum to life,” says Cleaver. “And the judging day is terrific fun. Some of these students are very imaginative. One group presented their idea in the form of a puppet show and we see some marvelous demonstration models. “I’m always impressed by the levels of confidence and the support the students get from their teachers.”"
+    },
+    {
+     "label": "M",
+     "text": "Ritman Smith adds: “Design technology has become a tricky subject to make a case for, and we’ve heard of departments closing in some schools. We find that if pupils take part in Design Ventura in Year Nine it can be the trigger which leads them to opt for it at General Certificate of Secondary Education, so we are helping to keep alive something which is crucial to industry and entrepreneurship.”"
+    }
+   ],
+   "statements": [
+    {
+     "n": 36,
+     "text": "During the course of preparing for Design Ventura, teachers receive training and support while students get tutoring from designers."
+    },
+    {
+     "n": 37,
+     "text": "A visit to the Design Museum shop in London can reduce the designers’ fears about the future supply of talents educated in Britain."
+    },
+    {
+     "n": 38,
+     "text": "One of Design Ventura’s judges says the competition adds vigour to the standard curriculum in schools."
+    },
+    {
+     "n": 39,
+     "text": "Enrollment in Design and Technology decreased by nearly ten percent last year in the UK."
+    },
+    {
+     "n": 40,
+     "text": "Participation of ninth graders in Design Ventura can motivate them to choose design technology as their subject."
+    },
+    {
+     "n": 41,
+     "text": "Design Ventura is welcomed by teachers because it helps to prove the worth of design as a school subject."
+    },
+    {
+     "n": 42,
+     "text": "The schools don’t have to pay anything to take part in the Design Ventura competition."
+    },
+    {
+     "n": 43,
+     "text": "Participants in Design Ventura are challenged to create sustainable and marketable products."
+    },
+    {
+     "n": 44,
+     "text": "Students benefit from Design Ventura because they can learn about budgeting and marketing in addition to game design."
+    },
+    {
+     "n": 45,
+     "text": "According to an officer of the Creative Industries Federation, there is difficulty now in recruiting engineers in the UK."
+    }
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension (40 minutes)",
+   "name": "Section C",
+   "type": "choice",
+   "directions": "There are 2 passages in this section. Each passage is followed by some questions or unfinished statements. For each of them there are four choices marked A), B), C) and D). You should decide on the best choice and mark the corresponding letter on Answer Sheet 2 with a single line through the centre.",
+   "groups": [
+    {
+     "title": "Passage One",
+     "paragraphs": [
+      "New research suggests that pandas may be at risk of dying out because they are too comfortable. Experts say too much happiness can stop the bears from searching for new mates.",
+      "Environmentalists have long believed that building roads or homes near the bears may threaten their survival by “reducing or fragmenting their natural habitats”, The Times reported. But the new research suggests that a “modest degree of discomfort and fragmentation” may actually help preserve panda populations.",
+      "The research was conducted by scientists from Michigan State University. It concluded that pandas fail to wander off in search of new mates if they find their habitat too comfortable, resulting in a lack of vital genetic diversity.",
+      "For their study — outlined in a paper in the journal Conservation Biology — the team looked at genetic diversity and spread among a Chinese panda population. The ideal level of perfectly livable habitat was found to be only 80% of an area, with the remainder either too harsh or too affected by human activity.",
+      "The experts concluded that pandas should ideally “be happy enough to thrive, but not so content that they don’t want to move around and find new mates”.",
+      "Their conclusions about what The Guardian described as this “sweet spot” are in line with the so-called Goldilocks principle: that there can be just the right amount of something. The concept has been applied to a wide range of disciplines, from developmental psychology to economics and engineering.",
+      "Claudio Sillero, a professor of conservation biology at Oxford University, told the newspaper that the new findings could have implications beyond panda conservation.",
+      "“Most large animals that eat meat live in increasingly fragmented landscapes,” said Sillero, who was not involved in the research. “It may well be that the messy nature of their relationship with human efforts induces more animals to scatter or travel further, and might result in greater genetic connectivity and enhanced population persistence.”",
+      "The most recent count of pandas found that there were more than 1,800 left in the wild, putting them on the list of vulnerable, but not endangered, species."
+     ],
+     "questions": [
+      {
+       "n": 46,
+       "options": [
+        "They are losing habitat due to the building of roads and houses.",
+        "They have stopped seeking new mates for reproduction.",
+        "They may not adapt to the fragmentation of their habitat.",
+        "They may cease to exist as a result of enjoying too good a life."
+       ],
+       "stem": "What do we learn from new research about pandas?"
+      },
+      {
+       "n": 47,
+       "options": [
+        "Environmentalists’ long-time belief regarding panda conservation may be misleading.",
+        "Housing development near pandas’ homes may threaten their survival.",
+        "Pandas’ natural habitats are becoming less suitable for reproduction.",
+        "The increased panda population is attributed to the fragmentation of their habitat."
+       ],
+       "stem": "What can we conclude from the new research by scientists at Michigan State University?"
+      },
+      {
+       "n": 48,
+       "options": [
+        "It is urgent to provide an ideal habitat for them to thrive.",
+        "It is very important to preserve their genetic diversity.",
+        "Their chances of finding new mates have a lot to do with their habitat.",
+        "Their environment for survival has been continuously worsening."
+       ],
+       "stem": "What is the experts’ conclusion regarding pandas?"
+      },
+      {
+       "n": 49,
+       "options": [
+        "It needs to be confirmed by more studies on pandas.",
+        "It applies to the preservation of pandas too.",
+        "It has implications for future panda research.",
+        "It can be used to locate the right spot for pandas."
+       ],
+       "stem": "What can we infer from the passage about the Goldilocks principle?"
+      },
+      {
+       "n": 50,
+       "options": [
+        "Help discover new ways for the conservation of pandas.",
+        "Help remove pandas from the list of endangered species.",
+        "Shed light on the conservation of most large meat-eating animals.",
+        "Show the complexity of interactions between humans and animals."
+       ],
+       "stem": "What can the new findings do according to Professor Sillero?"
+      }
+     ]
+    },
+    {
+     "title": "Passage Two",
+     "paragraphs": [
+      "With those born with natural talents, it feels as if they excel without really trying. But what about those of us who don’t have a natural talent? We’ve been told all our lives that if you work hard, you too can succeed. But with the release of Angela Duckworth’s Grit, we are given a new key to success.",
+      "“As much as talent counts, effort counts twice,” says Duckworth in Grit. She introduces a new concept that talent may be overrated, and if you want real success, what you need is grit the perfect combination of passion and persistence. Even if you have natural talent it’s nothing without grit.",
+      "Duckworth says grit is the difference between success and failure. A person who has grit is more likely to succeed than a person who does not. When we think about attaining success — whether it’s landing that job or learning that new skill — our thoughts are immediately burdened by all the things we must first learn. If you want that new job, you have to learn the job skills, then the interview skills, then the dress part — and you must be perfect at all of them. Grit is different because it tells us that perfection isn’t the goal.",
+      "Grit lifts the unreasonable expectations off our shoulders. Grit tells us that the door is open wider than we first thought possible. Grit allows us to redefine our goals. Think about it: what’s something you’ve always wanted to do, but gave up because you “don’t have the skills for it”? What’s something you love but aren’t good at?",
+      "The real workings of grit are to have sustainable passion and continue to try. Effort means more than your natural ability. Even if you haven’t mastered a skill, grit tells you that you can still succeed if you can transform your passion into action. In a way, Duckworth is giving new hope to people who have shut the doors on their dreams. She is saying it is possible that you can accomplish anything. If at first you fail, then try one more time with grit."
+     ],
+     "questions": [
+      {
+       "n": 51,
+       "options": [
+        "They seem to outdo others without hard work.",
+        "They appear to know all the secrets to success.",
+        "They feel it only too logical to succeed.",
+        "They are bound to excel effortlessly."
+       ],
+       "stem": "What does the passage say about people born with natural talents?"
+      },
+      {
+       "n": 52,
+       "options": [
+        "It is a new concept much too overrated.",
+        "It proves necessary for big achievements.",
+        "It plays a lesser role in one’s success.",
+        "It is a guarantee for real success in life."
+       ],
+       "stem": "What does Duckworth say about talent?"
+      },
+      {
+       "n": 53,
+       "options": [
+        "They are puzzled how to present their best to the employer.",
+        "They are burdened by their expectation of perfection.",
+        "They will try hard to land a job that fits their skills best.",
+        "They will find themselves lacking in all the skills they need."
+       ],
+       "stem": "What does the passage say about people thinking of attaining success?"
+      },
+      {
+       "n": 54,
+       "options": [
+        "It allows us to know what we are good at.",
+        "It opens our eyes to new opportunities.",
+        "It focuses our attention on what we do.",
+        "It lets us reconsider the goals to achieve."
+       ],
+       "stem": "How does the author think grit can be helpful to us?"
+      },
+      {
+       "n": 55,
+       "options": [
+        "We should perfect ourselves to ensure success.",
+        "We should stay persistent even in face of failures.",
+        "We can never master a skill without constant practice.",
+        "We can never expect to reach our goals without passion."
+       ],
+       "stem": "What message does Duckworth try to convey in her book Grit?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part IV Translation (30 minutes)",
+   "name": "",
+   "type": "translation",
+   "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2.",
+   "paragraphs": [
+    "被誉为“杂交水稻(hybrid rice)之父”的袁隆平和他的科研团队克服重重困难,研发出了一种超级杂交水稻。这项技术获得了举世公认的巨大成功。通过这项技术的应用,水稻抗旱抗病能力更强,能适应不同的气候和土壤条件,产量可提高20-30%。超级杂交水稻营养丰富,口感更佳。目前,这项技术已经在许多国家得到广泛应用,为全球粮食安全做出了重大贡献。"
+   ]
+  }
+ ],
+ "key": "ABADCDBACCBDBCDBADCADBCDADGAECONBLMHCLAMGKDJBDACBCACBDB",
+ "notes": {},
+ "reference": {},
+ "source": {}
+}

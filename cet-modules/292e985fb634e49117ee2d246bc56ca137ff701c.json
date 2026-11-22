@@ -1,0 +1,581 @@
+{
+ "schema": 1,
+ "paper": "四级真题/2023.06/真题PDF/2023年6月第1套英语四级真题.pdf",
+ "blob": "292e985fb634e49117ee2d246bc56ca137ff701c",
+ "level": "4",
+ "date": "2023.06",
+ "title": "2023 6",
+ "minutes": 125,
+ "audio": "四级真题/2023.06/听力音频/2023年6月第1套英语四级真题听力音频.mp3",
+ "sections": [
+  {
+   "part": "Part I Writing (30 minutes)",
+   "name": "",
+   "type": "writing",
+   "directions": "Suppose your university is conducting a survey to collect students' opinions of online classes. You are to write a response to the survey about their advantages and disadvantages, and what improvements can be made. You will have 30 minutes for the task. You should write at least 120 words but no more than 180 words."
+  },
+  {
+   "part": "Part Listening Comprehension (25 minutes)",
+   "name": "Section A",
+   "type": "choice",
+   "directions": "In this section, you will hear three news reports. At the end of each news report , you will hear two or three questions. Both the news report and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A) , B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 1 and 2 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 1,
+       "options": [
+        "She was involved in a conflict with bird lovers.",
+        "She was charged with mistreating animals.",
+        "She was on bad terms with her neighbors.",
+        "She was accused of violating a city law."
+       ]
+      },
+      {
+       "n": 2,
+       "options": [
+        "It will take time to solve the rat problem.",
+        "All wild animals should be well protected.",
+        "The woman was not to blame for the situation.",
+        "No one should go unpunished for violating law."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 3 and 4 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 3,
+       "options": [
+        "Communicate with astronauts in Mars Dune Alpha.",
+        "Work in an environment resembling Mars.",
+        "Build a Martian habitat in Houston.",
+        "Send in applications before Friday."
+       ]
+      },
+      {
+       "n": 4,
+       "options": [
+        "Ready-made food.",
+        "Food that is organic.",
+        "Food they grow.",
+        "Potatoes mostly."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 5 to 7 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 5,
+       "options": [
+        "He apologized for scratching an athlete's gold medal.",
+        "He was asked to present a gold medal to Miu Goto.",
+        "He bit a softball player's Olympic gold medal.",
+        "He attracted public attention at a media event."
+       ]
+      },
+      {
+       "n": 6,
+       "options": [
+        "Have another picture taken with the Olympic medalist.",
+        "Apologize to the International Olympic Committee.",
+        "Get the damaged medal repaired.",
+        "Pay for the cost of a new medal."
+       ]
+      },
+      {
+       "n": 7,
+       "options": [
+        "Allow no one to touch them.",
+        "See them as symbols of honor.",
+        "Treat them as treasures.",
+        "Keep them in a safe place."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part Listening Comprehension (25 minutes)",
+   "name": "Section B",
+   "type": "choice",
+   "directions": "In this section, you will hear two long conversations. At the end of each conversation, you will hear four questions. mth the conversation and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A) , B) , C) and D). Then mark the corresponding letter on Answer Sheet I with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 8 to 11",
+     "questions": [
+      {
+       "n": 8,
+       "options": [
+        "She covered its screen with a plastic sheet.",
+        "She connected it with her smartphone.",
+        "She decorated it with colorful stickers.",
+        "She bought some new software for it."
+       ]
+      },
+      {
+       "n": 9,
+       "options": [
+        "It may not be simply blue.",
+        "It includes unnatural light.",
+        "It is more harmful to young people.",
+        "It induces people to fall asleep."
+       ]
+      },
+      {
+       "n": 10,
+       "options": [
+        "He has had much trouble falling asleep.",
+        "He has had some sort of health problems.",
+        "He has stayed up playing computer games.",
+        "He has been burdened with excessive work."
+       ]
+      },
+      {
+       "n": 11,
+       "options": [
+        "Exposure to blue light is the chief cause of obesity.",
+        "Sleep may be more important than people assumed.",
+        "Sleep may also be negatively affected by natural light.",
+        "Overuse of electronic devices may cause heart disease."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 12 to 15 are based on the conversation you have just heard.",
+     "questions": [
+      {
+       "n": 12,
+       "options": [
+        "What they wanted to be when grown up.",
+        "What their favorite cartoon character was.",
+        "What they learned from computer games.",
+        "What they liked to do most after school."
+       ]
+      },
+      {
+       "n": 13,
+       "options": [
+        "A stock broker.",
+        "A pop singer.",
+        "A mechanical engineer.",
+        "A basketball player."
+       ]
+      },
+      {
+       "n": 14,
+       "options": [
+        "Ambitious.",
+        "Sensible.",
+        "Imaginative.",
+        "Practical."
+       ]
+      },
+      {
+       "n": 15,
+       "options": [
+        "Relax their strict control of their kids.",
+        "Help their kids understand themselves.",
+        "Impose their own dreams on their kids.",
+        "Dismiss their high expectations of their kids."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part Listening Comprehension (25 minutes)",
+   "name": "Section C",
+   "type": "choice",
+   "directions": "In this section, you will hear three passages. At the end of each pssage, you will hear three or four questions. Both the passage and the questions will be spoken only once. After you hear a question , you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 16 to 18 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 16,
+       "options": [
+        "Set up company branches.",
+        "Improve its infrastructure.",
+        "Introduce iPhones into its markets.",
+        "Promote Internet-ready phones."
+       ]
+      },
+      {
+       "n": 17,
+       "options": [
+        "They cater to Africans' needs.",
+        "They are more expensive models.",
+        "They are more powerful and capable.",
+        "They boast the longest battery life."
+       ]
+      },
+      {
+       "n": 18,
+       "options": [
+        "A large touchscreen.",
+        "An old-school keypad.",
+        "A voice-response device.",
+        "A digitally-designed system."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 19 to 21 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 19,
+       "options": [
+        "It ensured sustainable economic growth.",
+        "It was strongly opposed by manufacturers.",
+        "It was cheaper than using fossil fuel plastic.",
+        "It satisfied consumer demands on the whole."
+       ]
+      },
+      {
+       "n": 20,
+       "options": [
+        "The capacity to mass produce it.",
+        "The U.S. federal government's regulations.",
+        "A boom in market demand for clear plastic bottles.",
+        "A rapid increase in U.S. petroleum chemical production."
+       ]
+      },
+      {
+       "n": 21,
+       "options": [
+        "Require companies to use 30% of new plastic.",
+        "Increase the supply of new plastic in the market.",
+        "Reduce the amount of plastic pollution in local areas.",
+        "Take measures to promote the use of recycled plastic."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 22 to 25 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 22,
+       "options": [
+        "It studies dreams.",
+        "It rents a place for nap-takers.",
+        "It is a hotel for business people.",
+        "It is a nap research institute."
+       ]
+      },
+      {
+       "n": 23,
+       "options": [
+        "To find out creative people's work performance.",
+        "To see how many people can go without napping.",
+        "To understand the obvious importance of napping.",
+        "To feel how difficult it is to get his idea across."
+       ]
+      },
+      {
+       "n": 24,
+       "options": [
+        "They decline due to pointless meetings.",
+        "They depend on his ability to concentrate.",
+        "They enable him to enjoy a creative career.",
+        "They are affected by the overuse of social media."
+       ]
+      },
+      {
+       "n": 25,
+       "options": [
+        "Some bosses associate napping with laziness.",
+        "Many office workers nap during work hours.",
+        "Some bosses can concentrate without napping.",
+        "Many of his friends daydream in the office."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part Reading Comprehension (40 minutes)",
+   "name": "Section A",
+   "type": "bank",
+   "directions": "In this section, there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Fnch choice in the bank is identified by a letter. Please mark the corresponding letter for each item on Answer Sheet 2 with a single line through the centre. You nuy not use any of the words in the txznk more than once.",
+   "paragraphs": [
+    "You probably haven't taken the time to think of all the work that went into creating the shirt on your back. I mean, how hard it could be to create fabric and [[26]] it into a shirt shape. Don't machines do all that? Well, creating fabric from cotton, which is the most [[27]] clothing material, is actually a process that involves a lot of water, 2,700 liters per shirt to be [[28]] . Take a look at the video below from National Geographic for some more mind-blowing [[29]] about cotton clothing production. Clean water is [[30]] becoming one of the most sought-after resources in the world. Given how large the [[31]] and cotton industries are, they take up a lot of our fresh water demands across the world, according to The Huffington Post. The video from National Geographic was created to spread [[32]] of how environmentally harmful cotton is. But the situation can be made better. Through better water management and farming practices, water usage in cotton production can be cut down by [[33]] 40 percent.",
+    "Called \"Better Cotton\", this environmentally conscious product will save millions of liters of water a year simply from [[34]] the demands of cotton production. Cotton doesn't have to go, since it is, after all, one of the most useful cash crops across the globe. However, as water supplies [[35]] , farmers and consumers need to be more conscious of the effect that these products have on the environment as a whole."
+   ],
+   "bank": [
+    "abstracts",
+    "abundant",
+    "awareness",
+    "conscience",
+    "exact",
+    "increasingly",
+    "intense",
+    "mend",
+    "nearly",
+    "reckoning",
+    "reducing",
+    "sew",
+    "shrink",
+    "statistics",
+    "textile"
+   ]
+  },
+  {
+   "part": "Part Reading Comprehension (40 minutes)",
+   "name": "Section B",
+   "type": "match",
+   "directions": "In this section, you are going to read a rnssage with ten statements attached to it. Fnch statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once. Each paragraph is marked with a letter. Answer the questions by marking the corresponding letter on Answer Sheet 2.",
+   "title": "\"Ihe spoken web",
+   "paragraphs": [
+    {
+     "label": "A",
+     "text": "We're growing more used to chatting to our computers, phones and smart speakers through voice assistants like Amazon's Alexa, Apple's Siri and Microsoft's Cortana. Blind and partially sighted people have been using text-to-speech converters for decades."
+    },
+    {
+     "label": "B",
+     "text": "Out of these assistants, Siri is the most well-known. The assistant uses voice inquiries and a natural- language user interface (*fi) to answer questions. The software adapts to users' individual language usages, searches, and preferences, with continuing use."
+    },
+    {
+     "label": "C",
+     "text": "Some think voice could soon take over from typing and clicking as the main way to interact online. But what are the challenges of moving to \"the spoken web\"?"
+    },
+    {
+     "label": "D",
+     "text": "What use is written online content if you can't read? That is the situation facing illiterate (African farmers. They are often denied crucial information the web offers many others. With a literacy rate in some parts of Africa at only 22.6% , farmers are often \"underpaid for their produce because they might be unaware of the prevailing prices,\" says Francis Dittoh, a researcher behind Mr Meteo, a speech-based weather information service."
+    },
+    {
+     "label": "E",
+     "text": "\"The most frequently heard complaint is about rainfall predictions,\" says Mr Dittoh, who lives in Tamale, northern Ghana. \"They tell us the methods their forefathers used to predict the weather don't seem to work as well these days.\" This is down to climate change, he believes. Yet knowing when it's going to rain is vital for farmers wanting to sow seeds, irrigate crops or take their animals out to the fields to feed on grass."
+    },
+    {
+     "label": "F",
+     "text": "Mr Dittoh says the idea of converting online weather reports into speech came from the farmers themselves, after a workshop in the village of Guabuligah. \"They came up with this,\" he says. Mr Meteo takes the online weather forecast, converts it to a short recording in the appropriate language and makes it available on a basic phone. Farmers ring up to receive the information. The local language Dagbani is spoken by 1.2 million people but is not served by any online translation applications. The service was designed to be cheap and easy to run, says Mr Dittoh. He plans to begin field tests this month, working with Tamale's Savanna Agricultural Research Institute."
+    },
+    {
+     "label": "G",
+     "text": "The spoken web could also help the one-in-five adults in Europe and the U.S. with poor reading skills. But building the spoken web—web-to-voice and voice-to-web—isn't straightforward. For software to understand pizza is served at Italian restaurants is easy. To cover multiple domains and to be able to have a conversation with users on every single topic is still a long way off."
+    },
+    {
+     "label": "H",
+     "text": "So although many computer assistants can answer simple questions about the weather and play music for us, anything resembling a wide-ranging human conversation is decades away. Artificial intelligence just isn't smart enough yet. Even turning your voice into text—automatic speech recognition—is one of the hardest problems to solve, as there are as many ways to pronounce things as there are people on the planet."
+    },
+    {
+     "label": "I",
+     "text": "Siri has often been praised for its ability to interpret our casual language and deliver very specific and accurate results, sometimes even providing additional information. But it is still somewhat restricted, particularly when the language moves away from stiffer commands into more human interactions. In one example, the phrase \"Send a text to Jason, Clint, Sam, and Lee saying we're having dinner at Silver Cloud restaurant\" was interpreted as sending a message to Jason only, containing the text \"Clint Sam and Lee saying we're having dinner at Silver Cloud restaurant\". It has also been noted that Siri lacks a proper editing function, as saying \"Edit message to say: we're at Silver Cloud restaurant and you should come find us\" generates \"Clint Sam and Lee saying we're having dinner at Silver Cloud restaurant to say we're at Silver Cloud restaurant and you should come find us\"."
+    },
+    {
+     "label": "J",
+     "text": "Using voice interaction feels far more intimate than surfing the net the old-fashioned way. This is intentional as the informal tone of the assistant helps create an emotional attachment. But if something speaks, it must also listen. Our phones are always near us and they are collecting data about us all the time. This has already raised privacy concerns. The American Civil Liberties Union has stated that digital assistants create a threat to privacy from hackers. Some people have other concerns. They worry assistants will one day be used to deliver advertising directly to us."
+    },
+    {
+     "label": "K",
+     "text": "But digital voices need more personality to make them popular. Robots are not yet witty, Siri is boring. The benefits of using voice instead of tapping fingers obviously depend on the context. Doctors completing online forms about their patients by speech, for example, can dictate 150 words a minute, three times faster than typing on a keyboard. This enables them to spend less time on administration and more time with patients."
+    },
+    {
+     "label": "L",
+     "text": "Last year, speech recognition company Nuance helped a doctors' surgery in Dukinfield, near Manchester, set up a speech system for the practice's six doctors. Now they can dictate notes on a patient's health condition and treatment and a smart assistant automatically enters the information into the right fields on a web form. Previously, the doctors made voice recordings that were then transcribed by secretaries—a process that was costly and likely to cause delays. The new system means letters to patients now have more detail."
+    },
+    {
+     "label": "M",
+     "text": "Using voice also makes sense when you're doing other things with your hands. Think about when you're cooking, and you just want to know what the next step in the recipe is. Your hands are covered with oil; you're not going to get on the iPad, so it's a lot more natural to talk. And speech obviously makes sense when you're driving. In the U.S., 29% of drivers admit they surf behind the wheel, according to insurance firm State Farm. This is up from 13% in 2009. No wonder using mobile phones while driving causes more crashes a year than drink driving, says the U.S. National Safety Council."
+    }
+   ],
+   "statements": [
+    {
+     "n": 36,
+     "text": "According to Francis Dittoh, their speech-based weather information service was meant to be inexpensive and easy to use."
+    },
+    {
+     "n": 37,
+     "text": "Using voice instead of typing enables doctors to spend more time taking care of patients."
+    },
+    {
+     "n": 38,
+     "text": "It is extremely difficult to convert voice into text because of different pronunciations."
+    },
+    {
+     "n": 39,
+     "text": "African farmers unable to read often don't have access to important information conveyed online."
+    },
+    {
+     "n": 40,
+     "text": "Some phone users worry advertisers will take advantage of voice assistants to send ads directly to them."
+    },
+    {
+     "n": 41,
+     "text": "The spoken web is helpful when one's hands are occupied."
+    },
+    {
+     "n": 42,
+     "text": "Some people believe online interaction would soon depend mainly on voice."
+    },
+    {
+     "n": 43,
+     "text": "Setting up a spoken web is by no means an easy task."
+    },
+    {
+     "n": 44,
+     "text": "Weather information is extremely important to farmers."
+    },
+    {
+     "n": 45,
+     "text": "Some people are concerned about privacy because their phones are constantly collecting their personal in formation."
+    }
+   ]
+  },
+  {
+   "part": "Part Reading Comprehension (40 minutes)",
+   "name": "Section C",
+   "type": "choice",
+   "directions": "There are 2 pssages in this section. Each passage is followed by some questions or unfinished statements. For each of them there are four choices marked A), B) , C) and D). You should decide on the best choice and mark the corresponding letter on Answer Sheet 2 with a single line through the centre.",
+   "groups": [
+    {
+     "title": "Passage One",
+     "paragraphs": [
+      "The United States is facing a housing crisis: Affordable housing is inadequate, while luxury homes abound (Zi&), and homelessness remains a persistent problem. Despite this, popular culture and the housing industry market happiness as living with both more space and more amenities (ft iki&). Big houses are advertized as a reward for hard work and diligence, turning housing from a basic necessity into a luxury.",
+      "This is reflected in our homes. The average single-family home built in the United States before 1970 was less than I ,500 square feet in size. By 2016, the average size of a new, single-family home was 2,422 square feet. What's more, homes built in the 2000s were more likely than earlier models to have more of all types of spaces: bedrooms, bathrooms, living rooms, dining rooms, recreation rooms and garages. There are consequences of living big. As middle-class houses have grown larger, two things have happened. First, large houses take time to maintain, so cleaners and other Iow-wage service workers are required to keep these houses in order. Second, once-public spaces, where people from diverse backgrounds used to come together, have increasingly become privatized, leading to a reduction in the number of public facilities available to all, and a reduced quality of life for many. Take swimming pools. While in 1950, only 2, 500 U.S. families owned pools, by 1999 this number was 4 million. At the same time, public municipal pools were often closed, leaving Iow-income people nowhere to swim. The trend for bigger housing thus poses ethical questions. Should Americans accept a system in which the middle and upper classes enjoy a luxurious lifestyle, using the Iow-wage labor of others? Are we willing to accept a system in which an increase in amenities purchased by the affluent means a reduction in amenities for the poor?",
+      "I believe neither is acceptable. We must change the way we think: living well does not need to mean having more private spaces; instead, it could mean having more public spaces. A better goal than building bigger houses for some is to create more publicly accessible spaces and amenities for all."
+     ],
+     "questions": [
+      {
+       "n": 46,
+       "options": [
+        "A luxury for the homeless.",
+        "A reward for industriousness.",
+        "An abundant source of comforts.",
+        "An absolute necessity for happiness"
+       ],
+       "stem": "What are big houses promoted to be in the United States?"
+      },
+      {
+       "n": 47,
+       "options": [
+        "Many Americans' quality of life has become lower.",
+        "People from diverse backgrounds no longer socialize.",
+        "People no longer have access to public swimming pools.",
+        "Many Americans' private life has been negatively affected."
+       ],
+       "stem": "What is one of the consequences of living big?"
+      },
+      {
+       "n": 48,
+       "options": [
+        "Questions related to moral principles.",
+        "Questions having to do with labor cost.",
+        "Questions about what lifestyle to promote.",
+        "Questions concerning housing development."
+       ],
+       "stem": "What questions arise from living big?"
+      },
+      {
+       "n": 49,
+       "options": [
+        "One in which the wealthy exploit the low-wage laborers building their houses.",
+        "One in which the rich purchase amenities at an increasingly unjustifiable price.",
+        "One in which the upper classes deprive the lower classes of affordable housing.",
+        "One in which the affluent enjoy a more comfortable life at the expense of the poor."
+       ],
+       "stem": "What kind of social system does the author think is unacceptable?"
+      },
+      {
+       "n": 50,
+       "options": [
+        "Finding ways to turn private spaces into public ones.",
+        "Building more houses affordable to those less affluent.",
+        "More public spaces created for everyone to enjoy.",
+        "All amenities made accessible to the rich and the poor alike."
+       ],
+       "stem": "What does the author advocate for people to live well?"
+      }
+     ]
+    },
+    {
+     "title": "Passage Two",
+     "paragraphs": [
+      "Most of us in the entrepreneurial community are blessed—or cursed—with higher-than-average ambition. Ambitious people strongly desire accomplishments and are willing to take more risks and spend more effort to get them.",
+      "Overall, this is a positive quality, especially for people trying to build their own businesses. Apparently, if you're more naturally driven to set goals, you are more likely to succeed. Actually, this isn't always the case. In fact, in some cases, extreme ambition may end up doing more harm than good.",
+      "One major side effect of excessive ambition is the tendency to focus too determinedly on one particular vision or end goal. This is problematic because it hinders your ability to adapt to new circumstances, which is vital if you want to be a successful entrepreneur. If a new competitor emerges to threaten your business, you may need to change direction, even if that means straying from your original vision. If you have too much ambition, you'll find this hard, if not impossible.",
+      "Few people are successful when they try to build their first brand. Unfortunately, for the most ambitious entrepreneurs, a failure is seen as disastrous, and impossible to recover from. It's a clear departure from the intended plan toward the intended goal. For people with limited ambition ， however ， failure is viewed as somethmg c10 r t0 reality ． Remember ， failure is inevitable ， and every failure you survive is a learning expenence.",
+      "Ambitious people tend to more materialistically successful than their non-ambitious counterparts However ， they ， re only slightly happier than their less-ambitious counterparts ， and tend t0 live significantly shorter lives. This implies that even though ambitious people are more likely t0 achieve conventional success ， ” such success means nothing for their health and happiness—and if you don ， t have health and happiness ， what else could possibly matter?",
+      "CIearIy ， some amount 0f ambition is good for your motivation. Without any ambition ， you wouldn ， t start your own business ， set or achieve goals and get far in life. But an excess 0f ambition can al dangerous ， putting you at risk of burnout ， stubbornness and even a shorter life."
+     ],
+     "questions": [
+      {
+       "n": 51,
+       "options": [
+        "They are more willing t0 risk their own lives.",
+        "They are more ambitious than ordinary people.",
+        "They achieve greater nonconventional success.",
+        "They have more positive qualities than most 0f us."
+       ],
+       "stem": "What does the author think 0f most entrepreneurs ？"
+      },
+      {
+       "n": 52,
+       "options": [
+        "Ambitious ople may not have a greater chance 0f success.",
+        "Ambitious people may not have more positive qualities.",
+        "Entrepreneurs ， ambition d0 as much good as harm",
+        "Entrepreneurs are more naturally driven t0 success."
+       ],
+       "stem": "， What does the author imply by saying \"this isn t always the case ” (Line 1 ， Para. 3) ？"
+      },
+      {
+       "n": 53,
+       "options": [
+        "Holding on t0 one ， s original usion.",
+        "Being able t0 adapt t0 new situations.",
+        "Focusing determinedly on one particular goal",
+        "Avoiding radical change ln one ， s career direction ．"
+       ],
+       "stem": "What does the author say is Of extreme rmportance for one tO become a successful entrepreneur ？"
+      },
+      {
+       "n": 54,
+       "options": [
+        "lt will awaken them t0 reality.",
+        "lt is a lesson they have t0 learn ．",
+        "lt means the end of their career.",
+        "lt will result in a slow recovery."
+       ],
+       "stem": "How dO the most ambitious entrepreneurs regard failure in their endeavor ？"
+      },
+      {
+       "n": 55,
+       "options": [
+        "mstinguish between conventional success and our life goal.",
+        "Follow the example of the most ambitious entrepreneurs.",
+        "Avoid taking unnecessary risks when starting a business.",
+        "Prioritize health and happiness over material success."
+       ],
+       "stem": "What does the author advise us t0 d0 concerning ambition ？"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part Translation (30 minutes)",
+   "name": "",
+   "type": "translation",
+   "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2.",
+   "paragraphs": [
+    "中国越来越重视终身教育，发展继续教育是构建终身教育体系的有效途径。高校作为人才培养的基地，拥有先进的教学理念和优越的教学资源，理应成为继续教育的办学主体。因此，近年来许多高校适应社会需求，加强与用人单位沟通，努力探索一条符合中国国情的继续教育发展新路，以使继续教育在国家发展战略中发挥更大的作用。第 8 页，共 8 页"
+   ]
+  }
+ ],
+ "key": "A.GGA....I.............................................",
+ "notes": {},
+ "reference": {},
+ "source": {}
+}

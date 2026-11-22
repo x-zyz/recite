@@ -1,0 +1,620 @@
+{
+ "schema": 1,
+ "paper": "六级真题/2026.06/真题PDF/cet6_2026_06_2.pdf",
+ "blob": "0e3d86393018110cf61d7c4ee71e3aa3053a1f66",
+ "level": "6",
+ "date": "2026.06",
+ "title": "套)",
+ "minutes": 130,
+ "audio": "六级真题/2026.06/听力音频/2026年6月六级听力音频.mp3",
+ "sections": [
+  {
+   "part": "Part I Writing (30 minutes)",
+   "name": "",
+   "type": "writing",
+   "directions": "For this part, you are allowed 30 minutes to write an essay that begins with the sentence \"With the trend of urbanization, it is vitally important for city residents to develop a stronger love for nature.\" You can make comments, cite examples or use your personal experiences to develop your essay. You should write at least 150 words but no more than 200 words. [You should copy the sentence given in quotes at the beginning of your essay.]"
+  },
+  {
+   "part": "Part II Listening Comprehension (30 minutes)",
+   "name": "Section A",
+   "type": "choice",
+   "directions": "In this section, you will hear two long conversations. At the end of each conversation, you will hear four questions. Both the conversation and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 1 to 4 are based on the conversation you have just heard.",
+     "questions": [
+      {
+       "n": 1,
+       "options": [
+        "Celebrate his 10th wedding anniversary.",
+        "Celebrate his promotion in Barcelona.",
+        "Give his wife a pleasant surprise.",
+        "Ask for leave to visit Barcelona."
+       ]
+      },
+      {
+       "n": 2,
+       "options": [
+        "He is unable to find some inexpensive accommodation.",
+        "There are few warm places to go at this time of the year.",
+        "There is so much for him to do before going on vacation.",
+        "He is afraid Barcelona may not be so fabulous as expected."
+       ]
+      },
+      {
+       "n": 3,
+       "options": [
+        "Rent a car to drive into the city and scenic spots so as to save the expenses on transportation.",
+        "Spend a couple of nights in a glamorous hotel and the rest of the week in inexpensive places.",
+        "Find all-inclusive accommodation to eliminate the need to pay for food and drinks.",
+        "Stay in a hotel away from the coast where the accommodation is less expensive."
+       ]
+      },
+      {
+       "n": 4,
+       "options": [
+        "She is sure to like the cathedral.",
+        "She is a romantic at heart.",
+        "She is no good at logistics.",
+        "She is scared of heights."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 5 to 8 are based on the conversation you have just heard.",
+     "questions": [
+      {
+       "n": 5,
+       "options": [
+        "They often share each other's experiences.",
+        "They enjoy interacting with patients.",
+        "They always do things tricky.",
+        "They are both pharmacists."
+       ]
+      },
+      {
+       "n": 6,
+       "options": [
+        "The doctor ended up admitting his mistake.",
+        "The patient consulted another doctor.",
+        "The patient actually took her advice.",
+        "The doctor double-checked with her."
+       ]
+      },
+      {
+       "n": 7,
+       "options": [
+        "A proposal for applying flu shots more effectively.",
+        "A new medication therapy management program.",
+        "A novel strategy to persuade stubborn patients.",
+        "A therapy for patients with similar conditions."
+       ]
+      },
+      {
+       "n": 8,
+       "options": [
+        "Inability to send text messages.",
+        "Distrust in pharmaceutical experts.",
+        "Medication non-adherence.",
+        "Need for constant reminding."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part II Listening Comprehension (30 minutes)",
+   "name": "Section B",
+   "type": "choice",
+   "directions": "In this section, you will hear two passages. At the end of each passage, you will hear three or four questions. Both the passage and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 9 to 11 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 9,
+       "options": [
+        "Accomplish their goals.",
+        "View things positively.",
+        "Overstate their importance.",
+        "Dominate job interviews."
+       ]
+      },
+      {
+       "n": 10,
+       "options": [
+        "It reflects a strong sense of obligation to others.",
+        "It signifies a universal model of motivation.",
+        "It may differ in various cultures.",
+        "It may have been underestimated."
+       ]
+      },
+      {
+       "n": 11,
+       "options": [
+        "It was under-investigated.",
+        "It was more predictable.",
+        "It was taken for granted.",
+        "It was more subtle."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 12 to 15 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 12,
+       "options": [
+        "It is any incidental happening in plants and animals or ice crystals.",
+        "It is any basic physical or chemical work in designing substances.",
+        "It is any symmetrical and colorful stripes or spots on organisms.",
+        "It is any regularly repeated arrangement of shapes or colors."
+       ]
+      },
+      {
+       "n": 13,
+       "options": [
+        "Materials undergoing certain processes.",
+        "Materials exposed to various natural forces.",
+        "Materials impacted by any change of molecules.",
+        "Materials going through extremely radical transformations."
+       ]
+      },
+      {
+       "n": 14,
+       "options": [
+        "The beauty of molecular clustering.",
+        "The way for appreciating patterns.",
+        "The creation of patterns.",
+        "The factors affecting clusters."
+       ]
+      },
+      {
+       "n": 15,
+       "options": [
+        "A pattern by accident.",
+        "Patterns for specific purposes.",
+        "Patterns with random imperfections.",
+        "A pattern with artificial intervention."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part II Listening Comprehension (30 minutes)",
+   "name": "Section C",
+   "type": "choice",
+   "directions": "In this section, you will hear three recordings of lectures or talks followed by three or four questions. The recordings will be played only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 16 to 18 are based on the recording you have just heard.",
+     "questions": [
+      {
+       "n": 16,
+       "options": [
+        "Eliminating all the old habits at once.",
+        "Making a permanent lifestyle change.",
+        "Realizing all the life goals one has set.",
+        "Improving multiple areas of one's life."
+       ]
+      },
+      {
+       "n": 17,
+       "options": [
+        "They were more likely to implement a particular behavior.",
+        "They were more likely to make plans for their future.",
+        "They tended to be committed to a single goal.",
+        "They tended to focus on one thing at a time."
+       ]
+      },
+      {
+       "n": 18,
+       "options": [
+        "The ability to make the process automatic.",
+        "A practical timetable for implementation.",
+        "A lot of conscious effort to remember to do it.",
+        "Concentration on the benefits it will provide."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 19 to 21 are based on the recording you have just heard.",
+     "questions": [
+      {
+       "n": 19,
+       "options": [
+        "It resembles that of Earth in many inconceivable ways.",
+        "It has a haze much thicker than previously believed.",
+        "It is 333.4 °F cooler than earlier estimates.",
+        "It is far beyond any quick measurements."
+       ]
+      },
+      {
+       "n": 20,
+       "options": [
+        "The accumulation of solid particles in the air.",
+        "The distribution of gases in its atmosphere.",
+        "The clouds of particles reflecting sun rays.",
+        "The aggravated effects of climate change."
+       ]
+      },
+      {
+       "n": 21,
+       "options": [
+        "If spectrums of light can be better detected by telescope.",
+        "If Pluto's hazy atmosphere can be more easily observed.",
+        "If Pluto's hazy atmosphere scatters strong sunlight.",
+        "If the light from the telescope confirms their idea."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 22 to 25 are based on the recording you have just heard.",
+     "questions": [
+      {
+       "n": 22,
+       "options": [
+        "Parents can play a decisive role in cultivating their children's musical talent.",
+        "Children are embarrassed by parents' failure to appreciate their music.",
+        "Parents can mould their 8-to 10-year-old children's music taste.",
+        "Children aged 8 to 10 are old enough to produce poetic lyrics."
+       ]
+      },
+      {
+       "n": 23,
+       "options": [
+        "They start to show their own musical preference.",
+        "They tend to be more influenced by their peers.",
+        "They tend to gravitate away from their homes.",
+        "They are more open to new genres of music."
+       ]
+      },
+      {
+       "n": 24,
+       "options": [
+        "Enabling children to be receptive to music experts' suggestions.",
+        "Helping children develop the ability to manage their emotions.",
+        "Familiarizing children with different schools of music.",
+        "Introducing children to a variety of musical styles."
+       ]
+      },
+      {
+       "n": 25,
+       "options": [
+        "By enhancing children's appreciation of their music.",
+        "By pushing their music hard enough upon children.",
+        "By attending their concerts and live music events with children.",
+        "By introducing their music to children as early as possible."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension (40 minutes)",
+   "name": "Section A",
+   "type": "bank",
+   "directions": "In this section, there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. Please mark the corresponding letter for each item on Answer Sheet 2 with a single line through the centre. You may not use any of the words in the bank more than once.",
+   "paragraphs": [
+    "Most financial crises have plenty in common: they tend to start in the banking sector and involve excessive borrowing, together with an asset bubble. The [[26]] crisis of 2008 was no different, with the asset bubble focused on US real estate. But my research suggests this crisis had another [[27]] cause — that some people in the banking sector were playing or \"gaming\" the system for their own financial gain.",
+    "The game being played had several important features. The first was the deliberate complexity of the financial products at its core. Then there are the [[28]] biases that permeate decision-making at all levels of the banking industry. Banking often attracts people with certain personality [[29]], including those who are overconfident and take excessive risks.",
+    "Such people tend to like complexity for its own sake, but they often do not fully understand the [[30]] of that complexity for the stability of the financial system as a whole. Often they do not care — they are primarily interested in gaming the system to [[31]] their bonuses.",
+    "The next element is risk. There are parts of the banking sector that will always be [[32]] to risk, but many bankers have come to feel immune to its potential impact, because they [[33]] that, however recklessly banks behave, governments will always be there to bail them out.",
+    "Gaming in the banking sector seems virtually impossible to [[34]]. The only effective measure to end it would be to make bankers [[35]] liable for losses, but no government has ever passed such a law, and no single government could do so on its own, since this would immediately cause their entire national banking sector to move wholesale to another jurisdiction."
+   ],
+   "bank": [
+    "behavioural",
+    "eliminate",
+    "fragile",
+    "global",
+    "implications",
+    "maximise",
+    "overlapping",
+    "personally",
+    "presume",
+    "prone",
+    "prototypes",
+    "reassure",
+    "skeptically",
+    "traits",
+    "underlying"
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension (40 minutes)",
+   "name": "Section B",
+   "type": "match",
+   "directions": "In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once. Each paragraph is marked with a letter. Answer the questions by marking the corresponding letter on Answer Sheet 2.",
+   "title": "How do you bring a forest back to life?",
+   "paragraphs": [
+    {
+     "label": "A",
+     "text": "Five hundred years ago, forests covered much of the Iberian peninsula. But that soon changed. Centuries of wars and invasions, agricultural expansion and woodcutting for firewood and shipping wiped out most of the woods and transformed places like Matamorisca, a small village in northern Spain, into degraded landscapes."
+    },
+    {
+     "label": "B",
+     "text": "The region's dry climate and depleted soils would be a recipe for disaster in your average program to replant trees, but for the Amsterdam-based Land Life Company it's an ideal place. \"We typically operate where nature does not come back by itself,\" says Jurrian Ruys, its CEO. \"We go where there are rougher conditions in terms of weather, with rough or very hot summers.\" In Matamorisca, they intervened in 17 barren hectares owned by the regional government and peppered them with their signature device: a biodegradable (可生物降解的) cardboard container they call the cocoon which can hold 25 litres of water underground to aid a seedling's first year. Around 16,000 trees, including oaks, ashes, walnuts, rowans, and whitebeams, were planted in May 2018, and the company reports that 96% of them survived that year's burning hot summer without extra irrigation, a critical milestone for a young tree."
+    },
+    {
+     "label": "C",
+     "text": "\"Does nature return by itself?\" asks Arnout Asjes, Land Life Company's chief technology officer, who oversees a mix of drone (无人机) and satellite imagery, big data analysis, soil enhancement, QR (二维码) tagging and site-specific tree configuration designs. \"Probably, but it can take decades or hundreds of years, so we are speeding things up.\""
+    },
+    {
+     "label": "D",
+     "text": "His company belongs to a global movement of organisations trying to save degraded or deforested areas, ranging from fertile tropical lowlands to dry hills in temperate (温带的) regions. Spurred by global biodiversity loss and climate change, these groups are pushing the boundary of how to revive forest cover. \"It's not a theoretical proposition,\" says Walter Vergara, a forest and climate specialist at the World Resources Institute (WRI). \"It requires the right incentives, the right stakeholders, the right analysis and sufficient capital, but it can happen.\""
+    },
+    {
+     "label": "E",
+     "text": "How these factors come together for a particular project — and whether saving destroyed woods is even possible — depends on what kind of ecosystem you have in mind. Secondary forests in the Amazon are different from Texas pines recovering after wildfires or the Arctic timber woods that cover much of Sweden. Each provides different reasons for reforestation programs and each has particular needs. In the dry conditions around Matamorisca and similar areas in Spain, Land Life Company worries about rapid desertification (沙漠化). As its focus is on restoring an ecosystem, it works with organisations that don't expect their money back."
+    },
+    {
+     "label": "F",
+     "text": "With around 600 hectares replanted around the world since 2015 and another 1,100 planned for this year, the company's drive fits into the Bonn Challenge, a global effort to restore 150 million hectares of the world's deforested and degraded land by 2020. That's an area roughly the size of Iran or Mongolia. By 2030, the goal is to reach 350 million hectares — 20% more land than India. These targets include both the rehabilitation of forested areas that have lost density or look a bit weak (a process known as 'restoration' in forestry jargon) and the recovery of forest cover in areas where it was completely cleared (what's known as 'reforestation')."
+    },
+    {
+     "label": "G",
+     "text": "That global target is broken into smaller pieces and takes shape in Latin America as the 20x20 Initiative, an effort to contribute 20 million hectares to the overall goal by initiating small to medium projects with the political backing of governments. Unlike Land Life Company, this region-wide project makes the economic and business case for reforestation, even though they are after biodiversity conservation. \"You need to bring in private sector money,\" says WRI's Vergara, who leads the initiative, \"and that capital needs to see a return on their investment.\" A study he led predicts Latin America would see an estimated net present value of about $23bn over a 50-year period if it reaches its goal."
+    },
+    {
+     "label": "H",
+     "text": "Money can come from timber sales in sustainably managed forests or from harvesting 'non-wood products' like nuts, oils and fruits from the trees. You can take note of how much carbon dioxide your forest is capturing and sell carbon credits to companies keen to offset their emissions. Or you can even grow the forest hoping that biodiversity will attract ecotourists who'd pay for lodging, birdwatching tours and meals."
+    },
+    {
+     "label": "I",
+     "text": "Still, these backers are not your high-street bank. Money for the 20x20 Initiative comes mostly from financial organisations with triple goals — a modest return on their investment, environmental benefits and social gains — known as impact investors. Take the German fund 12Tree for instance, one of the 20x20 partners. It put $9.5 million into Cuango, a 1,455-hectare property on the Caribbean coast of Panama that combines a commercial cocoa tree plantation with timber extraction from a sustainably managed secondary forest. With their money, they reforested a former cattle ranch, provided high-quality jobs for the surrounding communities and made a return on their investment."
+    },
+    {
+     "label": "J",
+     "text": "Even on land cleared decades ago and currently used by farmers, some crops can coexist with the forest, if you find the right balance. Although not technically reforestation, agroforestry (a system of land use in which harvestable trees or shrubs are grown among or around crops or on pasture land, as a means of preserving or enhancing the productivity of the land) provides an opportunity for small-holder farmers to sustain their livelihoods while adding some forest cover to their farms."
+    },
+    {
+     "label": "K",
+     "text": "A global project called Breedcaf s is studying how trees behave in coffee farms, hoping to find crop varieties that manage to grow under the shade of trees. Coffee grows naturally in such forests, so copying that in farms is taking the crop back to its roots. \"By reintroducing trees in the landscape, we impact positively humidity, rain capture, soil conservation and biodiversity preservation,\" says coffee expert Benoit Bertrand, who leads the project from the French Agricultural Research Centre for International Development. Bertrand is analysing which of dozens of coffee varieties fits better for this system. A similar approach can be applied to land with cocoa, vanilla and fruit trees."
+    },
+    {
+     "label": "L",
+     "text": "Not every piece of land is fit for reforestation. Vergara's partners look for safe investments, and even Land Life Company only runs major projects in what they consider \"low-risk\" countries. \"We tend to avoid large-scale operations in countries in some parts of the Middle East or Africa where the permanence is not secured,\" says Ruys."
+    },
+    {
+     "label": "M",
+     "text": "But in the right location, perhaps all you need is time. In the Central Pacific of Costa Rica, the 330-hectare National Wildlife Refuge Barú looks nothing like the cattle ranch it was before 1987, when Jack Ewing decided to turn this large estate into an ecotourism destination. Instead of intervening, a friend told him to let nature have its way. Barú's former grazing lands are now thriving woods and the property boasts over 150 hectares of secondary forests with no intervention from humans. In the past 10 years, animals such as howling monkeys, scarlet macaws and even migratory cougars have returned to the refuge's land, boosting tourism and revitalising the ecosystem. Ewing, now 75, explains this success using the words his friend chose three decades ago: \"In Costa Rica, when you stop managing the shrubs, the jungle comes back for its revenge.\""
+    }
+   ],
+   "statements": [
+    {
+     "n": 36,
+     "text": "Land Life Company's efforts fit into the global goal to restore millions of hectares of the world's deforested and degraded land."
+    },
+    {
+     "n": 37,
+     "text": "Planting trees or shrubs together with crops can help improve the yield of the land, while offering small-scale farmers a chance to make a living."
+    },
+    {
+     "n": 38,
+     "text": "One reforestation project bases its argument on economic benefits and investment returns."
+    },
+    {
+     "n": 39,
+     "text": "With time, nature may return to its original state without human intervention if the location is appropriate."
+    },
+    {
+     "n": 40,
+     "text": "According to a forest and climate expert, the revival of forest cover can take place under the necessary conditions."
+    },
+    {
+     "n": 41,
+     "text": "One company runs its major operations exclusively in countries where risks are not high."
+    },
+    {
+     "n": 42,
+     "text": "Left alone, nature may take scores of years or even centuries to repair itself."
+    },
+    {
+     "n": 43,
+     "text": "Economic returns can be derived from selling timber and non-wood products as well as carbon credits."
+    },
+    {
+     "n": 44,
+     "text": "A study is under way across the world to look for crops that can grow among trees."
+    },
+    {
+     "n": 45,
+     "text": "Land Life Company's operations are usually located where reforestation is impossible without human intervention."
+    }
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension (40 minutes)",
+   "name": "Section C",
+   "type": "choice",
+   "directions": "There are 2 passages in this section. Each passage is followed by some questions or unfinished statements. For each of them there are four choices marked A), B), C) and D). You should decide on the best choice and mark the corresponding letter on Answer Sheet 2 with a single line through the centre.",
+   "groups": [
+    {
+     "title": "Passage One",
+     "paragraphs": [
+      "What does self-discipline look like at work? Sometimes, it's the ability to resist temptation, such as distractions to avoid a particular task. Other times it's the ability to persist with a task when your energy and motivation seem low. What do you believe about the nature of your own self-discipline? Is it something that runs on internal energy that is spent with use? Or is it something that is bolstered as you apply it and persist?",
+      "Your answer matters, as it determines how much self-discipline you experience. For years, research in psychology pointed to self-control as a resource that is depleted with use and needs to be restored through breaks, rest, or sleep. More recently, however, research points to the importance of mindset. If you view self-discipline as an expendable resource, your willpower tends to fade with use. If you believe that exercising your self-control strengthens and fuels it, that is more likely to be your experience as you resist temptation or push yourself to get something done that is not appealing.",
+      "If you don't already view self-discipline as a force that feeds itself, what might you do? Reflect on times that you had initial difficulty resisting temptation, getting started on something, or sticking with it, but pushed ahead and accomplished the task or met the goal. That's the kind of experience we're talking about with this particular belief about self-discipline, and you've already had such an experience, so you've shown that it's possible. When you feel your willpower and motivation fading, remind yourself of those previous experiences and imagine the same happening now.",
+      "What if your experiences have always seemed to indicate that your self-control diminishes with use, and you need breaks to recharge? There's nothing wrong with that as long as you can afford to take those breaks. If not, remind yourself that not everyone experiences self-discipline as a depletable resource and that your experience might be different if you focus on gathering more energy at this point rather than focusing on how difficult it is to continue or the need for a break.",
+      "Also, if you know someone who is a role model of self-discipline, picture that person in your situation, persisting in the task. Regardless of how you do it, as you push forward to continue to accomplish progress, be sure to mentally reinforce yourself by taking pride in your ability to exert more willpower as you persist.",
+      "The benefits of exerting willpower are cumulative. Your self-discipline is akin to a muscle, and each time you resist temptation or persist in a task despite a lack of motivation, you strengthen that muscle, leading to less effort and resistance in similar instances in the future."
+     ],
+     "questions": [
+      {
+       "n": 46,
+       "options": [
+        "Their belief about the nature of motivation.",
+        "Their use of internal energy for persisting.",
+        "Their conception of self-discipline.",
+        "Their ability to resist temptation."
+       ],
+       "stem": "What plays an important role in determining how much self-discipline people experience?"
+      },
+      {
+       "n": 47,
+       "options": [
+        "It is a depletable resource.",
+        "It is bolstered through use.",
+        "Its strength is dependent on willpower.",
+        "Its exercise is an exhausting experience."
+       ],
+       "stem": "What did years of research suggest about self-discipline?"
+      },
+      {
+       "n": 48,
+       "options": [
+        "To show the urgency of abandoning outdated beliefs about self-control.",
+        "To show the feasibility of viewing self-discipline as a force fueling itself.",
+        "To support the argument for persistence in workplace accomplishments.",
+        "To add evidence to consistent findings in previous psychological research."
+       ],
+       "stem": "Why does the author ask us to reflect on our experience of meeting the goal despite initial difficulty?"
+      },
+      {
+       "n": 49,
+       "options": [
+        "Figure out what has gone wrong.",
+        "Focus on the hardest part of our task.",
+        "Exert ourselves to go on with the work.",
+        "Gather new energy from people around."
+       ],
+       "stem": "What are we advised to do if we cannot afford to take breaks to recharge?"
+      },
+      {
+       "n": 50,
+       "options": [
+        "The more it is applied, the more resistance it encounters.",
+        "The more it is exerted, the more proud we become.",
+        "The more it is enforced, the stronger our willpower proves.",
+        "The more it is exercised, the more strengthened it gets."
+       ],
+       "stem": "Why does the author compare our self-discipline to a muscle?"
+      }
+     ]
+    },
+    {
+     "title": "Passage Two",
+     "paragraphs": [
+      "Smartphones have always posed challenges for parents of teens. From social media apps to excessive screen time, the digital world is as threatening as the physical.",
+      "A new study shows that about half of parents of teens are worried about their teens being exposed to explicit content online. This is a valid concern, of course. But there are ways to alleviate the spread of explicit content, from changing the settings in their kids' phone to monitoring such content with apps like Bark. Just as alarming, if not more so, is that the amount of time teens spend on social media can lead to anxiety and depression.",
+      "Excessive screen time has detrimental effects, for a lot of obvious reasons. Constant media consumption inhibits healthy activities associated with childhood, like spending time outside, exercising, talking to friends and family. If it interferes with sleep, that's even worse.",
+      "Ample research shows too much smartphone use produces significant anxiety, depression, and feelings of isolation in teens. Teens log on to social media or spend time online trying to make connections, but end up feeling more alone and sad than ever. Faceless communication not only produces feelings of isolation and loneliness but increases instances of online bullying and susceptibility to criminal conducts.",
+      "Though I've banned most social media, I've still battled smartphone time with my own kids. A lot of the time I wish I could throw my kids' smartphones into the nearest lake. The convenience of communication — when they need a ride home from school after practice, for instance — often feels like it isn't worth the battle to keep their screen time low and productive, and continue to encourage \"real-life\" activities outside and with friends and family. I understand the addiction and often tell them I'm not sure how I would have handled having a smartphone as a teen. As an adult, I too, struggle with overuse. In a recent TV interview to promote a new film about a mother and daughter navigating social media use, actress Kate Winslet expressed her view on teens and social media — and her concern mirrors the trends. \"I do definitely feel that the world of social media is frightening to parents because we don't really know what's there,\" she said. \"We don't know how our children are using it. We don't know the effects that it's really having on them.\"",
+      "I don't think the U. S. government should regulate social media and teen smartphone use, but it is a vital topic for parents to understand and take seriously. Unfortunately, now, parents don't just have to worry about real-world dangers, but all the ones sneaking online and the effects they have on teenagers and their mental health."
+     ],
+     "questions": [
+      {
+       "n": 51,
+       "options": [
+        "They set their kids' phones to filter out obscene information.",
+        "They try to alleviate the spread of explicit scenes on the internet.",
+        "They feel concerned about their kids' viewing indecent content online.",
+        "They strive to prevent their kids from spending excessive screen time."
+       ],
+       "stem": "What do around half of parents of teens do according to a new study?"
+      },
+      {
+       "n": 52,
+       "options": [
+        "It allows them less time for meaningful activities.",
+        "It renders them more lonely and low-spirited.",
+        "It gives them less time for social interactions.",
+        "It makes them more alert to online bullying."
+       ],
+       "stem": "What does a large amount of research show about teens' excessive smartphone use?"
+      },
+      {
+       "n": 53,
+       "options": [
+        "They are deep-seated.",
+        "They are instinctive.",
+        "They are unique.",
+        "They are mixed."
+       ],
+       "stem": "What do we learn about the author's feelings regarding smartphones and screen time?"
+      },
+      {
+       "n": 54,
+       "options": [
+        "It poses increasing challenges to parents trying to ensure internet safety.",
+        "It scares parents because they don't really know what is on the screen.",
+        "It is a sphere difficult for parents and their teens to navigate.",
+        "It is full of uncertainties frightful to parents and their teens."
+       ],
+       "stem": "What does actress Kate Winslet think about the world of social media?"
+      },
+      {
+       "n": 55,
+       "options": [
+        "Parents have to be concerned about dangers to their teens in both real and virtual worlds.",
+        "Governments have responsibilities in regulating social media and teens' smartphone use.",
+        "Parents should provide guidance to their teens in the use of social media.",
+        "Online dangers are as serious as problems with teenagers' mental health."
+       ],
+       "stem": "What message does the author try to convey in the last paragraph?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part IV Translation (30 minutes)",
+   "name": "",
+   "type": "translation",
+   "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2.",
+   "paragraphs": [
+    "电子商务的蓬勃发展正在深刻改变中国农村的面貌。随着互联网和物流网络快速向农村延伸，越来越多的农村居民通过电子商务平台将农产品直接销售给城市消费者。近年来，直播带货 (live-streaming commerce) 使城市消费者能够与卖家实时互动，已成为促进农村发展的一种新方式。电子商务打破了城乡之间的信息壁垒，拓宽了农产品销售渠道，帮助农村居民增收致富。数字经济与乡村振兴的深度融合，正在为中国农村发展注入前所未有的活力。"
+   ]
+  }
+ ],
+ "key": "AABDDCBCACDDACABACBBDCBDCDOANEFJIBHFJGMDLCHKBCABCDCBDBA",
+ "notes": {
+  "26": "impose (J) — 句意： “ 提案对租金上涨施加限制 ” ，impose caps on 固定搭配， 意为 “ 对 … 施加上限 ” 。",
+  "27": "exemption (I) — 前文提到 “ 例外情况 ” ，包括老旧建筑、公共住房等， exemption 表示 “ 豁免、例外 ” 。",
+  "28": "correlated (D) — 每增加 100 美元租金与流浪者增加 9% 相关，be correlated to 表示 “ 与 … 相关 ” 。",
+  "29": "constituent (C) — 代表讲述了一位 “ 选民 ” 挣扎生活的故事，constituent 意为 “ 选民、居民 ” 。",
+  "30": "devastating (F) — “ 两位数的租金增长带来的毁灭性影响 ” ，devastating 表示 “ 毁灭性的、严重的 ” 。",
+  "31": "notified (K) — “ 房东通知他租金上涨 ” ，notify 意为 “ 通知 ” 。",
+  "32": "asserts (B) — 协会 “ 坚称 ” 政策无法解决问题，assert 表示 “ 断言、声称 ” 。",
+  "33": "enacted (G) — “ 租金控制政策在实施的任何地方都失败了 ” ，enact 表示 “ 颁 布、实施 ” 。",
+  "34": "anywhere (A) — “ 没有解决任何一个住房问题 ” ，not…anywhere 表示 “ 在任何 地方都没有 ” 。",
+  "35": "determining (E) — “ 在决定谁获得租金控制利益时 ” ，determine 表示 “ 决定 ” 。",
+  "36": "D — Pieter Levels 创建了聊天系统满足数字游民对实用信息的需求（ D 段）。",
+  "37": "I — Adams 指出数字游民并没有人们想象的那么多自由（ I 段）。",
+  "38": "F — 与游客不同，数字游民去国外是带着工作任务去的（ F 段）。",
+  "39": "K — 数字游民相信这种生活方式拓宽了视野，能做得更好（ K 段）。",
+  "40": "B — 普通游客到达城市后第一件事是上网查找旅游景点信息（ B 段）。",
+  "41": "H — Bryce Adams 认为在国外城市的生活也有缺点（ H 段）。",
+  "42": "L — 旅行有助于保持灵感（ L 段）。",
+  "43": "E — 数字游民的数量正在快速增长（ E 段）。",
+  "44": "M — Levels 说游民生活不仅改变了他的公民观念，也改变了朋友选择（ M 段）。",
+  "45": "J — 与当地人的互动比参观国家博物馆提供更多文化信息（ J 段）。",
+  "46": "A — 第一段： “…it is neither practical nor desirable to imagine a world in which teenagers are prevented from accessing…” 即禁止孩子使用社交媒体既不现 实也不可取。",
+  "47": "B — 第二段： “…depression…is closely correlated to time spent on social media” 即花在社交媒体上的时间与抑郁密切相关。",
+  "48": "C — 第三段： “…the importance of the finding…should not be underestimated.” 即不应低估这一发现的重要性。",
+  "49": "D — 第四段： “This idea has the virtue of simplicity, though some experts question its effects and call for a greater degree of differentiation” 即专家认为过 于简单化，可能无法达到预期效果。",
+  "50": "A — 末段： “…with increasing pressure to succeed in education and in life… often cited as a source of unhappiness…” 即资源不足的学校和医疗服务也是因素 之一。",
+  "51": "C — 第二段： “But, instead of reining in…the problem has only gotten worse.” 即未达到预期效果。",
+  "52": "B — 第四段： “…the main reasons…were the growth of the tax avoidance industry…and U.S. policies…” 即美国的宽松政策是主因之一。",
+  "53": "A — 第六段： “…trying to solve this problem by cutting or scrapping corporate taxes in a very gradual way.” 即逐步降低企业所得税。",
+  "54": "D — 第七段： “If countries could agree on a global minimum corporate tax rate…the problem would largely disappear” 即实施全球最低公司税率。",
+  "55": "D — 第八段提到美国未能通过立法，其他国家的进展也可能受影响，故问题 可能继续存在。"
+ },
+ "reference": {
+  "writing": [
+   "Faced with growing globalization, students realize that a deep\nunderstanding of traditional Chinese culture helps cultivate cultural\nconfidence. Indeed, in an era where Western influences are pervasive,\nknowing our own cultural roots becomes a source of inner strength and\nidentity. For example, studying ancient Chinese philosophy like\nConfucianism and Taoism not only provides moral guidance but also offers a\nunique perspective on life and society. Traditional arts, such as calligraphy\nand Peking opera, embody the aesthetic wisdom of our ancestors and have\ngained international recognition. Personally, learning about traditional\nfestivals like the Spring Festival has deepened my appreciation for family\nvalues and community bonds. This cultural awareness not only enhances my\nself-esteem but also enables me to engage in cross-cultural dialogue with\nconfidence and pride. Therefore, I believe that a solid foundation in\ntraditional culture is essential for every student to navigate the globalized\nworld with a strong sense of belonging and purpose."
+  ],
+  "translation": [
+   "Technological advances have led to rapid development in China's healthcare\nsector. In recent years, telemedicine has made quality medical resources\naccessible to more patients. Medical experts can provide consultations via\nvideo to patients in remote areas and guide local doctors in formulating and\nimplementing treatment plans. AI-assisted diagnostic systems help doctors\nidentify early symptoms in patients and improve diagnostic accuracy. The\nwidespread use of electronic health records enables doctors to quickly\nunderstand patients' medical histories and avoid redundant examinations.\nOnline medical consultation platforms have greatly facilitated patient access\nto healthcare. The deep integration of technology and medicine better\nmeets the health needs of the people."
+  ]
+ },
+ "source": {}
+}

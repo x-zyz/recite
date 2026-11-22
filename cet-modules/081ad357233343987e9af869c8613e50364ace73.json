@@ -1,0 +1,617 @@
+{
+ "schema": 1,
+ "paper": "四级真题/2016.06/真题PDF/2016年6月大学英语四级第1套真题.pdf",
+ "blob": "081ad357233343987e9af869c8613e50364ace73",
+ "level": "4",
+ "date": "2016.06",
+ "title": "2016 年 6 月大学英语四级真题(第 1 套)",
+ "minutes": 125,
+ "audio": "",
+ "sections": [
+  {
+   "part": "Part I Writing",
+   "name": "",
+   "type": "writing",
+   "directions": "For this part, you are allowed 30 minutes to write a letter to express your thanks to your parents or any family members upon making memorable achievement. You should write at least 120 words but no more than 180 words."
+  },
+  {
+   "part": "Part II Listening Comprehension",
+   "name": "Section A",
+   "type": "choice",
+   "directions": "In this section, you will hear three news reports. At the end of each news report, you will hear two or three questions. Both the news report and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 1 and 2 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 1,
+       "options": [
+        "The International Labor Organization's key objective.",
+        "The basic social protection for the most vulnerable.",
+        "Rising unemployment worldwide.",
+        "Global economic recovery."
+       ]
+      },
+      {
+       "n": 2,
+       "options": [
+        "Many countries have not taken measures to create enough jobs.",
+        "Few countries know how to address the current economic crisis.",
+        "Few countries have realized the seriousness of the current crisis.",
+        "Many countries need support to improve their people's livelihood."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 3 and 4 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 3,
+       "options": [
+        "Serve standardized food nationwide.",
+        "Put calorie information on the menu.",
+        "Increase protein content in the food.",
+        "Offer convenient food to customers."
+       ]
+      },
+      {
+       "n": 4,
+       "options": [
+        "They will be fined.",
+        "They will be closed.",
+        "They will get a warning.",
+        "They will lose customers."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 5 to 7 are based on the news report you have just heard.",
+     "questions": [
+      {
+       "n": 5,
+       "options": [
+        "Inability to implement their business plans.",
+        "Inability to keep turning out novel products.",
+        "Lack of a successful business model of their own.",
+        "Failure to integrate innovation into their business."
+       ]
+      },
+      {
+       "n": 6,
+       "options": [
+        "It is the secret to business success.",
+        "It is the creation of something new.",
+        "It is a magic tool to bring big rewards.",
+        "It is an essential part of business culture."
+       ]
+      },
+      {
+       "n": 7,
+       "options": [
+        "Its hardworking employees.",
+        "Its flexible promotion strategy.",
+        "Its innovation culture.",
+        "Its willingness to make investments."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part II Listening Comprehension",
+   "name": "Section B",
+   "type": "choice",
+   "directions": "In this section, you will hear two long conversations. At the end of each conversations you will hear four questions. Both the conversations and the question-s will be spoken only once. After you hear a question. You must choose the best answer from the four choices marked A), B), C)and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 8 to 11 are based on the conversation you have just heard.",
+     "questions": [
+      {
+       "n": 8,
+       "options": [
+        "He's got addicted to technology.",
+        "He is not very good at socializing.",
+        "He is crazy about text-messaging.",
+        "He does not talk long on the phone."
+       ]
+      },
+      {
+       "n": 9,
+       "options": [
+        "Talk big.",
+        "Talk at length.",
+        "Gossip a lot.",
+        "Forget herself."
+       ]
+      },
+      {
+       "n": 10,
+       "options": [
+        "He thought it was cool.",
+        "He needed the practice.",
+        "He wanted to stay connected with them.",
+        "He had an urgent message to send."
+       ]
+      },
+      {
+       "n": 11,
+       "options": [
+        "It poses a challenge to seniors.",
+        "It saves both time and money.",
+        "It is childish and unprofessional.",
+        "It is cool and convenient."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 12 to 15 are based on the conversation you have just heard.",
+     "questions": [
+      {
+       "n": 12,
+       "options": [
+        "He wants to change his job assignment.",
+        "He is unhappy with his department manager.",
+        "He thinks he deserves extra pay for overtime.",
+        "He is often singled out for criticism by his boss."
+       ]
+      },
+      {
+       "n": 13,
+       "options": [
+        "His workload was much too heavy.",
+        "His immediate boss did not trust him.",
+        "His colleagues often refused to cooperate.",
+        "His salary was too low for his responsibility."
+       ]
+      },
+      {
+       "n": 14,
+       "options": [
+        "He never knows how to refuse.",
+        "He is always ready to help others.",
+        "His boss has a lot of trust in him.",
+        "His boss has no sense of fairness."
+       ]
+      },
+      {
+       "n": 15,
+       "options": [
+        "Put all his complaints in writing.",
+        "Wait and see what happens next.",
+        "Learn to say no when necessary.",
+        "Talk to his boss in person first."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part II Listening Comprehension",
+   "name": "Section C",
+   "type": "choice",
+   "directions": "In this section, you will hear three passages. At the end of each passage, you will hear three or four questions. Both the passage and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C)and D).Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 16 to 18 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 16,
+       "options": [
+        "The importance of sleep to a healthy life.",
+        "Reasons for Americans' decline in sleep.",
+        "Some tips to improve the quality of sleep.",
+        "Diseases associated with lack of sleep."
+       ]
+      },
+      {
+       "n": 17,
+       "options": [
+        "They are more health-conscious.",
+        "They are changing their living habits.",
+        "They get less and less sleep.",
+        "They know the dangers of lack of sleep."
+       ]
+      },
+      {
+       "n": 18,
+       "options": [
+        "Their weight will go down.",
+        "Their mind function will deteriorate.",
+        "Their work efficiency will decrease.",
+        "Their blood pressure will rise."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 19 to 21 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 19,
+       "options": [
+        "How much you can afford to pay.",
+        "What course you are going to choose.",
+        "Which university you are going to apply to.",
+        "When you are going to submit your application."
+       ]
+      },
+      {
+       "n": 20,
+       "options": [
+        "The list of courses studied.",
+        "The full record of scores.",
+        "The references from teachers.",
+        "The personal statement."
+       ]
+      },
+      {
+       "n": 21,
+       "options": [
+        "Specify what they would like to do after graduation.",
+        "Describe in detail how much they would enjoy studying.",
+        "Indicate they have reflected and thought about the subject.",
+        "Emphasize that they admire the professors in the university."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 22 to 25 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 22,
+       "options": [
+        "It was equipped with rubber tyres.",
+        "It was built in the late 19th century.",
+        "It was purchased by the Royal family.",
+        "It was designed by an English engineer."
+       ]
+      },
+      {
+       "n": 23,
+       "options": [
+        "They consumed lots of petrol.",
+        "They took two passengers only.",
+        "They were difficult to drive.",
+        "They often broke down."
+       ]
+      },
+      {
+       "n": 24,
+       "options": [
+        "They were produced on the assembly line.",
+        "They were built with less costly materials.",
+        "They were modeled after British cars.",
+        "They were made for ordinary use."
+       ]
+      },
+      {
+       "n": 25,
+       "options": [
+        "It made news all over the world.",
+        "It was built for the Royal family.",
+        "It marked a new era in motor travel.",
+        "It attracted large numbers of motorists."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension",
+   "name": "Section A",
+   "type": "bank",
+   "directions": "In this section, there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. Please mark the corresponding letter for each item on Answer Sheet 2 with a single line through the centre. You may not use any of the words in the bank more than once.",
+   "paragraphs": [
+    "Physical activity does the body good, and there's growing evidence that it helps the brain too. Researchers in the Netherlands report that children who get more exercise, whether at school or on their own, [[26]] to have higher GPAs and better scores on standardized tests. In a [[27]] of 14 studies that looked at physical activity and academic [[28]] , investigators found that the more children moved, the better their grades were in school, [[29]] in the basic subjects of math, English and reading.",
+    "The data will certainly fuel the ongoing debate over whether physical education classes should be cut as schools struggle to [[30]] on smaller budgets. The arguments against physical education have included concerns that gym time may be taking away from study time. With standardized test scores in the U.S. [[31]] in recent years, some administrators believe students need to spend more time in the classroom instead of on the playground. But as these findings show, exercise and academics may not be [[32]] exclusive. Physical activity can improve blood [[33]] to the brain, fueling memory, attention and creativity, which are [[34]] to learning. And exercise releases hormones that can improve [[35]] and relieve stress, which can also help learning. So while it may seem as if kids are just exercising their bodies when they're running around, they may actually be exercising their brains as well."
+   ],
+   "bank": [
+    "attendance",
+    "consequently",
+    "current",
+    "depressing",
+    "dropping",
+    "essential",
+    "feasible",
+    "flow",
+    "mood",
+    "mutually",
+    "particularly",
+    "performance",
+    "review",
+    "survive",
+    "tend"
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension",
+   "name": "Section B",
+   "type": "match",
+   "directions": "In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once. Each paragraph is marked with a letter. Answer the questions by marking the corresponding letter on Answer Sheet 2.",
+   "title": "Finding the Right Home—and Contentment, Too",
+   "paragraphs": [
+    {
+     "label": "A",
+     "text": "When your elderly relative needs to enter some sort of long-term care facility—a moment few parents or children approach without fear—what you would like is to have everything made clear."
+    },
+    {
+     "label": "B",
+     "text": "Does assisted living really mark a great improvement over a nursing home, or has the industry simply hired better interior designers? Are nursing homes as bad as people fear, or is that an out-moded stereotype(固定看法)? Can doing one's homework really steer families to the best places? It is genuinely hard to know."
+    },
+    {
+     "label": "C",
+     "text": "I am about to make things more complicated by suggesting that what kind of facility an older person lives in may matter less than we have assumed. And that the characteristics adult children look for when they begin the search are not necessarily the things that make a difference to the people who are going to move in. I am not talking about the quality of care, let me hastily add. Nobody flourishes in a gloomy environment with irresponsible staff and a poor safety record. But an accumulating body of research indicates that some distinctions between one type of elder care and another have little real bearing on how well residents do."
+    },
+    {
+     "label": "D",
+     "text": "The most recent of these studies, published in The journal of Applied Gerontology, surveyed 150 Connecticut residents of assisted living, nursing homes and smaller residential care homes(known in some states as board and care homes or adult care homes). Researchers from the University of Connecticut Health Center asked the residents a large number of questions about their quality of life, emotional well-being and social interaction, as well as about the quality of the facilities."
+    },
+    {
+     "label": "E",
+     "text": "“We thought we would see differences based on the housing types,” said the lead author of the study, Julie Robison, an associate professor of medicine at the university. A reasonable assumption—don't families struggle to avoid nursing homes and suffer real guilt if they can't?"
+    },
+    {
+     "label": "F",
+     "text": "In the initial results, assisted living residents did paint the most positive picture. They were less likely to report symptoms of depression than those in the other facilities, for instance, and less likely to be bored or lonely. They scored higher on social interaction."
+    },
+    {
+     "label": "G",
+     "text": "But when the researchers plugged in a number of other variables, such differences disappeared. It is not the housing type, they found, that creates differences in residents' responses. “It is the characteristics of the specific environment they are in, combined with their own personal characteristics—how healthy they feel they are, their age and marital status,” Dr. Robison explained. Whether residents felt involved in the decision to move and how long they had lived there also proved significant."
+    },
+    {
+     "label": "H",
+     "text": "An elderly person who describes herself as in poor health, therefore, might be no less depressed in assisted living(even if her children preferred it) than in a nursing home. A person who had input into where he would move and has had time to adapt to it might do as well in a nursing home as in a small residential care home, other factors being equal. It is an interaction between the person and the place, not the sort of place in itself, that leads to better or worse experiences. “You can't just say, 'Let's put this person in a residential care home instead of a nursing home—she will be much better off,'” Dr. Robison said. What matters, she added, “is a combination of what people bring in with them, and what they find there.”"
+    },
+    {
+     "label": "I",
+     "text": "Such findings, which run counter to common sense, have surfaced before. In a multi-state study of assisted living, for instance, University of North Carolina researchers found that a host of variables—the facility's type, size or age；whether a chain owned it；how attractive the neighborhood was—had no significant relationship to how the residents fared in terms of illness, mental decline, hospitalizations or mortality. What mattered most was the residents' physical health and mental status. What people were like when they came in had greater consequence than what happened once they were there."
+    },
+    {
+     "label": "J",
+     "text": "As I was considering all this, a press release from a respected research firm crossed my desk, announcing that the five-star rating system that Medicare developed in 2008 to help families compare nursing home quality also has little relationship to how satisfied its residents or their family members are. As a matter of fact, consumers expressed higher satisfaction with the one-star facilities, the lowest rated, than with the five-star ones.(More on this study and the star ratings will appear in a subsequent post.)"
+    },
+    {
+     "label": "K",
+     "text": "Before we collectively tear our hair out—how are we supposed to find our way in a landscape this confusing?—here is a thought from Dr. Philip Sloane, a geriatrician(老年病学专家)at the University of North Carolina:“In a way, that could be liberating for families.”"
+    },
+    {
+     "label": "L",
+     "text": "Of course, sons and daughters want to visit the facilities, talk to the administrators and residents and other families, and do everything possible to fulfill their duties. But perhaps they don't have to turn themselves into private investigators or Congressional subcommittees. “Families can look a bit more for where the residents are going to be happy,” Dr. Sloane said. And involving the future resident in the process can be very important."
+    },
+    {
+     "label": "M",
+     "text": "We all have our own ideas about what would bring our parents happiness. They have their ideas, too. A friend recently took her mother to visit an expensive assisted living/nursing home near my town. I have seen this place—it is elegant, inside and out. But nobody greeted the daughter and mother when they arrived, though the visit had been planned；nobody introduced them to the other residents. When they had lunch in the dining room, they sat alone at a table."
+    },
+    {
+     "label": "N",
+     "text": "The daughter feared her mother would be ignored there, and so she decided to move her into a more welcoming facility. Based on what is emerging from some of this research, that might have been as rational a way as any to reach a decision."
+    }
+   ],
+   "statements": [
+    {
+     "n": 36,
+     "text": "Many people feel guilty when they cannot find a place other than a nursing home for their parents."
+    },
+    {
+     "n": 37,
+     "text": "Though it helps for children to investigate care facilities, involving their parents in the decision-making process may prove very important."
+    },
+    {
+     "n": 38,
+     "text": "It is really difficult to tell if assisted living is better than a nursing home."
+    },
+    {
+     "n": 39,
+     "text": "How a resident feels depends on an interaction between themselves and the care facility they live in."
+    },
+    {
+     "n": 40,
+     "text": "The author thinks her friend made a rational decision in choosing a more hospitable place over an apparently elegant assisted living home."
+    },
+    {
+     "n": 41,
+     "text": "The system Medicare developed to rate nursing home quality is of little help to finding a satisfactory place."
+    },
+    {
+     "n": 42,
+     "text": "At first the researchers of the most recent study found residents in assisted living facilities gave higher scores on social interaction."
+    },
+    {
+     "n": 43,
+     "text": "What kind of care facility old people live in may be less important than we think."
+    },
+    {
+     "n": 44,
+     "text": "The findings of the latest research were similar to an earlier multi-state study of assisted living."
+    },
+    {
+     "n": 45,
+     "text": "A resident's satisfaction with a care facility has much to do with whether they had participated in the decision to move in and how long they had stayed there."
+    }
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension",
+   "name": "Section C",
+   "type": "choice",
+   "directions": "There are 2 passages in this section. Each passage is followed by some questions or unfinished statements. For each of them there are four choices marked A), B), C) and D). You should decide on the best choice and mark the corresponding letter on Answer Sheet 2 with a single line through the centre.",
+   "groups": [
+    {
+     "title": "Passage One",
+     "paragraphs": [
+      "As Artificial Intelligence (AI) becomes increasingly sophisticated, there are growing concerns that robots could become a threat. This danger can be avoided, according to computer science professor Stuart Russell, if we figure out how to turn human values into a programmable code.",
+      "Russell argues that as robots take on more complicated tasks, it's necessary to translate our morals into AI language.",
+      "For example, if a robot does chores around the house, you wouldn't want it to put the pet cat in the oven to make dinner for the hungry children. “You would want that robot preloaded with a good set of values,” said Russell.",
+      "Some robots are already programmed with basic human values. For example, mobile robots have been programmed to keep a comfortable distance from humans. Obviously there are cultural differences, but if you were talking to another person and they came up close in your personal space, you wouldn't think that's the kind of thing a properly brought-up person would do. It will be possible to create more sophisticated moral machines, if only we can find a way to set out human values as clear rules.",
+      "Robots could also learn values from drawing patterns from large sets of data on human behavior. They are dangerous only if programmers are careless.",
+      "The biggest concern with robots going against human values is that human beings fail to do sufficient testing and they've produced a system that will break some kind of taboo(禁忌). One simple check would be to program a robot to check the correct course of action with a human when presented with an unusual situation.",
+      "If the robot is unsure whether an animal is suitable for the microwave, it has the opportunity to stop, send out beeps(嘟嘟声), and ask for directions from a human. If we humans aren't quite sure about a decision, we go and ask somebody else.",
+      "The most difficult step in programming values will be deciding exactly what we believe in moral, and how to create a set of ethical rules. But if we come up with an answer, robots could be good for humanity."
+     ],
+     "questions": [
+      {
+       "n": 46,
+       "options": [
+        "It may constitute a challenge to computer programmers.",
+        "It accompanies all machinery involving high technology.",
+        "It can be avoided if human values are translated into their language.",
+        "It has become an inevitable peril as technology gets more sophisticated."
+       ],
+       "stem": "What does the author say about the threat of robots?"
+      },
+      {
+       "n": 47,
+       "options": [
+        "They are aggressive.",
+        "They are outgoing.",
+        "They are ignorant.",
+        "They are ill-bred."
+       ],
+       "stem": "What would we think of a person who invades our personal space according to the author?"
+      },
+      {
+       "n": 48,
+       "options": [
+        "By interacting with humans in everyday life situations.",
+        "By following the daily routines of civilized human beings.",
+        "By picking up patterns from massive data on human behavior.",
+        "By imitating the behavior of property brought-up human beings."
+       ],
+       "stem": "How do robots learn human values?"
+      },
+      {
+       "n": 49,
+       "options": [
+        "Keep a distance from possible dangers.",
+        "Stop to seek advice from a human being.",
+        "Trigger its built-in alarm system at once.",
+        "Do sufficient testing before taking action."
+       ],
+       "stem": "What will a well-programmed robot do when facing an unusual situation?"
+      },
+      {
+       "n": 50,
+       "options": [
+        "Determine what is moral and ethical.",
+        "Design some large-scale experiments.",
+        "Set rules for man-machine interaction.",
+        "Develop a more sophisticated program."
+       ],
+       "stem": "What is most difficult to do when we turn human values into a programmable code?"
+      }
+     ]
+    },
+    {
+     "title": "Passage Two",
+     "paragraphs": [
+      "Why do some people live to be older than others? You know the standard explanations: keeping a moderate diet, engaging in regular exercise, etc. But what effect does your personality have on your longevity(长寿)?Do some kinds of personalities lead to longer lives? A new study in the Journal of the American Geriatrics Society looked at this question by examining the personality characteristics of 246 children of people who had lived to be at least 100.",
+      "The study shows that those living the longest are more outgoing, more active and less neurotic (神经质的) than other people. Long-living women are also more likely to be sympathetic and cooperative than women with a normal life span. These findings are in agreement with what you would expect from the evolutionary theory: those who like to make friends and help others can gather enough resources to make it through tough times.",
+      "Interestingly, however, other characteristics that you might consider advantageous had no impact on whether study participants were likely to live longer. Those who were more self-disciplined, for instance, were no more likely to live to be very old. Also, being open to new ideas had no relationship to long life, which might explain all those bad-tempered old people who are fixed in their ways.",
+      "Whether you can successfully change your personality as an adult is the subject of a longstanding psychological debate. But the new paper suggests that if you want long life, you should strive to be as outgoing as possible.",
+      "Unfortunately, another recent study shows that your mother's personality may also help determine your longevity. That study looked at nearly 28,000 Norwegian mothers and found that those moms who were more anxious, depressed and angry were more likely to feed their kids unhealthy diets. Patterns of childhood eating can be hard to break when we're adults, which may mean that kids of depressed moms end up dying younger.",
+      "Personality isn't destiny(命运), and everyone knows that individuals can learn to change. But both studies show that long life isn't just a matter of your physical health but of your mental health."
+     ],
+     "questions": [
+      {
+       "n": 51,
+       "options": [
+        "to see whether people's personality affects their life span",
+        "to find out if one's lifestyle has any effect on their health",
+        "to investigate the role of exercise in living a long life",
+        "to examine all the factors contributing to longevity"
+       ],
+       "stem": "The aim of the study in the Journal of the American Geriatrics Society is____."
+      },
+      {
+       "n": 52,
+       "options": [
+        "They have a good understanding of evolution.",
+        "They are better at negotiating an agreement.",
+        "They generally appear more resourceful.",
+        "They are more likely to get over hardship."
+       ],
+       "stem": "What does the author imply about outgoing and sympathetic people?"
+      },
+      {
+       "n": 53,
+       "options": [
+        "Easy-going people can also live a relatively long life.",
+        "Personality characteristics that prove advantageous actually vary with times.",
+        "Such personality characteristics as self-discipline have no effect on longevity.",
+        "Readiness to accept new ideas helps one enjoy longevity."
+       ],
+       "stem": "What finding of the study might prove somewhat out of our expectation?"
+      },
+      {
+       "n": 54,
+       "options": [
+        "Children's personality characteristics are invariably determined by their mothers.",
+        "People with unhealthy eating habits are likely to die sooner.",
+        "Mothers' influence on children may last longer than fathers'.",
+        "Mothers' negative personality characteristics may affect their children's life spans."
+       ],
+       "stem": "What does the recent study of Norwegian mothers show?"
+      },
+      {
+       "n": 55,
+       "options": [
+        "Anxiety and depression more often than not cut short one's life span.",
+        "Longevity results from a combination of mental and physical health.",
+        "Personality plays a decisive role in how healthy one is.",
+        "Health is in large part related to one's lifestyle."
+       ],
+       "stem": "What can we learn from the findings of the two new studies?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part IV Translation",
+   "name": "",
+   "type": "translation",
+   "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2.",
+   "paragraphs": [
+    "功夫(Kong Fu) 是中国武术(martial arts)的俗称。中国武术的起源可以追溯到自卫的需要，狩猎活动以及古代中国的军士训练。它是中国传统体育运动的一种，年轻人和老年人都练。它已逐渐演变成了中国文化的独特元素。作为中国的国宝，武术有上百种不同的风格，是世界上练得最多的武术形式。有些风格模仿了动物的动作，还有一些则受到了中国哲学思想，神话和传说的启发。"
+   ]
+  }
+ ],
+ "key": "CABADBCDBACBACDACDBDCBDACOMLKNEJHFIELBHNJFCIGCDCBAADCDB",
+ "notes": {
+  "31": "[参考答案]E [解题点拨]分析该句的句子结构可知,该句考査的是 with 的;g 合结构.with sb./slh. doing (sth.), 是 固定用法，意为“随着……”，所以空格处应为动名同。由后一句话“一些管理人员认 为学生需要花更多 的时间在教室而不是在操场上”可知，近些年美国学生在标准化考试中 的成绩下降了，空格处应填 dropping,意为“下降”，故答案选 E。备选项中 D)depressing(压 抑的，使人沮丧的）虽为动名词，但词意 不合适，故排除。",
+  "41": "[参考答案]J [解题点拨]题干大意:国家老年人医疗保险制度规定的用于评价养老院质量的体系对找到一 家令人 满意的护理机构帮助不大。由题干中的“the system Medicare deve 丨 opetl to rate nursing home quality” 可以 定位到文中 J 段第一句话。该句提到“为帮助老年人的家人评 价养老院的服务质量,2008 年国家老年 人医疗保险制度规定了一个五星级评价体系，但该体 系与老年人或其家属的满意度关系不大”，与题干相吻合。",
+  "27": "[参考答案]M [解题点拨]分析该句的句子结构可知，空格前为不定冠词 a，故空格处应为--个以辅音音素开 头的单 数名词。该句的大意是通过回顾过去做的研究，研究人员发现孩子锻炼越多，他们 的考试分数就越高。 备选项中只有 review 有“回顾”的意思，故答案选 M。备选项中 H)flow(流动）虽然也为辅音音素开头的单数名词,但词意不合适，故排除。",
+  "28": "[参考答案]L [解题点拨]分析该句的句子结构可知,and 通常连接两个并列结构，and 之前为 adj. +n.的结 构，故空格处应为名词。由后一句话中“研究人员发现孩子锻炼越多，他们的考试分数就越 髙”可以看出，之前的 14 项研究与体育活动和学习成绩间的关系有关，mademic performance 是固定用法，意为“学4 成绩， 学业表现，学术成就”，故答案选 L。备选项中A)auendam..e(出 席，参加）， C)currem(水；电；气流；趋 势）， I) mood(情绪，心境)虽都为名词，但词意不 合适，故排除。",
+  "29": "[参考答案]K [解题点拨]分析该句的句子结构可知，该句主谓宾都不缺，这样的情况下就应该考虑是否缺 状语。 而状语一般由副词和介词短语充当，因为该题 B 是选抒某一个词语，而空格后又为 完整的介词短语，由 此可知空格处应为副词。由前一句提到的“研究人员发现孩子锻炼越 多，他们的考试分数就越高”可 知，后一句是对前一句的补充说明，强调体育锻炼尤其对 数学、英语、阅读等基础课程的重要性，备选项中只有 particularly 有“尤其，特别”之意， 故答案选 K。备选项中 B) consequently(因此，结果），J ) mutually (互相地）虽都为副词,但 词意不合适，故排除。",
+  "30": "[参考答案]N [解题点拨]由空格前的 straggle to 可以推断出空格处应为动词原形,struggle to do sth.是固定 用法，意 为“努力做某事”。该句大意是学校努力以低成本生存,备选项中只有 survive 有 “生存，存活，继续存在” 之意，故答案选 N。备选项中 H)flow(流动）虽为动词原形，但 词意不合适,故排除",
+  "32": "[参考答案]J [解题点拨]分析该句的句子结构可知，该句主谓宾都不缺，这样的情况下就应该考虑是否缺 状语„ 该句大意是之前有关体育活动和学习成绩间的关系的研究表明，二者之间并非相互排 斥。备选项中只 有 nuitually 有“相互地”之意，故答案选 J。",
+  "33": "[参考答案]H [解题点拨]分析该句的句子结构可知,该句的宾语不完整，时宾语补充完后必须可与介词“to” 连用 该句大意是体育活动可以增加大脑的血流 M 备选项中只有 flow 有“流景,流动”之意 可与介间“to” 连用，故答案选 H。",
+  "34": "[参考答案]F [解题点拨]be + adj. +to Sb./sth.是固定用法，因此空格处应为形容词。该句大意是体育活动可 以增 加大脑的血流量，增强 i 己忆力和注意力，提髙创新性，而这些对学习都必不可少。 备选项屮只有 essemial 有“基本的,必要的”之意，故答案选 F。备选项中 C)current (现在的; 流通的）， G)feasible(可行的）虽都为形容词,但词意不合适，故排除。",
+  "35": "[参考答案]I [解题点拨]and 连接两个并列的结构，而 and 之后是 v. +n.的形式，所以 and 之前也应为 v. +n. 的形 式,由此推断出空格处应为名词。该句大意是体#活动释放出的荷尔蒙可以调节心情， 释放压力。备选项中只有 mood 有“情绪，心情”之意，故答案选 I。",
+  "36": "[参考答案]E [解题点拨]题干大意：当许多子女不能为他们的父母找到一家比养老院更合适的护理机构 时，他们 会很内疚。由题干中的“feel guilty when they cannot find a place other than a nursing home”可以定位到文 中 E 段最后一句话。该句提到“一个合乎情理的假设是，这些成年子 女非要努力避开养老院，而且如果 做不到他们真的会觉得内疚吗? ”与题干相吻合。",
+  "37": "[参考答案]L [解题点拨]题干大意:尽管子女去看看那些护理机构对于做决定会有帮助，但是事实证明，让 他们的 父母参与决策的过程也许十分重要。由题千中的“involving their parents in the decision-making process may prove very important”可以定位到文中 L 段最后一句话。该句提 到“事实证明让将要去住护理机构的 老年人参与决策的过程十分重要”，与题干相吻合。",
+  "38": "[参考答案]B [解题点拨]题干大意：真的很难说辅助生活型住房是否比养老院好。由题干中的“assisted living is better than nursing house”可以看出辅助生活型住房与养老院存在一种对比的关系， 由此可以定位到文中 B 段第一句话和最后一句话。这两句分别提到“难道辅助生活型住房 真的比养老院有很大改善吗？还是这个行业只是雇佣了一些更好的室内设计师? ”和“这 真的不得而知”，与题干相吻合。",
+  "39": "[参考答案]H [解题点拨]题干大意:住在护理机构里的人感觉如何，取决于他们自己与他们所居住的护理机 构之 间的相互影响。由题干中的“an interaction between themselves and the care facility they live in”可以定位 到文中 H 段第三句话。该句提到“是人和住所的相互影响，而不单单是 住所的类型本身.使老年人有更 美好或更差劲的经历”,与题干相吻合。",
+  "40": "[参考答案]N [解题点拨]题干大意:作者认为她的朋友做出了一个理智的决定，为她的母亲选择了一家热情 友好 的护理机构，而不是一座表面上装修典雅的辅助生活型住房。由题干中的“the author thinks her friend made a rational decision”可以定位到文中 N 段最后一句话。该句提到“基于 该调查得出的某些结论，当 子女决定要把父母送进某家护理机构时，这都不失为一种理智 的方式”，与题干相吻合。",
+  "42": "[参考答案]F [解题点拨]题干大意:起初，最新研究的研究员发现居住在辅助生活型住房的老年人在社交上 表现较好.由题干中的“residents in assisted living facilities gave higher scores on social interaction”可以定位到 文中 F 段第二、三句话。这两句分别提到“与居住在其他护理机 构的老年人相比，他们有抑郁症状的可 能性要小，而且觉得厌烦或孤独的可能性也小” 和“他们在社交上表现较好”，与题干相吻合。",
+  "43": "[参考答案]C [解题点拨]题干大意:老年人住进什么样的护理机构也许没我们想的那么重要。由题干中的 “care facility old people live in”和“less importan 丨 than we think”可以定位到 C 段第一句 话。该句提到“老年人 住进什么样的护理机构并没有我们想象的那么重要”，与题干相吻 合。",
+  "44": "[参考答案]I [解题点拨]题干大意:最新研究的发现与早期对辅助生活沏住房进行多模态研究的发现相似< 由题 干中的“an earlier muhi-state study”可以定位到 I 段第一句话和第二句话。这两句提到 “这些与常识背道而驰的发现之前已经出现过。在对辅助生活型住房进行的多模态研究中， 北卡罗来纳大学的研究员发 现有许多变量,比如护理机构的类型、大小、开办年限、是否是 一家连锁机构、其邻居有多吸引人等与老 人在疾病、脑力下降、住院治疗以及死亡等方面 的处境并没有多大关系”，与题干相吻合。",
+  "45": "[参考答案]G [解题点拨]题干大意:老年人对一家护理机构的满意度与他们本人是否参与决定搬进哪家护 理机构 和他们要在那里待多久有很大关系。由该句中的“participated in the decision to move in”和“how long they had stayed there”可以定位到 G 段最后一句话。该句提到“事实证明， 老年人是否觉得自己在搬进护理 机构以及他们®要在那里住多久的决定中有发言权,都至关 重要”，与题干相吻合。",
+  "48": "[参考答案]C [解题点拨]由题干中的“robots leam human values”可以定位到文中第六段第一句话该句提 到“机器人还可以从根据人类行为的大量数据绘制而成的图画中学习人类的价值观”。选项 C)根据人类行为的大盘数据绘制而成的图画，符合原文，故答案选 C。选项 A)通过跟人类 在日常生活中的交流,原文并 未提到;选项 B)通过遵循文明人类的日常规范，原文并未提到; 选项 D)通过模仿教养好的人的行为，原文并未提到。",
+  "49": "[参考答案]B [解题点拨]由题干中的“a well-programmed robot do when facing an unusual situation”可以定 位到文中 第八段：该段提到\"当曲对异常情况时，城简单的测试方法就是在一个机器人身上 编写一套程序，看看人类在这种情况下会怎样做”选项 B)停下来听从人类的建议，符合原 文，故答案选 B 选项 A)远离 潜在的危险，原文并未提到;选项 C)立即后动其内置的报警系 统，原文并未提到;选项 D)采取行动之前 做足够的测试，原文并未提到。",
+  "50": "[参考答案]A [解题点拨]由题〒中的“when we turn human values into a programmable code”可以定位到文 中最后一 段第一句话.该句提到“在给机器人编写价值观程序时，最困难的一步就是准确地 确定我们信仰的什么 是道德的，以及如何设计一套伦理价值程序”。选项 A)确定什么符合 伦理道德，符合原文，故答案选 A: 选项 B)设计一些大规模的实验，原文并未提到;选项 C) 为人机交流制定规则，原文并未提到;选项 I)) 开发一个更高端的程序，原文并未提到。",
+  "51": "[参考答案]A [解题点拨]由题干中的“theaim of the study in the......” 以定位到文中第一段的最后两句话。 最后一句提到“《美国老年医学会杂志》最新刊载研究报告,通过研究那些曾经活到至少 100 岁的人的子女（共 246 个）的个性特征来关注这个问题”，而“这个问题”就是 指第一段 倒数第二句话中提到的“某些性格特征会使人长寿吗”。选项 A)弄明白性格是否影响人的 寿命，符合原又，故答案选 A。选项 B)为了查明生活方式是否对人的健康有影响，原文并 未提到;选项 C) 为了研究锻炼在长寿中的作用，原文并未提到；选项 D)为了研究所有对长 寿有益的因素，原文并未提到。",
+  "52": "[参考答案]D [解题点拨]由题干中的“outgoing and sympathetic people”可以定位到文中第二段。第一句话 提到“该研究表明活得最久的人比其他人更外向”，第二句话提到“长寿的女人更有可能比 正常年龄去世的女人 富有同情心'第三句话提到“外向的人喜欢交朋友，富有同情心的人乐 于帮助别人.这会使他们积攒很广的人脉，更有可能渡过难关”。选项 I))他们更有可能渡过 难关，符合原文，故答案选选项 A)他们很了解进化论，原文并未提到;选项 B)他们更捎长通 过谈判达成协议，原文并未提到;选项 C)他们一般看起来足智多谋，原文并未提到，",
+  "53": "[参考答案]C [解题点拨]由题干中的\"finding of the study might prove somewhat out of ouf expectation”可以 定位到第 三段第一、二句话„第一句提到“然而，有趣的是，也许在你看来有助于长寿的其 他性格特征对研究对象是否长寿没有影响”。第二句提到“自制力较强的人并非更长寿”。 选项 C)自律这种性格特征对长寿没 有影响，符合原文，故答案选 C。选项 A)易于相处的人 也能够相对长寿，这一发现并不出人意料，故排 除;选项 B)那些证明有助于长寿的个性特征 因时(fii 异,原文并未提到，故排除;选项 D)乐下'接受新观点 有助于长寿，原文中提到“思想 开放.易于接受新观点跟长寿没有任何关系\"，故排除。",
+  "54": "[参考答案]D [解题点拨]由题干中的“the recent study of Norwegian mothers”可以定位到第五段第二句话。 该句提到“该研究对将近 28 000 位挪威母亲进行跟踪调査”，并在接下来的行文中介绍了 该研究的发现。选项 D)母亲的负面性格特征也许会影响孩子的寿命，符合原文，故答案选 D 选项 A)孩子的性格特征总是 由母亲决定，原文并未提到;选项 B)有不健康饮食习惯的人 死亡得会较快，原文并未提到；选项 C)母亲对孩子的影响要比父亲对孩子的影响持续的时 间长，原文并未提到."
+ },
+ "reference": {},
+ "source": {}
+}

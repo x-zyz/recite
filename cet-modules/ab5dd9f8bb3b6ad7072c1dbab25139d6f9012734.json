@@ -1,0 +1,121 @@
+{
+ "schema": 1,
+ "paper": "六级真题/2021.06/真题PDF/2021.06六级真题第3套.pdf",
+ "blob": "ab5dd9f8bb3b6ad7072c1dbab25139d6f9012734",
+ "level": "6",
+ "date": "2021.06",
+ "title": "2021.06 大学英语六级真题",
+ "minutes": 130,
+ "audio": "",
+ "sections": [
+  {
+   "part": "Part I Writing (30 minutes)",
+   "name": "",
+   "type": "writing",
+   "directions": "For this part , you are allowed 30 minutes to write an essay based on the chart below. You should start your essay with a brief description of the chart and comment on China's achievements in poverty alleviation. You should write at least 150 words but no more than 200 words."
+  },
+  {
+   "part": "Part Reading Comprehension (40 minutes)",
+   "name": "Section A",
+   "type": "bank",
+   "directions": "In this section, there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. Please mark the corresponding letter for each item on Answer Sheet 2 with a single line through the centre. You may not use any of the words in the bank more than once",
+   "paragraphs": [
+    ".",
+    "At 43, I've reached the stage where women are warned to watch out for the creeping sadness of middle age. We're served up an endless stream of advice on \"how to survive your 40s\", as if we're in the endurance stage of a slow limp toward [[26]] . This is the age women start to become \"invisible\"—our value, attractiveness and power supposedly [[27]] by the vanishing of youth. But I don't feel like I'm fading into [[28]] I feel more seen than I ever have, and for the first time in my life, I have a clear-eyed view of myself that is [[29]] , compassionate and accepting.",
+    "When I look in the mirror, I'm proud of who I am—even those \"broken\" parts that for so long seemed impossible to love. So when advertisers try to sell me ways to \"turn back the clock\", I have to [[30]] a laugh. I wouldn't go back to the crippling self-consciousness of my youth if you paid me. This hard-won sense of self-acceptance is one of the joys of being an older woman. But it's a narrative often [[31]] out by the shame that marketers rely on to peddle us their diet pills, miracle face creams and breathable yoga pants—as if self-love is a [[32]] commodity.",
+    "2021 'F 6 h 47 For some women I know, this sense of trust and self-belief later in life gave them the courage to leave dysfunctional relationships or [[33]] on new career paths. Others talked about enjoying their own company, of growth through [[34]] , deepening bonds of friendships, the ability to be more compassionate, less judgmental and to listen more and appreciate the small pleasures. Life past 40 is far from smooth sailing, but it's so much more than the reductive [[35]] we see in women's magazines and on the Hollywood big screen."
+   ],
+   "bank": [
+    "adversity",
+    "authentic",
+    "convey",
+    "depictions",
+    "diminished",
+    "drowned",
+    "embark",
+    "fragility",
+    "neglected",
+    "obscurity",
+    "outlines",
+    "prevalent",
+    "purchasable",
+    "submit",
+    "suppress"
+   ]
+  },
+  {
+   "part": "Part Reading Comprehension (40 minutes)",
+   "name": "Section C",
+   "type": "choice",
+   "directions": "There are 2 passages in this section. Each passage is followed by some questions or unfinished statements. For each of them there are four choices marked A) , B) , C) and D). You should decide on the best choice and mark the corresponding letter on Answer Sheet 2 with a single line through the centre.",
+   "groups": [
+    {
+     "title": "Passage One",
+     "paragraphs": [
+      "Questions 46 to 50 are based on the following passage.",
+      "You can't see it, smell it, or heaf it, and people disagree on how precisely to define it, or where exactly it comes from. It isn't a school subject or an academic discipline, but it can be learned. It is a quality that is required of artists, but it is also present in the lives of scientists and entrepreneurs. All of us benefit from it and we thrive mentally and spiritually when we are able to wield it. It is a delicate thing, easily stamped Out; in fact, it flourishes most fully when people are playful and childlike. Meanwhile, it works best in conjunction with deep knowledge and expertise.",
+      "This mysterious—but teachable—quality is creativity, the subject of a recently-published report by Durham Commission on Creativity and Education; The report concludes that creativity -should not-inhabit the school curriculum only as it relates to drama, music, art and other obviously creative subjects, but that creative thinking ought to run through all of school life, infusing (the way humanities and natural sciences are learned.",
+      "The authors, who focus on education in England, offer a number of sensible recommendations, some of which are an attempt to alleviate the uninspiring and fact-based approach to education that has crept into policy in recent years. When children are regarded as vessels to be filled with facts, creativity does not prosper; nor does it when teachers' sole objective is coaching children towards exams. One suggestion from the commission is a network of teacher-led \" creativity collaboratives\" , along the lines of existing maths hubs ($ 'b) , with the aim of supporting teaching for creativity through the school curriculum. Nevertheless, it is arts subjects through which creativity can most obviously be fostered. The value placed on them by the independent education sector is clear. One only has to look at the remarkable arts facilities at Britain's top private schools to comprehend this. But in the state sector the excessive focus on English, maths and science threatens to crush arts subjects; meanwhile, reduced school budgets mean diminishing extracurricular activities. There has been a 28.1% decline in students taking creative subjects at high schools since 2014, though happily, art and design have seen a recent increase.",
+      "This discrepancy between state and private education is a matter of social justice. It is simply wrong and unfair that most children have a fraction of the access to choirs, orchestras, art studios and drama that is-a 2021 50 their more privileged peers enjoy. As lives are affected by any number of looming challenges—climate crisis, automation in the workplace—humans are going to need creative thinking more than ever. For all of our sakes, creativity in education, and for all, must become a priority."
+     ],
+     "questions": [
+      {
+       "n": 46,
+       "options": [
+        "It develops best when people are spiritually prepared.",
+        "It is most often wielded by scientists and entrepreneurs.",
+        "It is founded on scientific knowledge and analytical skills.",
+        "It contributes to intellectual growth but can easily be killed."
+       ],
+       "stem": "What do we learn from the passage about creativity?"
+      },
+      {
+       "n": 47,
+       "options": [
+        "Natural sciences should be learned the way humanities courses are.",
+        "Cultivation of creativity should permeate the entire school curriculum.",
+        "Art courses should be made compulsory for all students.",
+        "Students should learn more obviously creative subjects."
+       ],
+       "stem": "What is the conclusion of a recently-published report?"
+      },
+      {
+       "n": 48,
+       "options": [
+        "Alleviation of pressure.",
+        "Teacher-led school activities.",
+        "Test-oriented teaching.",
+        "Independent learning."
+       ],
+       "stem": "What does the report say is detrimental to the fostering of creativity?"
+      },
+      {
+       "n": 49,
+       "options": [
+        "They encourage extracurricular activities.",
+        "They attach great importance to arts education.",
+        "They prioritize arts subjects over maths and sciences.",
+        "They cater to students from different family backgrounds."
+       ],
+       "stem": "What do we learn about the private schools in the UK?"
+      },
+      {
+       "n": 50,
+       "options": [
+        "Increasing government investment in school education.",
+        "Narrowing the existing gap between the rich and the poor.",
+        "Providing all children with equal access to arts education.",
+        "Focusing on meeting the needs of under-privileged students."
+       ],
+       "stem": "What should be done to meet the future challenges?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "key": "G.E.MJ.AAAAB...........................................",
+ "notes": {},
+ "reference": {},
+ "source": {}
+}

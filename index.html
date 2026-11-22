@@ -1,0 +1,2085 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+  <meta name="theme-color" content="#F2E8D5" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Recite" />
+  <link rel="apple-touch-icon" href="/recite/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" href="/recite/icon-512.png" />
+  <link rel="manifest" href="/recite/manifest.webmanifest" />
+  <title>Recite · 离线背词与四六级真题</title>
+  <style>
+    :root {
+      --paper: #F2E8D5;
+      --paper-deep: #E8DBC2;
+      --card: #FBF6EC;
+      --choice: #E8E4DC;
+      --ink: #201B18;
+      --ink-muted: #6B5F55;
+      --red: #D7261E;
+      --red-pressed: #B01E17;
+      --gold: #D6A14C;
+      --gold-deep: #80541F;
+      --green-ok: #2F6B3A;
+      --green-paper: #E3EBDA;
+      --red-paper: #F5DDD3;
+    }
+    * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+    html, body {
+      margin: 0; padding: 0;
+      background-color: var(--paper);
+      background-image: radial-gradient(rgba(32, 27, 24, 0.08) 1px, transparent 0);
+      background-size: 28px 28px;
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif;
+      min-height: 100dvh;
+    }
+    .app-shell {
+      max-width: 660px;
+      margin: 0 auto;
+      padding: calc(env(safe-area-inset-top, 12px) + 12px) 18px calc(env(safe-area-inset-bottom, 20px) + 28px);
+    }
+    .ink-card {
+      background: var(--card);
+      border: 2px solid var(--ink);
+      border-radius: 6px;
+      box-shadow: 3px 3px 0 var(--ink);
+      padding: 15px 16px;
+    }
+    .ink-box {
+      background: var(--card);
+      border: 2px solid var(--ink);
+      border-radius: 6px;
+      padding: 12px 14px;
+    }
+    .btn {
+      display: flex; align-items: center; justify-content: center;
+      width: 100%; min-height: 48px;
+      padding: 10px 14px;
+      border: 2px solid var(--ink);
+      border-radius: 6px;
+      background: var(--card);
+      color: var(--ink);
+      font-size: 16px; font-weight: 650;
+      cursor: pointer; text-align: center;
+      text-decoration: none;
+      transition: transform 0.06s ease;
+      font-family: inherit;
+    }
+    .btn:active { transform: translate(1px, 1px); background: var(--paper-deep); }
+    .btn-primary {
+      background: var(--red);
+      color: var(--paper);
+      font-size: 18px; font-weight: 800;
+      box-shadow: 3px 3px 0 var(--ink);
+    }
+    .btn-primary:active {
+      background: var(--red-pressed);
+      transform: translate(2px, 2px);
+      box-shadow: 1px 1px 0 var(--ink);
+    }
+    .btn-gold { background: var(--gold); color: var(--ink); font-weight: 750; }
+    .btn-choice {
+      background: var(--choice);
+      justify-content: flex-start;
+      text-align: left;
+      font-weight: 600;
+    }
+    .btn-choice.selected {
+      background: var(--red-pressed);
+      color: var(--paper);
+      font-weight: 750;
+    }
+    .btn-choice.correct {
+      background: var(--green-paper);
+      border-color: var(--green-ok);
+      color: var(--ink);
+    }
+    .btn-choice.wrong {
+      background: var(--red-paper);
+      border-color: var(--red);
+      color: var(--ink);
+    }
+    .coin-badge {
+      display: inline-flex; align-items: center; justify-content: center;
+      min-width: 42px; min-height: 42px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--gold);
+      border: 2px solid var(--ink);
+      box-shadow: inset 0 0 0 2px var(--gold), inset 0 0 0 3.2px var(--gold-deep);
+      font-weight: 800; font-size: 17px;
+      font-variant-numeric: tabular-nums;
+      color: var(--ink);
+    }
+    .tier-badge {
+      display: inline-flex; align-items: center; gap: 7px;
+      padding: 6px 10px;
+      border: 2px solid var(--ink);
+      border-radius: 6px;
+      background: var(--choice);
+      cursor: pointer;
+      user-select: none;
+    }
+    .tier-badge.pro {
+      background: var(--gold);
+      box-shadow: 3px 3px 0 var(--ink);
+    }
+    .tier-pill {
+      padding: 2px 6px;
+      border-radius: 4px;
+      border: 1px solid var(--ink);
+      background: var(--paper-deep);
+      color: var(--ink);
+      font-size: 11px; font-weight: 900;
+      letter-spacing: 0.05em;
+    }
+    .tier-badge.pro .tier-pill {
+      background: var(--red);
+      color: var(--paper);
+    }
+    .tier-label { font-size: 14px; font-weight: 700; color: var(--ink); }
+    .red-stamp {
+      width: 54px; height: 22px; flex-shrink: 0;
+    }
+    .progress-track {
+      width: 100%; height: 12px;
+      background: var(--paper-deep);
+      border: 2px solid var(--ink);
+      border-radius: 6px;
+      padding: 1px;
+      overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%;
+      background: var(--gold);
+      border-radius: 3px;
+      transition: width 0.2s ease;
+    }
+    .input-box {
+      width: 100%; min-height: 48px;
+      padding: 8px 12px;
+      border: 2px solid var(--ink);
+      border-radius: 6px;
+      background: var(--card);
+      color: var(--ink);
+      font-size: 16px;
+      font-family: inherit;
+      outline: none;
+    }
+    .row { display: flex; align-items: center; gap: 10px; }
+    .col { display: flex; flex-direction: column; gap: 12px; }
+    .space-between { justify-content: space-between; }
+    .muted { color: var(--ink-muted); }
+    .chip-bar {
+      display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px;
+      scrollbar-width: none;
+    }
+    .chip-bar::-webkit-scrollbar { display: none; }
+    .chip {
+      flex-shrink: 0;
+      padding: 8px 13px;
+      border: 2px solid var(--ink);
+      border-radius: 6px;
+      background: var(--choice);
+      color: var(--ink);
+      font-size: 14px; font-weight: 700;
+      cursor: pointer;
+    }
+    .chip.active { background: var(--red-pressed); color: var(--paper); }
+    .modal-backdrop {
+      position: fixed; inset: 0;
+      background: rgba(32, 27, 24, 0.55);
+      display: flex; align-items: center; justify-content: center;
+      padding: 18px; z-index: 100;
+    }
+    .modal-card {
+      width: 100%; max-width: 540px; max-height: 86dvh;
+      overflow-y: auto;
+      background: var(--paper);
+      border: 2px solid var(--ink);
+      border-radius: 8px;
+      box-shadow: 5px 5px 0 var(--ink);
+      padding: 18px;
+    }
+    .pwa-banner {
+      background: var(--card);
+      border: 2px solid var(--ink);
+      border-radius: 6px;
+      box-shadow: 3px 3px 0 var(--ink);
+      padding: 11px 13px;
+      margin-bottom: 12px;
+      font-size: 13.5px;
+      line-height: 1.5;
+    }
+    .grid-5 {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 8px;
+    }
+    textarea.cet-editor {
+      width: 100%; min-height: 150px;
+      padding: 10px;
+      border: 2px solid var(--ink);
+      border-radius: 6px;
+      background: var(--card);
+      color: var(--ink);
+      font-size: 15px; line-height: 1.5;
+      font-family: inherit;
+      resize: vertical;
+    }
+    .cet-scaled { font-size: calc(15.5px * var(--cet-scale, 1)); line-height: 1.65; }
+    .cet-scaled .btn-choice { font-size: calc(15px * var(--cet-scale, 1)); }
+    .cet-hl { background: #F4D87A; color: var(--ink); border-radius: 2px; padding: 0 1px; }
+    .cet-ul { text-decoration: underline; text-decoration-color: var(--red); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+    .cet-passage { user-select: text; -webkit-user-select: text; }
+  </style>
+</head>
+<body>
+  <div class="app-shell" id="app"></div>
+
+  <script>
+    const CLIENT_ID = 'b8e0bb6c2baa76d8633c5855a1774cb6';
+    const REDIRECT_URI = 'https://apps.0979019203.top/oauth/android/recite/callback';
+    const ISSUER = 'https://id.0979019203.top';
+    const IS_GH_PAGES = window.location.hostname === 'x-zyz.github.io';
+    const APPHUB_ORIGIN = IS_GH_PAGES ? 'https://apps.0979019203.top' : '';
+    const MEMBERSHIP_API = `${APPHUB_ORIGIN}/v1/apps/recite/membership`;
+    const MEMBERSHIP_API_FALLBACK = 'https://api.0979019203.top/v1/apps/recite/membership';
+    const TOKEN_ENDPOINT = IS_GH_PAGES ? 'https://apps.0979019203.top/recite/oauth/token' : `${ISSUER}/api/login/oauth/access_token`;
+    const TTS_ENDPOINT = `${APPHUB_ORIGIN}/recite/tts`;
+    const VERSION = '0.3.23';
+    const ROUND_SIZES = [5, 10, 20, 30];
+    const CET_SCALES = [100, 115, 130, 150];
+    const PLACEMENT_BANDS = [
+      { name: 'A1', table: 'CET4_1', rec: '从四级高频词起步，先建立常用词基础。' },
+      { name: 'A2', table: 'CET4_1', rec: '先复习四级核心词，巩固常用词义。' },
+      { name: 'B1', table: 'CET4_3', rec: '用四级完整词库补齐常用词，再逐步扩大覆盖。' },
+      { name: 'B2', table: 'CET6_3', rec: '用六级完整词库练习较抽象的表达和常见书面用词。' },
+      { name: 'C1', table: 'Level8luan_2', rec: '用专八完整词库积累进阶书面词汇。' },
+      { name: 'C2', table: 'CEFR_C2', rec: '用 C2 词库练习较少见的表达和细微的词义差别。' }
+    ];
+    const VOCAB_ANCHORS = [250, 1000, 1800, 3300, 5500, 8000, 11000, 14500];
+
+    const state = {
+      screen: 'home', // home, study, ready, quiz, done, cet, account, placement
+      catalog: null,
+      books: [],
+      selectedBookIdx: parseInt(localStorage.getItem('recite.book') || '0', 10),
+      roundSize: parseInt(localStorage.getItem('recite.size') || '10', 10),
+      accent: localStorage.getItem('recite.accent') || 'en-US',
+      bookWords: {},
+      engDefs: null,
+      engDefsLoading: false,
+      placementLexicon: null,
+      placement: null,
+      loadingBook: false,
+      progress: JSON.parse(localStorage.getItem('recite.progress') || '{}'),
+      wordbooks: JSON.parse(localStorage.getItem('recite.wordbooks') || '[]'),
+      round: null,
+      searchQuery: '',
+      modal: null,
+      account: JSON.parse(localStorage.getItem('recite.account') || 'null'),
+      membership: JSON.parse(localStorage.getItem('recite.membership') || 'null'),
+      authNotice: '',
+      authBusy: false,
+      hidePwaTip: localStorage.getItem('recite.hidePwaTip') === '1',
+      cet: {
+        level: '4',
+        date: '',
+        activePaper: null,
+        sectionIdx: 0,
+        answers: {},
+        bookmarks: {},
+        marks: {},
+        scale: parseInt(localStorage.getItem('recite.cet.scale') || '100', 10),
+        writing: '',
+        translation: '',
+        submitted: false,
+        remainingSec: 125 * 60,
+        loading: false,
+        audioUrl: '',
+        audioLoading: false
+      }
+    };
+
+    function todayEpochDay() {
+      return Math.floor(Date.now() / 86400000);
+    }
+
+    function saveProgressStore() {
+      localStorage.setItem('recite.progress', JSON.stringify(state.progress));
+    }
+
+    function saveWordbooksStore() {
+      localStorage.setItem('recite.wordbooks', JSON.stringify(state.wordbooks));
+    }
+
+    function isPro() {
+      if (!state.account || !state.membership) return false;
+      if (state.membership.sub !== state.account.sub || !state.membership.active) return false;
+      const exp = state.membership.expires_at || '';
+      if (exp.startsWith('9999-')) return true;
+      const ms = Date.parse(exp);
+      return !isNaN(ms) && ms > Date.now();
+    }
+
+    function formatExpiry(exp) {
+      if (!exp) return '';
+      if (exp.startsWith('9999-')) return '永久有效';
+      return exp.length >= 10 ? '有效期至 ' + exp.slice(0, 10) : exp;
+    }
+
+    function currentBookMeta() {
+      if (!state.books.length) return { table: 'CET4_1', title: '四级 · 核心', count: 1065, kana: false, japanese: false };
+      const idx = Math.max(0, Math.min(state.selectedBookIdx, state.books.length - 1));
+      return state.books[idx];
+    }
+
+    function getBookStats(book) {
+      const bProg = state.progress[book.table] || {};
+      const today = todayEpochDay();
+      let studied = 0, due = 0;
+      for (const k of Object.keys(bProg)) {
+        studied++;
+        if (bProg[k] <= today) due++;
+      }
+      return { total: book.count || 0, studied, due };
+    }
+
+    async function ensureBookLoaded(table) {
+      if (state.bookWords[table]) return state.bookWords[table];
+      state.loadingBook = true;
+      render();
+      try {
+        const resp = await fetch(`/recite/books/${table}.json`);
+        const raw = await resp.json();
+        state.bookWords[table] = raw.map((r) => ({
+          id: r[0], term: r[1], reading: r[2], meaning: r[3],
+          part: r[4], example: r[5], translation: r[6], uk: r[7]
+        }));
+      } finally {
+        state.loadingBook = false;
+        render();
+      }
+      return state.bookWords[table] || [];
+    }
+
+    let ttsAudio = null;
+    let audioCtx = null;
+    let currentSource = null;
+
+    function unlockAudioContext() {
+      try {
+        const Ctx = window.AudioContext || window.webkitAudioContext;
+        if (!Ctx) return null;
+        if (!audioCtx) audioCtx = new Ctx();
+        if (audioCtx.state === 'suspended') {
+          audioCtx.resume();
+        }
+        const silent = audioCtx.createBuffer(1, 1, 22050);
+        const src = audioCtx.createBufferSource();
+        src.buffer = silent;
+        src.connect(audioCtx.destination);
+        src.start(0);
+        return audioCtx;
+      } catch {
+        return null;
+      }
+    }
+
+    function speakWithSynthesis(text, isJapanese = false) {
+      if (!('speechSynthesis' in window) || !text) return;
+      const synth = window.speechSynthesis;
+      if (synth.speaking || synth.pending) {
+        synth.cancel();
+      }
+      const targetLang = isJapanese ? 'ja-JP' : state.accent;
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = targetLang;
+      u.rate = 0.92;
+      const voices = synth.getVoices ? synth.getVoices() : [];
+      if (voices && voices.length) {
+        const exact = voices.find((v) => v.lang && v.lang.toLowerCase() === targetLang.toLowerCase());
+        const prefix = voices.find((v) => v.lang && v.lang.toLowerCase().startsWith(targetLang.slice(0, 2).toLowerCase()));
+        if (exact || prefix) u.voice = exact || prefix;
+      }
+      synth.speak(u);
+    }
+
+    async function speakText(text, isJapanese = false, btnEl = null) {
+      const clean = String(text || '').trim();
+      if (!clean) return;
+
+      const origHtml = btnEl ? btnEl.innerHTML : '';
+      if (btnEl) {
+        btnEl.style.background = 'var(--red)';
+        btnEl.style.color = 'var(--paper)';
+      }
+      const restoreBtn = () => {
+        if (btnEl) {
+          btnEl.style.background = '';
+          btnEl.style.color = '';
+          btnEl.innerHTML = origHtml;
+        }
+      };
+
+      const ctx = unlockAudioContext();
+      if (currentSource) {
+        try { currentSource.stop(); } catch {}
+        currentSource = null;
+      }
+      if (ttsAudio) {
+        try { ttsAudio.pause(); } catch {}
+      }
+
+      const encoded = encodeURIComponent(clean);
+      const ttsUrl = isJapanese
+        ? `${TTS_ENDPOINT}?audio=${encoded}&le=jap`
+        : `${TTS_ENDPOINT}?audio=${encoded}&type=${state.accent === 'en-GB' ? 1 : 2}`;
+
+      if (navigator.onLine !== false) {
+        if (ctx) {
+          try {
+            const resp = await fetch(ttsUrl);
+            if (!resp.ok) throw new Error('HTTP ' + resp.status);
+            const arr = await resp.arrayBuffer();
+            const audioBuf = await new Promise((resolve, reject) => {
+              ctx.decodeAudioData(arr, resolve, reject);
+            });
+            if (ctx.state === 'suspended') await ctx.resume();
+            const source = ctx.createBufferSource();
+            source.buffer = audioBuf;
+            source.connect(ctx.destination);
+            source.onended = restoreBtn;
+            currentSource = source;
+            source.start(0);
+            return;
+          } catch {}
+        }
+        try {
+          ttsAudio = new Audio(ttsUrl);
+          ttsAudio.setAttribute('playsinline', 'true');
+          ttsAudio.onended = restoreBtn;
+          ttsAudio.onerror = () => {
+            restoreBtn();
+            speakWithSynthesis(clean, isJapanese);
+          };
+          await ttsAudio.play();
+          return;
+        } catch {}
+      }
+
+      speakWithSynthesis(clean, isJapanese);
+      setTimeout(restoreBtn, 800);
+    }
+
+    window.speakFromEl = (el) => {
+      if (!el || !el.dataset) return;
+      speakText(el.dataset.speak || '', el.dataset.jp === '1', el);
+    };
+
+    function displayIpa(word) {
+      const raw = (state.accent === 'en-GB' && word.uk) ? word.uk : word.reading;
+      if (!raw || raw === '-' || raw === '无' || raw === 'null') return '';
+      return raw.replace(/['’]/g, 'ˈ').replace(/:/g, 'ː');
+    }
+
+    function redStampSvg() {
+      return `<svg class="red-stamp" viewBox="0 0 54 22" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="0,0 54,0 10.3,22" fill="#D7261E"/>
+        <rect x="11.3" y="5" width="20.5" height="2.6" fill="#F2E8D5"/>
+        <rect x="13" y="10" width="9.7" height="2.6" fill="#F2E8D5"/>
+      </svg>`;
+    }
+
+    function wordmarkSvg() {
+      return `<svg width="116" height="48" viewBox="25 58 60 28" xmlns="http://www.w3.org/2000/svg">
+        <g transform="rotate(-11 54 73)">
+          <path fill="none" stroke="#201B18" stroke-width="2.75" stroke-linejoin="round" stroke-linecap="round"
+            d="M29,80V69 M29,73C30.4,69 32,69 35,69 M38,75H46V73C46,67.7 38,67.7 38,73V76C38,80 43,81 46,78.7 M56,71C52,67 49,70 49,73V76C49,80 53,81.3 56,78 M60,69V80 M66,66V77Q66,80 70,80 M63,70H70 M73,75H81V73C81,67.7 73,67.7 73,73V76C73,80 78,81 81,78.7" />
+          <rect x="58.65" y="64.8" width="2.7" height="2.5" fill="#201B18" />
+        </g>
+      </svg>`;
+    }
+
+    function tierBadgeHtml(pro, label, onClickAttr = '') {
+      const text = label || (pro ? '0979 会员' : '普通用户');
+      return `<div class="tier-badge ${pro ? 'pro' : ''}" ${onClickAttr}>
+        <span class="tier-pill">${pro ? 'PRO' : '非会员'}</span>
+        <span class="tier-label">${escapeHtml(text)}</span>
+      </div>`;
+    }
+
+    function escapeHtml(s) {
+      return String(s || '').replace(/[&<>"']/g, (c) => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+      }[c]));
+    }
+
+    // MARK: - OAuth PKCE & Membership Verification
+
+    function randomBase64Url(len = 32) {
+      const bytes = new Uint8Array(len);
+      crypto.getRandomValues(bytes);
+      return btoa(String.fromCharCode(...bytes)).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+    }
+
+    async function sha256Base64Url(str) {
+      const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+      const bytes = new Uint8Array(buf);
+      return btoa(String.fromCharCode(...bytes)).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+    }
+
+    function decodeJwtClaims(jwt) {
+      const parts = (jwt || '').split('.');
+      if (parts.length < 2) return null;
+      let b64 = parts[1].replace(/-/g, '+').replace(/_/g, '/');
+      while (b64.length % 4) b64 += '=';
+      try {
+        return JSON.parse(decodeURIComponent(escape(atob(b64))));
+      } catch {
+        return null;
+      }
+    }
+
+    async function beginAppHubLogin() {
+      if (state.authBusy) return;
+      state.authBusy = true;
+      state.authNotice = '正在跳转 App Hub 登录…';
+      render();
+      try {
+        const oauthState = (IS_GH_PAGES ? 'ghp_' : '') + randomBase64Url(24);
+        const nonce = randomBase64Url(24);
+        const verifier = randomBase64Url(32);
+        const challenge = await sha256Base64Url(verifier);
+        localStorage.setItem('recite_pwa_oauth_pending', JSON.stringify({
+          state: oauthState, nonce, verifier, created: Date.now()
+        }));
+        const params = new URLSearchParams({
+          client_id: CLIENT_ID,
+          response_type: 'code',
+          redirect_uri: REDIRECT_URI,
+          scope: 'openid profile email',
+          state: oauthState,
+          nonce: nonce,
+          code_challenge: challenge,
+          code_challenge_method: 'S256'
+        });
+        window.location.href = `${ISSUER}/login/oauth/authorize?${params.toString()}`;
+      } catch (e) {
+        state.authBusy = false;
+        state.authNotice = '无法发起登录，请稍后重试。';
+        render();
+      }
+    }
+
+    async function checkIncomingOAuthCallback() {
+      const q = new URLSearchParams(window.location.search);
+      const code = q.get('code');
+      const st = q.get('state');
+      const err = q.get('error');
+      if (!st && !code && !err) return;
+      history.replaceState(null, '', window.location.pathname);
+
+      const pendingRaw = localStorage.getItem('recite_pwa_oauth_pending');
+      localStorage.removeItem('recite_pwa_oauth_pending');
+      if (!pendingRaw) return;
+      let pending;
+      try { pending = JSON.parse(pendingRaw); } catch { return; }
+      if (!pending || pending.state !== st) {
+        state.authNotice = '登录状态校验未通过，请重新登录。';
+        state.screen = 'account';
+        render();
+        return;
+      }
+      if (err || !code) {
+        state.authNotice = '登录已取消。';
+        state.screen = 'account';
+        render();
+        return;
+      }
+
+      state.screen = 'account';
+      state.authBusy = true;
+      state.authNotice = '正在验证登录凭证与 0979 会员状态…';
+      render();
+
+      try {
+        const form = new URLSearchParams({
+          grant_type: 'authorization_code',
+          client_id: CLIENT_ID,
+          redirect_uri: REDIRECT_URI,
+          code: code,
+          code_verifier: pending.verifier
+        });
+        const resp = await fetch(TOKEN_ENDPOINT, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: form.toString()
+        });
+        const tok = await resp.json();
+        const claims = decodeJwtClaims(tok.id_token);
+        if (!tok.id_token || !claims || !claims.sub) throw new Error('Invalid token');
+        state.account = {
+          sub: claims.sub,
+          name: claims.name || claims.displayName || claims.sub,
+          email: claims.email || '',
+          exp: claims.exp || 0,
+          refresh: tok.refresh_token || '',
+          id_token: tok.id_token
+        };
+        localStorage.setItem('recite.account', JSON.stringify(state.account));
+        await verifyMembership(true);
+      } catch (e) {
+        state.authNotice = '登录凭证交换失败，请重试。';
+      } finally {
+        state.authBusy = false;
+        render();
+      }
+    }
+
+    async function verifyMembership(forceRefresh = false) {
+      if (!state.account) return;
+      state.authBusy = true;
+      render();
+      try {
+        let idToken = state.account.id_token;
+        const nowSec = Math.floor(Date.now() / 1000);
+        if ((!idToken || state.account.exp <= nowSec + 30 || forceRefresh) && state.account.refresh) {
+          try {
+            const form = new URLSearchParams({
+              grant_type: 'refresh_token',
+              client_id: CLIENT_ID,
+              refresh_token: state.account.refresh
+            });
+            const r = await fetch(TOKEN_ENDPOINT, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+              body: form.toString()
+            });
+            const tok = await r.json();
+            if (tok.id_token) {
+              const claims = decodeJwtClaims(tok.id_token) || {};
+              state.account.id_token = tok.id_token;
+              state.account.exp = claims.exp || state.account.exp;
+              if (tok.refresh_token) state.account.refresh = tok.refresh_token;
+              localStorage.setItem('recite.account', JSON.stringify(state.account));
+              idToken = tok.id_token;
+            }
+          } catch {}
+        }
+
+        let resp;
+        try {
+          resp = await fetch(MEMBERSHIP_API, {
+            headers: { 'Authorization': `Bearer ${idToken}`, 'Accept': 'application/json' },
+            cache: 'no-store'
+          });
+          if (resp.status === 404) throw new Error('use fallback');
+        } catch {
+          resp = await fetch(MEMBERSHIP_API_FALLBACK, {
+            headers: { 'Authorization': `Bearer ${idToken}`, 'Accept': 'application/json' },
+            cache: 'no-store'
+          });
+        }
+
+        const body = await resp.json().catch(() => ({}));
+        if (resp.status === 200 && body.active) {
+          state.membership = {
+            sub: state.account.sub,
+            active: true,
+            expires_at: body.expires_at || '',
+            checked_at: Date.now()
+          };
+          localStorage.setItem('recite.membership', JSON.stringify(state.membership));
+          state.authNotice = `登录状态已验证 · PRO 0979 会员有效（${formatExpiry(body.expires_at)}）。`;
+        } else if (resp.status === 403 || (resp.status === 200 && !body.active)) {
+          state.membership = {
+            sub: state.account.sub,
+            active: false,
+            expires_at: '',
+            checked_at: Date.now()
+          };
+          localStorage.setItem('recite.membership', JSON.stringify(state.membership));
+          state.authNotice = '登录状态已验证 · 当前账号为非会员普通用户。';
+        } else {
+          state.authNotice = '暂时无法获取最新会员状态，已保留本机缓存。';
+        }
+      } catch {
+        state.authNotice = '网络暂不可用，已保留本机状态。';
+      } finally {
+        state.authBusy = false;
+        render();
+      }
+    }
+
+    function signOutAppHub() {
+      state.account = null;
+      state.membership = null;
+      localStorage.removeItem('recite.account');
+      localStorage.removeItem('recite.membership');
+      state.authNotice = '已退出此应用登录。';
+      render();
+    }
+
+    // MARK: - Study & Quiz Logic
+
+    async function startStudyRound(reviewOnly) {
+      const book = currentBookMeta();
+      const words = await ensureBookLoaded(book.table);
+      const bProg = state.progress[book.table] || {};
+      const today = todayEpochDay();
+
+      let pool;
+      if (reviewOnly) {
+        pool = words.filter((w) => bProg[w.id] !== undefined && bProg[w.id] <= today);
+      } else {
+        pool = words.filter((w) => bProg[w.id] === undefined);
+      }
+      const selected = pool.slice(0, state.roundSize);
+      if (!selected.length) {
+        alert(reviewOnly ? '暂无到期词，到期的单词会出现在复习入口。' : '这本词书的新词已背完，可以复习到期词或切换词书。');
+        return;
+      }
+
+      const distractors = words.slice(0, 60);
+      const optionsMap = {};
+      for (const w of selected) {
+        const alts = [];
+        const seen = new Set([w.meaning]);
+        for (const d of [...selected, ...distractors]) {
+          if (!seen.has(d.meaning)) {
+            seen.add(d.meaning);
+            alts.push(d.meaning);
+          }
+        }
+        alts.sort(() => Math.random() - 0.5);
+        const opts = [w.meaning, ...alts.slice(0, 3)].sort(() => Math.random() - 0.5);
+        optionsMap[w.id] = opts;
+      }
+
+      state.round = {
+        words: selected,
+        index: 0,
+        remembered: 0,
+        correct: 0,
+        revealed: false,
+        choice: -1,
+        optionsMap
+      };
+      state.screen = 'study';
+      render();
+    }
+
+    function advanceStudy(remembered) {
+      const r = state.round;
+      if (!r) return;
+      const book = currentBookMeta();
+      const w = r.words[r.index];
+      if (!state.progress[book.table]) state.progress[book.table] = {};
+      state.progress[book.table][w.id] = todayEpochDay() + (remembered ? 3 : 0);
+      saveProgressStore();
+      if (remembered) r.remembered++;
+      if (r.index + 1 >= r.words.length) {
+        state.screen = 'ready';
+      } else {
+        r.index++;
+        r.revealed = false;
+      }
+      render();
+    }
+
+    function answerQuiz(idx, isCorrect) {
+      const r = state.round;
+      if (!r || r.choice !== -1) return;
+      const book = currentBookMeta();
+      const w = r.words[r.index];
+      if (isCorrect) {
+        r.correct++;
+      } else {
+        if (!state.progress[book.table]) state.progress[book.table] = {};
+        state.progress[book.table][w.id] = todayEpochDay();
+        saveProgressStore();
+      }
+      r.choice = idx;
+      render();
+    }
+
+    function nextQuizQuestion() {
+      const r = state.round;
+      if (!r) return;
+      if (r.index + 1 >= r.words.length) {
+        state.screen = 'done';
+      } else {
+        r.index++;
+        r.choice = -1;
+      }
+      render();
+    }
+
+    // MARK: - CET-4 / CET-6 Exam Module Logic
+
+    function cetDates(level) {
+      if (!state.catalog) return [];
+      const set = new Set();
+      for (const f of state.catalog.files) {
+        if (f.level === level && f.kind === 'paper') set.add(f.date);
+      }
+      return Array.from(set).sort().reverse();
+    }
+
+    function cetPapers(level, date) {
+      if (!state.catalog) return [];
+      return state.catalog.files.filter((f) => f.level === level && f.date === date && f.kind === 'paper');
+    }
+
+    async function openCetPaper(hash) {
+      if (!isPro()) {
+        if (confirm('四六级真题结构化练习与听力离线包为 0979 PRO 会员专属权益。是否前往登录已开通 0979 会员的账号？')) {
+          state.screen = 'account';
+          render();
+        }
+        return;
+      }
+      state.cet.loading = true;
+      render();
+      try {
+        const resp = await fetch(`/recite/cet-modules/${hash}.json`);
+        const paper = await resp.json();
+        const savedKey = `recite.cet.${paper.level}.${paper.title}`;
+        const saved = JSON.parse(localStorage.getItem(savedKey) || '{}');
+        state.cet.activePaper = paper;
+        state.cet.sectionIdx = 0;
+        state.cet.answers = saved.answers || {};
+        state.cet.bookmarks = saved.bookmarks || {};
+        state.cet.marks = saved.marks || {};
+        state.cet.writing = saved.writing || '';
+        state.cet.translation = saved.translation || '';
+        state.cet.submitted = !!saved.submitted;
+        state.cet.remainingSec = saved.remainingSec || ((paper.minutes || 125) * 60);
+        state.cet.audioUrl = '';
+        if (paper.audio && state.catalog) {
+          const encoded = paper.audio.split('/').map(encodeURIComponent).join('/');
+          state.cet.audioUrl = `https://fastly.jsdelivr.net/gh/0609x/CET46-Resources@${state.catalog.revision}/${encoded}`;
+        }
+      } catch (e) {
+        alert('题库加载失败，请检查网络连接后重试。');
+      } finally {
+        state.cet.loading = false;
+        render();
+      }
+    }
+
+    function saveCetProgress() {
+      const p = state.cet.activePaper;
+      if (!p) return;
+      const savedKey = `recite.cet.${p.level}.${p.title}`;
+      localStorage.setItem(savedKey, JSON.stringify({
+        answers: state.cet.answers,
+        bookmarks: state.cet.bookmarks,
+        marks: state.cet.marks,
+        writing: state.cet.writing,
+        translation: state.cet.translation,
+        submitted: state.cet.submitted,
+        remainingSec: state.cet.remainingSec
+      }));
+    }
+
+    function expectedCetAnswer(paper, num) {
+      const k = paper.key || '';
+      if (num < 1 || num > 55 || k.length < num) return '';
+      const ch = k[num - 1].toUpperCase();
+      return ch === '-' ? '' : ch;
+    }
+
+    // MARK: - WordNet 2025 English Definitions & Adaptive Vocabulary Placement (v0.3.23)
+
+    async function ensureEnglishDefinitions() {
+      if (state.engDefs || state.engDefsLoading) return;
+      state.engDefsLoading = true;
+      try {
+        const resp = await fetch('/recite/english-definitions.json');
+        state.engDefs = await resp.json();
+      } catch {
+        state.engDefs = {};
+      } finally {
+        state.engDefsLoading = false;
+        if (state.modal && state.modal.type === 'wordDetail') render();
+      }
+    }
+
+    function lookupEnglishDefs(term, part) {
+      if (!state.engDefs) return [];
+      const key = String(term || '').trim().toLowerCase().replace(/\s+/g, ' ');
+      const list = state.engDefs[key];
+      if (!list || !list.length) return [];
+      const pref = new Set();
+      for (const tok of String(part || '').toLowerCase().split(/[^a-z]+/)) {
+        if (['v', 'vi', 'vt', 'verb'].includes(tok)) pref.add('v.');
+        else if (['n', 'noun'].includes(tok)) pref.add('n.');
+        else if (['a', 'adj', 'adjective'].includes(tok)) pref.add('adj.');
+        else if (['ad', 'adv', 'adverb'].includes(tok)) pref.add('adv.');
+      }
+      return [...list].sort((a, b) => (pref.has(b[0]) ? 1 : 0) - (pref.has(a[0]) ? 1 : 0));
+    }
+
+    async function startPlacement() {
+      if (!state.placementLexicon) {
+        state.loadingBook = true;
+        render();
+        try {
+          const resp = await fetch('/recite/placement-lexicon.json');
+          state.placementLexicon = await resp.json();
+        } catch {
+          alert('无法加载词汇量测评题库，请检查网络后重试。');
+          state.loadingBook = false;
+          render();
+          return;
+        } finally {
+          state.loadingBook = false;
+        }
+      }
+      const decks = state.placementLexicon.bands.map((b) => [...b].sort(() => Math.random() - 0.5));
+      const likelihood = Array(29).fill(1 / 29);
+      const pl = { decks, likelihood, answered: 0, question: null, result: null };
+      pl.question = drawPlacementQuestion(pl, 2);
+      state.placement = pl;
+      state.screen = 'placement';
+      render();
+    }
+
+    function drawPlacementQuestion(pl, targetBand) {
+      let band = targetBand;
+      for (let i = 0; i < pl.decks.length; i++) {
+        if (pl.decks[i].length && (!pl.decks[band].length || Math.abs(i - targetBand) < Math.abs(band - targetBand))) {
+          band = i;
+        }
+      }
+      const item = pl.decks[band].pop();
+      const term = item[0];
+      const correctMeaning = item[1];
+      const distractors = [];
+      const seen = new Set([correctMeaning]);
+      const pool = pl.decks[band].length >= 10 ? pl.decks[band] : state.placementLexicon.bands[band];
+      for (let tries = 0; tries < 60 && distractors.length < 3; tries++) {
+        const cand = pool[Math.floor(Math.random() * pool.length)];
+        if (cand && cand[1] && !seen.has(cand[1])) {
+          seen.add(cand[1]);
+          distractors.push(cand[1]);
+        }
+      }
+      const options = [correctMeaning, ...distractors].sort(() => Math.random() - 0.5);
+      return { term, options, correctIndex: options.indexOf(correctMeaning), difficulty: band };
+    }
+
+    function placementAbilityAt(idx) { return -1 + idx * 0.25; }
+    function placementPercentile(likelihood, frac) {
+      let cum = 0;
+      for (let i = 0; i < likelihood.length; i++) {
+        cum += likelihood[i];
+        if (cum >= frac) return placementAbilityAt(i);
+      }
+      return placementAbilityAt(likelihood.length - 1);
+    }
+    function placementVocabAt(ability) {
+      const pos = ability - (-1);
+      const idx = Math.max(0, Math.min(Math.floor(pos), VOCAB_ANCHORS.length - 2));
+      const low = VOCAB_ANCHORS[idx], high = VOCAB_ANCHORS[idx + 1];
+      return Math.round((low + (high - low) * (pos - idx)) / 100) * 100;
+    }
+
+    window.answerPlacement = (selectedIdx) => {
+      const pl = state.placement;
+      if (!pl || pl.result) return;
+      const q = pl.question;
+      pl.answered++;
+      let total = 0, weighted = 0;
+      for (let i = 0; i < pl.likelihood.length; i++) {
+        const ab = placementAbilityAt(i);
+        const rec = 1 / (1 + Math.exp((q.difficulty - ab) / 0.55));
+        let p;
+        if (selectedIdx === -1) p = 0.60 * (1 - rec) + 0.01 * rec;
+        else if (selectedIdx === q.correctIndex) p = 0.25 * (1 - rec) + 0.98 * rec;
+        else p = 0.75 * (1 - rec) + 0.02 * rec;
+        pl.likelihood[i] *= p;
+        total += pl.likelihood[i];
+        weighted += pl.likelihood[i] * ab;
+      }
+      for (let i = 0; i < pl.likelihood.length; i++) pl.likelihood[i] /= total;
+      const est = weighted / total;
+      const lower = placementPercentile(pl.likelihood, 0.15);
+      const upper = placementPercentile(pl.likelihood, 0.85);
+      const bandIdx = Math.max(0, Math.min(PLACEMENT_BANDS.length - 1, Math.round(est)));
+
+      if (pl.answered >= 24 || (pl.answered >= 12 && upper - lower <= 1.5)) {
+        const lowV = placementVocabAt(lower).toLocaleString('en-US');
+        const highV = placementVocabAt(upper).toLocaleString('en-US');
+        let range = `约 ${lowV}–${highV} 个词`;
+        if (lower <= -1) range = `约 ${highV} 个词以内`;
+        else if (upper >= placementAbilityAt(28)) range = `约 ${lowV} 个词以上`;
+        pl.result = { band: PLACEMENT_BANDS[bandIdx], range };
+      } else {
+        const nextBand = Math.max(q.difficulty - 1, Math.min(q.difficulty + 1, bandIdx));
+        pl.question = drawPlacementQuestion(pl, nextBand);
+      }
+      render();
+    };
+
+    window.useRecommendedBook = async (table) => {
+      const idx = state.books.findIndex((b) => b.table === table);
+      if (idx >= 0) {
+        state.selectedBookIdx = idx;
+        localStorage.setItem('recite.book', String(idx));
+        await ensureBookLoaded(table);
+      }
+      state.placement = null;
+      state.screen = 'home';
+      render();
+    };
+
+    function renderPlacement() {
+      const pl = state.placement;
+      if (!pl) return '';
+      if (pl.result) {
+        const r = pl.result;
+        return `
+          <div class="col">
+            <div class="row space-between">
+              <div style="font-size:22px;font-weight:900;">词汇量测评结果</div>
+              <button class="btn" style="width:auto;padding:6px 14px;background:var(--paper-deep);" onclick="state.screen='home';render();">首页</button>
+            </div>
+            <div class="ink-card col" style="align-items:center;text-align:center;padding:22px 16px;gap:12px;">
+              <div class="coin-badge" style="min-width:96px;min-height:96px;font-size:32px;transform:rotate(-5deg);">${r.band.name}</div>
+              <div style="font-size:22px;font-weight:900;">估算词汇量：${escapeHtml(r.range)}</div>
+              <div class="muted" style="font-size:15px;line-height:1.6;">${escapeHtml(r.band.rec)}</div>
+              <div class="muted" style="font-size:13px;">本次共完成 ${pl.answered} 题自适应测评（A1–C2 动态难度）。</div>
+            </div>
+            <button class="btn btn-primary" onclick="useRecommendedBook('${r.band.table}')">一键使用推荐词库</button>
+            <button class="btn" onclick="startPlacement()">重新测评</button>
+            <button class="btn" style="background:var(--paper-deep);" onclick="state.screen='home';render();">返回首页</button>
+          </div>
+        `;
+      }
+      const q = pl.question;
+      return `
+        <div class="col">
+          <div class="row space-between">
+            <div style="font-size:22px;font-weight:900;">词汇量测评</div>
+            <button class="btn" style="width:auto;padding:6px 14px;background:var(--paper-deep);" onclick="state.screen='home';render();">退出</button>
+          </div>
+          <div class="muted" style="font-size:14px;font-weight:700;">第 ${pl.answered + 1} 题（共 12–24 题，实时调整难度 · 当前档位 ${PLACEMENT_BANDS[q.difficulty].name}）</div>
+          <div class="progress-track"><div class="progress-fill" style="width:${Math.min(100, ((pl.answered + 1) / 24) * 100)}%"></div></div>
+          <div class="ink-card col" style="gap:10px;">
+            <div class="row space-between">
+              <div style="font-size:32px;font-weight:900;word-break:break-word;">${escapeHtml(q.term)}</div>
+              <button class="btn" style="width:48px;height:48px;padding:0;flex-shrink:0;" data-speak="${escapeHtml(q.term)}" data-jp="0" onclick="speakFromEl(this)">🔊</button>
+            </div>
+            <div class="muted" style="font-size:14px;">选出最贴近该词的中文释义</div>
+          </div>
+          ${q.options.map((opt, idx) => `<button class="btn btn-choice" onclick="answerPlacement(${idx})">${escapeHtml(opt)}</button>`).join('')}
+          <button class="btn" style="background:var(--paper-deep);" onclick="answerPlacement(-1)">不认识</button>
+        </div>
+      `;
+    }
+
+    // MARK: - Rendering
+
+    function render() {
+      const root = document.getElementById('app');
+      if (!root) return;
+
+      let html = '';
+      if (state.screen === 'home') html = renderHome();
+      else if (state.screen === 'study') html = renderStudy();
+      else if (state.screen === 'ready') html = renderReady();
+      else if (state.screen === 'quiz') html = renderQuiz();
+      else if (state.screen === 'done') html = renderDone();
+      else if (state.screen === 'cet') html = renderCet();
+      else if (state.screen === 'account') html = renderAccount();
+      else if (state.screen === 'placement') html = renderPlacement();
+
+      if (state.modal) html += renderModal(state.modal);
+      root.innerHTML = html;
+    }
+
+    function renderHome() {
+      const book = currentBookMeta();
+      const stats = getBookStats(book);
+      const pro = isPro();
+      const isStandalone = window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches;
+
+      let banner = '';
+      if (!isStandalone && !state.hidePwaTip) {
+        banner = `<div class="pwa-banner">
+          <div class="row space-between">
+            <strong>iOS 全屏免签安装提示</strong>
+            <button onclick="dismissPwaTip()" style="border:none;background:none;font-weight:800;cursor:pointer;">✕</button>
+          </div>
+          <div class="muted" style="margin-top:4px;">
+            用 iPhone Safari 打开本页，点底部 <strong>「分享」</strong> 图标 → 选择 <strong>「添加到主屏幕」</strong>，即可在桌面生成独立全屏 Recite 应用（免开发者证书、永不掉签）。
+          </div>
+        </div>`;
+      }
+
+      const accName = state.account ? state.account.name : '';
+      const accountBtnLabel = pro
+        ? `App Hub 账号  ·  PRO 会员${accName ? ' · ' + accName : ''}  ›`
+        : (state.account
+            ? `App Hub 账号  ·  普通用户${accName ? ' · ' + accName : ''}  ›`
+            : `App Hub 账号  ·  普通用户（未登录）  ›`);
+
+      return `
+        ${banner}
+        <div class="col">
+          <div class="row space-between">
+            <div class="row" style="gap:6px;">
+              ${wordmarkSvg()}
+              <span class="coin-badge" style="min-width:37px;min-height:37px;font-size:15px;transform:rotate(-9deg);">$</span>
+            </div>
+            ${tierBadgeHtml(pro, pro ? '0979 会员' : '普通用户', 'onclick="openModal(\'about\')"')}
+          </div>
+
+          <div class="ink-card col" style="gap:9px;">
+            <div class="row">
+              ${redStampSvg()}
+              <span style="font-size:14px;font-weight:800;color:var(--red-pressed);">离线背单词</span>
+            </div>
+            <div style="font-size:25px;font-weight:900;">摸鱼时间，背几个词</div>
+            <div class="muted" style="font-size:15px;">选本词书，背一小轮，再做个小测。</div>
+            <button class="btn btn-primary" style="margin-top:4px;" onclick="startStudyRound(false)">
+              ${state.loadingBook ? '正在加载词书…' : '开始背词'}
+            </button>
+            ${stats.due > 0 ? `<button class="btn" onclick="startStudyRound(true)">复习  ·  ${stats.due} 个到期词</button>` : ''}
+          </div>
+
+          <div class="row" style="gap:8px;">
+            <input class="input-box" id="home-search" placeholder="输入要查询的单词" value="${escapeHtml(state.searchQuery)}"
+              oninput="state.searchQuery=this.value" onkeydown="if(event.key==='Enter')openLookup()" />
+            <button class="btn" style="width:auto;min-width:74px;" onclick="openLookup()">查词</button>
+          </div>
+
+          <button class="btn" onclick="openModal('wordbooks')">单词本</button>
+          <button class="btn" onclick="startPlacement()">词汇量测评（A1–C2）  ›</button>
+          <button class="btn" onclick="openCetScreen()">四六级刷题  ›</button>
+
+          <div style="font-size:18px;font-weight:800;margin-top:4px;">本轮设置</div>
+          <button class="btn" onclick="openModal('books')">词库  ·  ${escapeHtml(book.title)}  ›</button>
+          <button class="btn" onclick="openModal('sizes')">每轮  ·  ${state.roundSize} 个词  ›</button>
+
+          <div class="ink-card col" style="gap:10px;">
+            <div style="font-size:19px;font-weight:800;">学习进度</div>
+            <div class="row">
+              <span class="coin-badge">${stats.studied}</span>
+              <span class="coin-badge">${Math.max(0, stats.total - stats.studied)}</span>
+              <span class="muted" style="font-size:14px;">已学 ${stats.studied} / ${stats.total}   ·   待复习 ${stats.due}</span>
+            </div>
+            <div class="progress-track">
+              <div class="progress-fill" style="width:${stats.total ? Math.min(100, (stats.studied / stats.total) * 100) : 0}%"></div>
+            </div>
+            <div class="row">
+              <button class="btn" onclick="openProgressList(true)">已学 (${stats.studied})</button>
+              <button class="btn" onclick="openProgressList(false)">未学 (${Math.max(0, stats.total - stats.studied)})</button>
+            </div>
+          </div>
+
+          <button class="btn" onclick="openModal('accents')">英语发音  ·  ${state.accent === 'en-GB' ? '英音' : '美音'}  ·  离线  ›</button>
+          <button class="btn ${pro ? 'btn-gold' : ''}" onclick="state.screen='account';render();">${escapeHtml(accountBtnLabel)}</button>
+        </div>
+      `;
+    }
+
+    function renderWordCard(word, reveal, showDetailBtn) {
+      const book = currentBookMeta();
+      const ipa = displayIpa(word);
+      const meaningText = word.part ? `${word.part}  ${word.meaning}` : word.meaning;
+      return `
+        <div class="ink-card col" style="gap:10px;">
+          <div class="row space-between">
+            <div class="row">
+              ${redStampSvg()}
+              <span style="font-size:14px;font-weight:800;color:var(--red-pressed);">${escapeHtml(book.title)}</span>
+            </div>
+            ${showDetailBtn && state.round ? `<span style="font-size:14px;font-weight:800;">${state.round.index + 1} / ${state.round.words.length}</span>` : ''}
+          </div>
+          <div class="row space-between">
+            <div style="font-size:34px;font-weight:900;word-break:break-word;">${escapeHtml(word.term)}</div>
+            <button class="btn" style="width:48px;height:48px;padding:0;flex-shrink:0;"
+              data-speak="${escapeHtml(book.kana ? word.meaning : word.term)}" data-jp="${book.japanese ? '1' : '0'}"
+              onclick="speakFromEl(this)">🔊</button>
+          </div>
+          ${!book.japanese && ipa ? `<div class="muted" style="font-size:17px;">${state.accent === 'en-GB' ? '英音' : '美音'}  /${escapeHtml(ipa)}/</div>` : ''}
+          ${book.japanese && reveal && word.reading ? `<div class="muted" style="font-size:17px;">${escapeHtml(word.reading)}</div>` : ''}
+          ${showDetailBtn ? `<button class="btn" onclick="openWordDetailCurrent()">单词详情 · 英美音标与收藏</button>` : ''}
+          ${reveal ? `
+            <div class="ink-box" style="background:var(--paper-deep);">
+              <div style="font-size:13px;font-weight:800;color:var(--red-pressed);margin-bottom:4px;">${book.kana ? '片假名' : '释义'}</div>
+              <div style="font-size:21px;font-weight:800;white-space:pre-line;">${escapeHtml(meaningText)}</div>
+            </div>
+            ${word.example ? `
+              <div style="border-left:3px solid var(--red);padding-left:10px;margin-top:4px;">
+                <div style="font-size:16px;">${escapeHtml(word.example)}</div>
+                ${word.translation ? `<div class="muted" style="font-size:15px;margin-top:4px;">${escapeHtml(word.translation)}</div>` : ''}
+              </div>
+              ${!book.japanese ? `<button class="btn" data-speak="${escapeHtml(word.example)}" data-jp="0" onclick="speakFromEl(this)">播放例句 · ${state.accent === 'en-GB' ? '英音' : '美音'}</button>` : ''}
+            ` : ''}
+          ` : ''}
+        </div>
+      `;
+    }
+
+    function renderStudy() {
+      const r = state.round;
+      const w = r.words[r.index];
+      const book = currentBookMeta();
+      return `
+        <div class="col">
+          <div class="row space-between">
+            <div style="font-size:22px;font-weight:900;">背词</div>
+            <button class="btn" style="width:auto;padding:6px 14px;background:var(--paper-deep);" onclick="leaveRound()">首页</button>
+          </div>
+          <div class="muted" style="font-size:14px;font-weight:700;">第 ${r.index + 1} / ${r.words.length} 个</div>
+          <div class="progress-track"><div class="progress-fill" style="width:${((r.index + 1) / r.words.length) * 100}%"></div></div>
+          ${renderWordCard(w, r.revealed, true)}
+          <div class="row">
+            ${!r.revealed
+              ? `<button class="btn btn-primary" onclick="state.round.revealed=true;render();">${book.kana ? '显示片假名' : '显示释义'}</button>`
+              : `<button class="btn btn-primary" onclick="advanceStudy(true)">记住了</button>`}
+            <button class="btn" onclick="advanceStudy(false)">稍后复习</button>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderReady() {
+      const r = state.round;
+      return `
+        <div class="col">
+          <div class="row space-between">
+            <div style="font-size:22px;font-weight:900;">本轮背词完成</div>
+            <button class="btn" style="width:auto;padding:6px 14px;background:var(--paper-deep);" onclick="leaveRound()">首页</button>
+          </div>
+          <div class="ink-card col">
+            <div style="font-size:28px;font-weight:900;">背了 ${r.words.length} 个词</div>
+            <div class="muted" style="font-size:16px;">标记记住 ${r.remembered} 个。做个小测，看看还记得多少。</div>
+          </div>
+          <button class="btn btn-primary" onclick="state.round.index=0;state.round.choice=-1;state.screen='quiz';render();">开始小测</button>
+          <button class="btn" style="background:var(--paper-deep);" onclick="state.round=null;state.screen='home';render();">下次再测</button>
+        </div>
+      `;
+    }
+
+    function renderQuiz() {
+      const r = state.round;
+      const w = r.words[r.index];
+      const book = currentBookMeta();
+      const opts = r.optionsMap[w.id] || [w.meaning];
+      const answered = r.choice !== -1;
+
+      const optBtns = opts.map((opt, i) => {
+        const isCorrect = opt === w.meaning;
+        const isChosen = r.choice === i;
+        let cls = 'btn btn-choice';
+        let prefix = '';
+        if (answered && isCorrect) { cls += ' correct'; prefix = '✓  '; }
+        else if (answered && isChosen) { cls += ' wrong'; prefix = '×  '; }
+        return `<button class="${cls}" onclick="answerQuiz(${i}, ${isCorrect})">${escapeHtml(prefix + opt)}</button>`;
+      }).join('');
+
+      const rightChosen = answered && r.choice >= 0 && opts[r.choice] === w.meaning;
+
+      return `
+        <div class="col">
+          <div class="row space-between">
+            <div style="font-size:22px;font-weight:900;">小测</div>
+            <button class="btn" style="width:auto;padding:6px 14px;background:var(--paper-deep);" onclick="leaveRound()">首页</button>
+          </div>
+          <div class="muted" style="font-size:14px;font-weight:700;">第 ${r.index + 1} / ${r.words.length} 个</div>
+          <div class="progress-track"><div class="progress-fill" style="width:${((r.index + 1) / r.words.length) * 100}%"></div></div>
+          ${renderWordCard(w, false, false)}
+          <div style="font-size:17px;font-weight:800;">${book.kana ? '选出对应的片假名' : '选出对应的中文释义'}</div>
+          ${optBtns}
+          ${answered ? `
+            ${rightChosen
+              ? `<div class="row"><span class="coin-badge">${r.correct}</span><strong style="color:var(--green-ok);">答对了</strong></div>`
+              : `<div style="color:var(--red-pressed);font-weight:800;">已加入待复习</div>`}
+            <button class="btn btn-primary" onclick="nextQuizQuestion()">${r.index + 1 >= r.words.length ? '查看结果' : '下一题'}</button>
+          ` : `<button class="btn" style="background:var(--paper-deep);" onclick="answerQuiz(-2, false)">我不知道</button>`}
+        </div>
+      `;
+    }
+
+    function renderDone() {
+      const r = state.round;
+      return `
+        <div class="col">
+          <div style="font-size:22px;font-weight:900;">小测完成</div>
+          <div class="ink-card col" style="align-items:center;text-align:center;padding:24px 16px;">
+            <div style="font-size:19px;font-weight:800;">本轮答对</div>
+            <div class="coin-badge" style="min-width:128px;min-height:104px;font-size:28px;transform:rotate(-5deg);">
+              ${r.correct} / ${r.words.length}
+            </div>
+            <div style="font-size:16px;">${r.correct === r.words.length ? '这一轮全答对了。' : '答错的词已经放进待复习。'}</div>
+          </div>
+          <button class="btn btn-primary" onclick="state.round=null;state.screen='home';render();">返回首页</button>
+        </div>
+      `;
+    }
+
+    function renderAccount() {
+      const pro = isPro();
+      const acc = state.account;
+      return `
+        <div class="col">
+          <div class="row space-between">
+            <div style="font-size:24px;font-weight:900;">App Hub 账号</div>
+            ${tierBadgeHtml(pro, pro ? '0979 会员' : '普通用户')}
+          </div>
+          <div class="muted" style="font-size:14px;">登录用于统一身份与 0979 会员权益验证。本机背词进度可完全离线使用。</div>
+
+          <div class="ink-card col">
+            ${acc ? `
+              <div class="row space-between">
+                <div style="font-size:21px;font-weight:900;">${escapeHtml(acc.name || '已登录用户')}</div>
+                ${tierBadgeHtml(pro, pro ? 'PRO 会员' : '普通用户')}
+              </div>
+              ${acc.email ? `<div class="muted" style="font-size:14px;">${escapeHtml(acc.email)}</div>` : ''}
+              <div style="font-size:14px;">登录状态：已登录</div>
+              <div style="font-size:15px;font-weight:800;color:${pro ? 'var(--green-ok)' : 'var(--ink)'};">
+                ${pro
+                  ? `会员身份：PRO · 0979 会员有效（${escapeHtml(formatExpiry(state.membership.expires_at))}）`
+                  : '会员身份：非会员 · 普通用户（未开通 0979 会员）'}
+              </div>
+              <div class="muted" style="font-size:13px;">
+                ${pro
+                  ? '已解锁全部 165 套四六级真题结构化练习与听力在线/离线播放等全部 PRO 会员权益。'
+                  : '开通 0979 会员后可点亮 PRO 标识并解锁全部 165 套四六级真题与听力。'}
+              </div>
+            ` : `
+              <div class="row space-between">
+                <div style="font-size:20px;font-weight:900;">当前未登录</div>
+                ${tierBadgeHtml(false, '普通用户')}
+              </div>
+              <div style="font-size:15px;font-weight:800;">当前身份：非会员 · 普通用户</div>
+              <div class="muted" style="font-size:14px;">登录已开通 0979 会员的账号后，应用内将点亮 PRO 会员标识并解锁全部 165 套四六级真题练习与听力播放。</div>
+            `}
+          </div>
+
+          ${acc ? `
+            <button class="btn btn-gold" onclick="verifyMembership(true)" ${state.authBusy ? 'disabled' : ''}>验证登录与会员状态</button>
+            <button class="btn" onclick="signOutAppHub()">退出此应用</button>
+          ` : `
+            <button class="btn btn-gold" onclick="beginAppHubLogin()" ${state.authBusy ? 'disabled' : ''}>在浏览器登录 App Hub 账号</button>
+          `}
+
+          ${state.authNotice ? `<div style="font-size:14px;font-weight:700;">${escapeHtml(state.authNotice)}</div>` : ''}
+          <button class="btn" onclick="state.screen='home';render();">返回首页</button>
+        </div>
+      `;
+    }
+
+    function renderCet() {
+      const c = state.cet;
+      const pro = isPro();
+      if (c.activePaper) return renderCetPaperSession(c.activePaper);
+
+      const dates = cetDates(c.level);
+      const curDate = (c.date && dates.includes(c.date)) ? c.date : (dates[0] || '');
+      state.cet.date = curDate;
+      const papers = cetPapers(c.level, curDate);
+      const mods = (state.catalog && state.catalog.modules) || {};
+
+      const paperCards = papers.map((p) => {
+        const meta = mods[p.hash] || {};
+        const title = meta.title || p.path.split('/').pop().replace('.pdf', '');
+        return `
+          <div class="ink-card col" style="gap:8px;">
+            <div class="row space-between">
+              <div class="row">
+                ${redStampSvg()}
+                <strong style="font-size:16px;">${escapeHtml(title)}</strong>
+              </div>
+              <span style="font-size:12px;font-weight:800;padding:3px 8px;border:1.5px solid var(--ink);border-radius:4px;background:var(--paper-deep);">
+                PRO 题库
+              </span>
+            </div>
+            <div class="muted" style="font-size:13px;">含 55 道客观题自动批改、听力同步音频及 ${meta.notesCount || 55} 条题目详解</div>
+            <button class="btn btn-primary" onclick="openCetPaper('${p.hash}')">
+              ${c.loading ? '正在加载试卷…' : '开始做题'}
+            </button>
+          </div>
+        `;
+      }).join('');
+
+      return `
+        <div class="col">
+          <div class="row space-between">
+            <div style="font-size:24px;font-weight:900;">四六级真题</div>
+            <div class="row" style="gap:8px;">
+              ${tierBadgeHtml(pro, pro ? '0979 会员' : '普通用户', 'onclick="state.screen=\'account\';render();"')}
+              <button class="btn" style="width:auto;padding:6px 12px;background:var(--paper-deep);" onclick="state.screen='home';render();">首页</button>
+            </div>
+          </div>
+
+          <div class="row">
+            <button class="btn ${c.level === '4' ? 'btn-primary' : 'btn-choice'}" style="justify-content:center;"
+              onclick="state.cet.level='4';state.cet.date='';render();">英语四级 CET-4</button>
+            <button class="btn ${c.level === '6' ? 'btn-primary' : 'btn-choice'}" style="justify-content:center;"
+              onclick="state.cet.level='6';state.cet.date='';render();">英语六级 CET-6</button>
+          </div>
+
+          <div class="ink-box row space-between">
+            <strong>选择考期</strong>
+            <select style="font-size:15px;font-weight:700;background:var(--card);border:1.5px solid var(--ink);border-radius:4px;padding:6px 10px;"
+              onchange="state.cet.date=this.value;render();">
+              ${dates.map((d) => `<option value="${d}" ${d === curDate ? 'selected' : ''}>${d}</option>`).join('')}
+            </select>
+          </div>
+
+          <div style="font-size:17px;font-weight:800;">本考期试卷（共 ${papers.length} 套）</div>
+          ${paperCards}
+        </div>
+      `;
+    }
+
+    function renderCetPaperSession(paper) {
+      const c = state.cet;
+      const sections = paper.sections || [];
+      const sec = sections[Math.min(c.sectionIdx, sections.length - 1)] || {};
+      const mins = Math.floor(c.remainingSec / 60);
+      const secs = c.remainingSec % 60;
+      const timeStr = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+
+      const chips = sections.map((s, idx) => {
+        const label = s.type === 'writing' ? '写作'
+          : s.type === 'translation' ? '翻译'
+          : s.type === 'bank' ? '选词填空'
+          : s.type === 'match' ? '信息匹配'
+          : (s.part || '').includes('Listening') ? '听力 ' + (s.name || '').replace('Section ', '')
+          : '仔细阅读';
+        return `<button class="chip ${idx === c.sectionIdx ? 'active' : ''}" onclick="state.cet.sectionIdx=${idx};render();">${escapeHtml(label)}</button>`;
+      }).join('');
+
+      let scoreHtml = '';
+      if (c.submitted) {
+        let total = 0, right = 0;
+        for (let q = 1; q <= 55; q++) {
+          const exp = expectedCetAnswer(paper, q);
+          if (exp) {
+            total++;
+            if (c.answers[q] === exp) right++;
+          }
+        }
+        scoreHtml = `
+          <div class="ink-card row space-between" style="background:var(--green-paper);border-color:var(--green-ok);">
+            <div>
+              <div style="font-size:18px;font-weight:900;">客观题批改结果</div>
+              <div class="muted" style="font-size:13.5px;margin-top:4px;">共答对 ${right} / ${total} 道客观题，下方已展开各题答案与详解。</div>
+            </div>
+            <span class="coin-badge">${right}/${total}</span>
+          </div>
+        `;
+      }
+
+      const applyMarks = (pid, text) => {
+        let html = escapeHtml(text);
+        const list = (c.marks && c.marks[pid]) || [];
+        for (const m of list) {
+          if (!m || !m.text) continue;
+          const esc = escapeHtml(m.text);
+          const cls = m.style === 'ul' ? 'cet-ul' : 'cet-hl';
+          html = html.replace(esc, `<span class="${cls}">${esc}</span>`);
+        }
+        return html;
+      };
+
+      const renderPassageBlock = (pid, text) =>
+        `<div class="cet-passage" data-pid="${pid}" style="margin-top:4px;">${applyMarks(pid, text)}</div>`;
+
+      const scaleBar = `
+        <div class="row space-between" style="flex-wrap:wrap;gap:6px;">
+          <div class="row" style="gap:6px;">
+            <span class="muted" style="font-size:12.5px;font-weight:700;">字号</span>
+            ${CET_SCALES.map((sc) => `
+              <button class="chip ${c.scale === sc ? 'active' : ''}" style="padding:4px 9px;font-size:12.5px;"
+                onclick="setCetScale(${sc})">${sc}%</button>
+            `).join('')}
+          </div>
+          <div class="row" style="gap:6px;">
+            <button class="chip" style="padding:4px 9px;font-size:12.5px;background:#F4D87A;" onclick="markCetSelection('hl')">高亮</button>
+            <button class="chip" style="padding:4px 9px;font-size:12.5px;" onclick="markCetSelection('ul')">下划线</button>
+            <button class="chip" style="padding:4px 9px;font-size:12.5px;background:var(--paper-deep);" onclick="clearCetMarks()">清除</button>
+          </div>
+        </div>
+      `;
+
+      let bodyHtml = '';
+      if (sec.type === 'writing') {
+        bodyHtml = `
+          <textarea class="cet-editor" placeholder="在此输入作文…" oninput="state.cet.writing=this.value;saveCetProgress();">${escapeHtml(c.writing)}</textarea>
+          ${c.submitted && paper.explanations && paper.explanations.writing ? `
+            <div class="ink-box" style="background:var(--green-paper);border-color:var(--green-ok);">
+              <strong style="color:var(--green-ok);">参考范文</strong>
+              <div style="margin-top:6px;white-space:pre-line;font-size:14px;">${escapeHtml(paper.explanations.writing.join('\n\n'))}</div>
+            </div>
+          ` : ''}
+        `;
+      } else if (sec.type === 'translation') {
+        bodyHtml = `
+          <textarea class="cet-editor" placeholder="在此输入译文…" oninput="state.cet.translation=this.value;saveCetProgress();">${escapeHtml(c.translation)}</textarea>
+          ${c.submitted && paper.explanations && paper.explanations.translation ? `
+            <div class="ink-box" style="background:var(--green-paper);border-color:var(--green-ok);">
+              <strong style="color:var(--green-ok);">参考译文</strong>
+              <div style="margin-top:6px;white-space:pre-line;font-size:14px;">${escapeHtml(paper.explanations.translation.join('\n\n'))}</div>
+            </div>
+          ` : ''}
+        `;
+      } else if (sec.type === 'bank') {
+        const bankWords = (sec.bank || []).map((w) => `<span class="ink-box" style="padding:6px 10px;background:var(--paper-deep);font-size:14px;font-weight:700;">${escapeHtml(w)}</span>`).join('');
+        let blanks = '';
+        for (let q = 26; q <= 35; q++) {
+          const sel = c.answers[q] || '';
+          const exp = expectedCetAnswer(paper, q);
+          blanks += `
+            <div class="ink-box col" style="background:var(--paper);gap:6px;">
+              <div class="row space-between">
+                <strong>第 ${q} 空</strong>
+                <button class="btn ${sel ? 'btn-primary' : 'btn-choice'}" style="width:auto;min-height:38px;padding:6px 12px;"
+                  onclick="openCetPicker(${q}, 'bank')">${sel ? '已选：' + escapeHtml(sel) : '选择字母 (A-O) ›'}</button>
+              </div>
+              ${c.submitted ? renderCetExplanation(paper, q, sel, exp) : ''}
+            </div>
+          `;
+        }
+        bodyHtml = `<div style="display:flex;flex-wrap:wrap;gap:6px;">${bankWords}</div>${blanks}`;
+      } else if (sec.type === 'match') {
+        const paras = (sec.paragraphs || []).map((p, pIdx) => `
+          <div class="ink-box" style="background:var(--paper);">
+            <strong style="color:var(--red-pressed);">段落 [${escapeHtml(p.label)}]</strong>
+            ${renderPassageBlock(`s${c.sectionIdx}_m${pIdx}`, p.text)}
+          </div>
+        `).join('');
+        const stmts = (sec.statements || []).map((st) => {
+          const sel = c.answers[st.n] || '';
+          const exp = expectedCetAnswer(paper, st.n);
+          return `
+            <div class="ink-box col" style="background:var(--paper);gap:8px;">
+              <div style="font-weight:700;">${st.n}. ${escapeHtml(st.text)}</div>
+              <button class="btn ${sel ? 'btn-primary' : 'btn-choice'}" style="justify-content:center;min-height:40px;"
+                onclick="openCetPicker(${st.n}, 'match')">${sel ? '已选段落：' + escapeHtml(sel) : '选择段落 ›'}</button>
+              ${c.submitted ? renderCetExplanation(paper, st.n, sel, exp) : ''}
+            </div>
+          `;
+        }).join('');
+        bodyHtml = `${paras}${stmts}`;
+      } else {
+        bodyHtml = (sec.groups || []).map((g, gIdx) => {
+          const gParas = (g.paragraphs || []).map((p, pIdx) => renderPassageBlock(`s${c.sectionIdx}_g${gIdx}_p${pIdx}`, p)).join('');
+          const qs = (g.questions || []).map((q) => {
+            const sel = c.answers[q.n] || '';
+            const exp = expectedCetAnswer(paper, q.n);
+            const letters = ['A', 'B', 'C', 'D'];
+            const opts = letters.map((code, idx) => {
+              const txt = (q.options && q.options[idx]) ? q.options[idx] : `选项 ${code}`;
+              const label = (txt.startsWith(code + ')') || txt.startsWith(code + '.')) ? txt : `${code}) ${txt}`;
+              let cls = 'btn btn-choice';
+              if (c.submitted && exp === code) cls += ' correct';
+              else if (c.submitted && sel === code && exp && exp !== code) cls += ' wrong';
+              else if (sel === code) cls += ' selected';
+              return `<button class="${cls}" onclick="toggleCetAnswer(${q.n}, '${code}')">${escapeHtml(label)}</button>`;
+            }).join('');
+            return `
+              <div class="ink-box col" style="background:var(--paper);gap:8px;">
+                <div class="row space-between">
+                  <strong>${q.stem ? `${q.n}. ${escapeHtml(q.stem)}` : `第 ${q.n} 题`}</strong>
+                  <button style="border:none;background:none;font-weight:800;cursor:pointer;color:${c.bookmarks[q.n] ? 'var(--red)' : 'var(--ink-muted)'};"
+                    onclick="toggleCetBookmark(${q.n})">${c.bookmarks[q.n] ? '★ 已标记' : '☆ 标记'}</button>
+                </div>
+                ${opts}
+                ${c.submitted ? renderCetExplanation(paper, q.n, sel, exp) : ''}
+              </div>
+            `;
+          }).join('');
+          return `
+            <div class="col">
+              ${g.title ? `<strong style="color:var(--red-pressed);">${escapeHtml(g.title)}</strong>` : ''}
+              ${g.intro ? `<div class="muted" style="font-size:14px;">${escapeHtml(g.intro)}</div>` : ''}
+              ${gParas}
+              ${qs}
+            </div>
+          `;
+        }).join('');
+      }
+
+      const topParas = (sec.type !== 'match' && sec.paragraphs)
+        ? sec.paragraphs.map((p, pIdx) => renderPassageBlock(`s${c.sectionIdx}_t${pIdx}`, p)).join('')
+        : '';
+
+      return `
+        <div class="col cet-scaled" style="--cet-scale:${(c.scale || 100) / 100};">
+          <div class="row space-between">
+            <div>
+              <div style="font-size:19px;font-weight:900;">${escapeHtml(paper.title)}</div>
+              <div class="muted" style="font-size:13px;">已答 ${Object.keys(c.answers).length} / 55 题</div>
+            </div>
+            <div class="row" style="gap:6px;">
+              <span class="coin-badge" style="font-size:14px;">${timeStr}</span>
+              <button class="btn" style="width:auto;padding:8px 10px;" onclick="openModal('cetSheet')">答题卡</button>
+              <button class="btn" style="width:auto;padding:8px 10px;background:var(--paper-deep);" onclick="state.cet.activePaper=null;render();">返回</button>
+            </div>
+          </div>
+
+          ${c.audioUrl ? `
+            <div class="ink-box col" style="gap:6px;">
+              <div style="font-size:13px;font-weight:800;">配套听力音频</div>
+              <audio controls preload="none" src="${escapeHtml(c.audioUrl)}" style="width:100%;height:38px;"></audio>
+            </div>
+          ` : ''}
+
+          <div class="chip-bar">${chips}</div>
+          ${scaleBar}
+          ${scoreHtml}
+
+          <div class="ink-card col">
+            <div class="row">
+              ${redStampSvg()}
+              <strong style="color:var(--red-pressed);font-size:14px;">${escapeHtml((sec.part || '') + ' ' + (sec.name || ''))}</strong>
+            </div>
+            ${sec.title ? `<div style="font-size:18px;font-weight:900;">${escapeHtml(sec.title)}</div>` : ''}
+            ${sec.directions ? `<div class="ink-box muted" style="background:var(--paper-deep);font-size:13.5px;">${escapeHtml(sec.directions)}</div>` : ''}
+            ${topParas}
+            ${bodyHtml}
+          </div>
+
+          <div class="row">
+            ${c.sectionIdx > 0 ? `<button class="btn" onclick="state.cet.sectionIdx--;render();">上一部分</button>` : ''}
+            ${c.sectionIdx + 1 < sections.length ? `<button class="btn" onclick="state.cet.sectionIdx++;render();">下一部分</button>` : ''}
+            <button class="btn btn-primary" onclick="state.cet.submitted=!state.cet.submitted;saveCetProgress();render();">
+              ${c.submitted ? '重新作答' : '交卷批改'}
+            </button>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderCetExplanation(paper, num, sel, exp) {
+      const ok = exp && sel === exp;
+      const notes = (paper.explanations && paper.explanations.notes) || {};
+      const note = notes[String(num)] || '';
+      return `
+        <div style="font-size:13.5px;margin-top:4px;">
+          <div style="font-weight:800;color:${ok ? 'var(--green-ok)' : 'var(--red-pressed)'};">
+            ${!exp ? `你的作答：${sel || '未答'}` : (ok ? `✓ 回答正确（${exp}）` : `× 你的作答：${sel || '未答'}  ·  正确答案：${exp}`)}
+          </div>
+          ${note ? `<div class="muted" style="margin-top:3px;">解析：${escapeHtml(note)}</div>` : ''}
+        </div>
+      `;
+    }
+
+    // MARK: - Modals
+
+    function renderModal(m) {
+      let inner = '';
+      if (m.type === 'about') {
+        const pro = isPro();
+        const acc = state.account;
+        inner = `
+          <div class="col">
+            <div class="row space-between">
+              <strong style="font-size:20px;">${pro ? 'PRO · 0979 会员' : '普通用户 · 账号与关于'}</strong>
+              <button class="btn" style="width:auto;min-height:36px;padding:4px 12px;" onclick="closeModal()">关闭</button>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:8px;margin:6px 0;">
+              <img src="/recite/apple-touch-icon.png" width="88" height="88" style="border-radius:18px;border:2px solid var(--ink);" />
+              <span class="coin-badge" style="transform:rotate(-5deg);">${VERSION}</span>
+            </div>
+            <div class="ink-card col" style="background:${pro ? 'var(--card)' : 'var(--choice)'};gap:8px;">
+              <div>${tierBadgeHtml(pro, pro ? '0979 会员' : '普通用户')}</div>
+              ${pro ? `
+                <div style="font-weight:800;">账号：${escapeHtml(acc.name)}</div>
+                <div style="font-weight:800;color:var(--green-ok);">状态：PRO 会员有效（${escapeHtml(formatExpiry(state.membership.expires_at))}）</div>
+                <div class="muted" style="font-size:13px;">已解锁全部 165 套四六级真题结构化练习与听力播放等全部 PRO 会员权益。</div>
+              ` : acc ? `
+                <div style="font-weight:800;">账号：${escapeHtml(acc.name)}</div>
+                <div style="font-weight:800;">状态：非会员 · 普通用户</div>
+                <div class="muted" style="font-size:13px;">开通 0979 会员即可点亮 PRO 标识并解锁全部四六级真题与听力。</div>
+              ` : `
+                <div style="font-weight:800;">状态：非会员 · 普通用户（未登录）</div>
+                <div class="muted" style="font-size:13px;">登录已开通 0979 会员的 App Hub 账号即可点亮 PRO 会员标识。</div>
+              `}
+              <button class="btn btn-gold" onclick="closeModal();state.screen='account';render();">账号与会员管理</button>
+            </div>
+            <div class="ink-box" style="font-size:13.5px;line-height:1.6;">
+              Recite iOS / Web 全屏离线版 ${VERSION}<br/>
+              词库来自 Uahh/ToastFish (MIT License)。
+            </div>
+          </div>
+        `;
+      } else if (m.type === 'books') {
+        inner = `
+          <div class="col">
+            <div class="row space-between">
+              <strong style="font-size:20px;">选择词库</strong>
+              <button class="btn" style="width:auto;min-height:36px;padding:4px 12px;" onclick="closeModal()">关闭</button>
+            </div>
+            ${state.books.map((b, i) => `
+              <button class="btn ${i === state.selectedBookIdx ? 'btn-primary' : 'btn-choice'}"
+                onclick="selectBook(${i})">${escapeHtml(b.title)}（${b.count} 词）</button>
+            `).join('')}
+          </div>
+        `;
+      } else if (m.type === 'sizes') {
+        inner = `
+          <div class="col">
+            <div class="row space-between">
+              <strong style="font-size:20px;">每轮背几个词</strong>
+              <button class="btn" style="width:auto;min-height:36px;padding:4px 12px;" onclick="closeModal()">关闭</button>
+            </div>
+            ${ROUND_SIZES.map((sz) => `
+              <button class="btn ${sz === state.roundSize ? 'btn-primary' : 'btn-choice'}"
+                onclick="state.roundSize=${sz};localStorage.setItem('recite.size','${sz}');closeModal();">${sz} 个词</button>
+            `).join('')}
+          </div>
+        `;
+      } else if (m.type === 'accents') {
+        inner = `
+          <div class="col">
+            <div class="row space-between">
+              <strong style="font-size:20px;">英语发音 · 本机离线</strong>
+              <button class="btn" style="width:auto;min-height:36px;padding:4px 12px;" onclick="closeModal()">关闭</button>
+            </div>
+            <button class="btn ${state.accent === 'en-US' ? 'btn-primary' : 'btn-choice'}"
+              onclick="state.accent='en-US';localStorage.setItem('recite.accent','en-US');closeModal();">美音 (en-US)</button>
+            <button class="btn ${state.accent === 'en-GB' ? 'btn-primary' : 'btn-choice'}"
+              onclick="state.accent='en-GB';localStorage.setItem('recite.accent','en-GB');closeModal();">英音 (en-GB)</button>
+          </div>
+        `;
+      } else if (m.type === 'lookup') {
+        const results = m.results || [];
+        inner = `
+          <div class="col">
+            <div class="row space-between">
+              <strong style="font-size:20px;">查词结果</strong>
+              <button class="btn" style="width:auto;min-height:36px;padding:4px 12px;" onclick="closeModal()">关闭</button>
+            </div>
+            ${!results.length ? `<div class="muted">未在当前词库中找到匹配单词。</div>` : results.map((w) => `
+              <div class="ink-box col" style="gap:4px;">
+                <div class="row space-between">
+                  <strong style="font-size:18px;">${escapeHtml(w.term)}</strong>
+                  <div class="row" style="gap:6px;">
+                    <button class="btn" style="width:auto;min-height:32px;padding:4px 10px;" data-speak="${escapeHtml(w.term)}" data-jp="0" onclick="speakFromEl(this)">🔊</button>
+                    <button class="btn" style="width:auto;min-height:32px;padding:4px 10px;" onclick="saveWordToDefaultBook(${JSON.stringify(w).replace(/"/g, '&quot;')})">收藏</button>
+                  </div>
+                </div>
+                <div style="font-size:14.5px;">${escapeHtml(w.part ? w.part + '  ' + w.meaning : w.meaning)}</div>
+              </div>
+            `).join('')}
+          </div>
+        `;
+      } else if (m.type === 'wordbooks') {
+        inner = `
+          <div class="col">
+            <div class="row space-between">
+              <strong style="font-size:20px;">单词本（共 ${state.wordbooks.length} 词）</strong>
+              <button class="btn" style="width:auto;min-height:36px;padding:4px 12px;" onclick="closeModal()">关闭</button>
+            </div>
+            ${!state.wordbooks.length ? `<div class="muted">生词本暂无单词。在查词或背词详情中点击“收藏”即可加入单词本。</div>` : state.wordbooks.map((w, idx) => `
+              <div class="ink-box row space-between">
+                <div>
+                  <strong style="font-size:17px;">${escapeHtml(w.term)}</strong>
+                  <div class="muted" style="font-size:13.5px;margin-top:2px;">${escapeHtml(w.meaning)}</div>
+                </div>
+                <button class="btn" style="width:auto;min-height:34px;padding:4px 10px;background:var(--red-paper);"
+                  onclick="state.wordbooks.splice(${idx},1);saveWordbooksStore();render();">移出</button>
+              </div>
+            `).join('')}
+          </div>
+        `;
+      } else if (m.type === 'progressList') {
+        const list = m.words || [];
+        inner = `
+          <div class="col">
+            <div class="row space-between">
+              <strong style="font-size:19px;">${escapeHtml(m.title)}（${list.length}）</strong>
+              <button class="btn" style="width:auto;min-height:36px;padding:4px 12px;" onclick="closeModal()">关闭</button>
+            </div>
+            ${list.slice(0, 120).map((w) => `
+              <div class="ink-box">
+                <strong>${escapeHtml(w.term)}</strong>
+                <div class="muted" style="font-size:13.5px;margin-top:2px;">${escapeHtml(w.meaning)}</div>
+              </div>
+            `).join('')}
+          </div>
+        `;
+      } else if (m.type === 'cetSheet') {
+        const c = state.cet;
+        let tiles = '';
+        for (let q = 1; q <= 55; q++) {
+          const ans = c.answers[q] || '';
+          const bm = c.bookmarks[q] ? '★' : '';
+          tiles += `<div class="ink-box" style="text-align:center;padding:8px 4px;background:${ans ? 'var(--ink)' : 'var(--choice)'};color:${ans ? 'var(--paper)' : 'var(--ink)'};">
+            <div style="font-size:11px;font-weight:700;">${q}${bm}</div>
+            <div style="font-size:15px;font-weight:900;">${ans || '—'}</div>
+          </div>`;
+        }
+        inner = `
+          <div class="col">
+            <div class="row space-between">
+              <strong style="font-size:20px;">答题卡（1–55 题）</strong>
+              <button class="btn" style="width:auto;min-height:36px;padding:4px 12px;" onclick="closeModal()">关闭</button>
+            </div>
+            <div class="grid-5">${tiles}</div>
+          </div>
+        `;
+      } else if (m.type === 'wordDetail') {
+        const w = m.word;
+        const book = currentBookMeta();
+        const defs = lookupEnglishDefs(w.term, w.part);
+        const showAll = !!m.showAllDefs;
+        const visibleDefs = showAll ? defs : defs.slice(0, 3);
+        const isSaved = state.wordbooks.some((x) => x.term === w.term);
+        inner = `
+          <div class="col">
+            <div class="row space-between">
+              <strong style="font-size:24px;">${escapeHtml(w.term)}</strong>
+              <button class="btn" style="width:auto;min-height:36px;padding:4px 12px;" onclick="closeModal()">关闭</button>
+            </div>
+            <div class="row">
+              <button class="btn" data-speak="${escapeHtml(w.term)}" data-jp="${book.japanese ? '1' : '0'}" onclick="speakFromEl(this)">🔊 播放发音</button>
+              <button class="btn ${isSaved ? 'btn-gold' : ''}" onclick="toggleSaveWord(${JSON.stringify(w).replace(/"/g, '&quot;')})">${isSaved ? '✓ 已收藏' : '收藏到单词本'}</button>
+            </div>
+            <div class="ink-box" style="background:var(--paper-deep);">
+              <div style="font-size:13px;font-weight:800;color:var(--red-pressed);margin-bottom:4px;">中文释义</div>
+              <div style="font-size:18px;font-weight:800;white-space:pre-line;">${escapeHtml(w.part ? w.part + '  ' + w.meaning : w.meaning)}</div>
+            </div>
+            ${!book.japanese ? `
+              <div class="ink-box col" style="gap:6px;">
+                <div style="font-size:13px;font-weight:800;color:var(--red-pressed);">英英释义（Open English WordNet 2025）</div>
+                ${state.engDefsLoading
+                  ? `<div class="muted" style="font-size:14px;">正在加载离线英英词典…</div>`
+                  : (!visibleDefs.length
+                      ? `<div class="muted" style="font-size:14px;">暂无该词条的英英释义。</div>`
+                      : visibleDefs.map((d) => `<div style="font-size:14.5px;line-height:1.5;"><strong>${escapeHtml(d[0])}</strong> ${escapeHtml(d[1])}</div>`).join(''))}
+                ${defs.length > 3 && !showAll ? `<button class="btn" style="min-height:38px;font-size:14px;" onclick="state.modal.showAllDefs=true;render();">展开更多英英释义（共 ${defs.length} 条）</button>` : ''}
+              </div>
+            ` : ''}
+            ${w.example ? `
+              <div class="ink-box col" style="gap:6px;">
+                <div style="font-size:15px;">${escapeHtml(w.example)}</div>
+                ${w.translation ? `<div class="muted" style="font-size:14px;">${escapeHtml(w.translation)}</div>` : ''}
+                ${!book.japanese ? `<button class="btn" style="min-height:38px;font-size:14px;" data-speak="${escapeHtml(w.example)}" data-jp="0" onclick="speakFromEl(this)">🔊 播放例句</button>` : ''}
+              </div>
+            ` : ''}
+          </div>
+        `;
+      } else if (m.type === 'cetPicker') {
+        const qn = m.qn;
+        const choices = m.choices || [];
+        inner = `
+          <div class="col">
+            <div class="row space-between">
+              <strong style="font-size:19px;">第 ${qn} 题 · 选择答案</strong>
+              <button class="btn" style="width:auto;min-height:36px;padding:4px 12px;" onclick="closeModal()">关闭</button>
+            </div>
+            ${choices.map((ch) => {
+              const code = ch[0];
+              return `<button class="btn btn-choice" onclick="state.cet.answers[${qn}]='${code}';saveCetProgress();closeModal();">${escapeHtml(ch)}</button>`;
+            }).join('')}
+            <button class="btn" style="background:var(--red-paper);color:var(--red-pressed);"
+              onclick="delete state.cet.answers[${qn}];saveCetProgress();closeModal();">清除此题答案</button>
+          </div>
+        `;
+      }
+      return `<div class="modal-backdrop" onclick="if(event.target===this)closeModal()"><div class="modal-card">${inner}</div></div>`;
+    }
+
+    // MARK: - UI Event Handlers
+
+    window.dismissPwaTip = () => {
+      state.hidePwaTip = true;
+      localStorage.setItem('recite.hidePwaTip', '1');
+      render();
+    };
+
+    window.openModal = (type, extra = {}) => {
+      state.modal = { type, ...extra };
+      render();
+    };
+
+    window.closeModal = () => {
+      state.modal = null;
+      render();
+    };
+
+    window.selectBook = async (idx) => {
+      state.selectedBookIdx = idx;
+      localStorage.setItem('recite.book', String(idx));
+      state.modal = null;
+      await ensureBookLoaded(currentBookMeta().table);
+      render();
+    };
+
+    window.openLookup = async () => {
+      const q = (state.searchQuery || '').trim().toLowerCase();
+      const book = currentBookMeta();
+      const words = await ensureBookLoaded(book.table);
+      const matches = q ? words.filter((w) => w.term.toLowerCase().startsWith(q) || w.meaning.includes(q)).slice(0, 35) : words.slice(0, 20);
+      openModal('lookup', { results: matches });
+    };
+
+    window.saveWordToDefaultBook = (w) => {
+      if (!state.wordbooks.some((x) => x.term === w.term)) {
+        state.wordbooks.push({ term: w.term, meaning: w.meaning });
+        saveWordbooksStore();
+      }
+      alert(`已将「${w.term}」加入单词本`);
+    };
+
+    window.toggleSaveWord = (w) => {
+      const idx = state.wordbooks.findIndex((x) => x.term === w.term);
+      if (idx >= 0) state.wordbooks.splice(idx, 1);
+      else state.wordbooks.push({ term: w.term, meaning: w.meaning });
+      saveWordbooksStore();
+      render();
+    };
+
+    window.openWordDetail = (w) => {
+      ensureEnglishDefinitions();
+      openModal('wordDetail', { word: w, showAllDefs: false });
+    };
+
+    window.openWordDetailCurrent = () => {
+      if (!state.round) return;
+      openWordDetail(state.round.words[state.round.index]);
+    };
+
+    window.setCetScale = (sc) => {
+      state.cet.scale = sc;
+      localStorage.setItem('recite.cet.scale', String(sc));
+      render();
+    };
+
+    window.markCetSelection = (style) => {
+      const sel = window.getSelection ? window.getSelection() : null;
+      const text = sel ? sel.toString().trim() : '';
+      if (!text || text.length < 2 || text.length > 200) {
+        alert('请先在阅读正文里长按或拖动选中一段英文，再点击「高亮」或「下划线」。');
+        return;
+      }
+      let node = sel.anchorNode;
+      while (node && node.nodeType !== 1) node = node.parentNode;
+      const passage = node ? node.closest('.cet-passage') : null;
+      if (!passage || !passage.dataset.pid) {
+        alert('请在阅读正文段落内选中文字进行标注。');
+        return;
+      }
+      const pid = passage.dataset.pid;
+      if (!state.cet.marks[pid]) state.cet.marks[pid] = [];
+      state.cet.marks[pid] = state.cet.marks[pid].filter((m) => m.text !== text);
+      state.cet.marks[pid].push({ text, style });
+      saveCetProgress();
+      try { sel.removeAllRanges(); } catch {}
+      render();
+    };
+
+    window.clearCetMarks = () => {
+      if (confirm('清除本套试卷正文中的全部高亮和下划线标注？')) {
+        state.cet.marks = {};
+        saveCetProgress();
+        render();
+      }
+    };
+
+    window.openProgressList = async (studied) => {
+      const book = currentBookMeta();
+      const words = await ensureBookLoaded(book.table);
+      const bProg = state.progress[book.table] || {};
+      const filtered = words.filter((w) => studied ? bProg[w.id] !== undefined : bProg[w.id] === undefined);
+      openModal('progressList', { title: `${book.title} · ${studied ? '已学' : '未学'}`, words: filtered });
+    };
+
+    window.leaveRound = () => {
+      if (confirm('结束这一轮？已背过的单词会保留在本地进度里。')) {
+        state.round = null;
+        state.screen = 'home';
+        render();
+      }
+    };
+
+    window.openCetScreen = () => {
+      state.screen = 'cet';
+      render();
+    };
+
+    window.toggleCetAnswer = (qn, code) => {
+      if (state.cet.answers[qn] === code) delete state.cet.answers[qn];
+      else state.cet.answers[qn] = code;
+      saveCetProgress();
+      render();
+    };
+
+    window.toggleCetBookmark = (qn) => {
+      if (state.cet.bookmarks[qn]) delete state.cet.bookmarks[qn];
+      else state.cet.bookmarks[qn] = true;
+      saveCetProgress();
+      render();
+    };
+
+    window.openCetPicker = (qn, kind) => {
+      const p = state.cet.activePaper;
+      const sec = p.sections[state.cet.sectionIdx];
+      let choices = [];
+      if (kind === 'bank' && sec.bank && sec.bank.length) {
+        choices = sec.bank;
+      } else if (kind === 'match' && sec.paragraphs && sec.paragraphs.length) {
+        choices = sec.paragraphs.map((x) => `${x.label}) 段落 [${x.label}]`);
+      } else {
+        choices = Array.from({ length: 15 }, (_, i) => String.fromCharCode(65 + i));
+      }
+      openModal('cetPicker', { qn, choices });
+    };
+
+    setInterval(() => {
+      if (state.screen === 'cet' && state.cet.activePaper && !state.cet.submitted && state.cet.remainingSec > 0) {
+        state.cet.remainingSec--;
+        saveCetProgress();
+      }
+    }, 1000);
+
+    // MARK: - Init
+
+    async function init() {
+      if ('caches' in window) {
+        caches.keys().then((keys) => {
+          keys.forEach((k) => {
+            if (k !== 'recite-pwa-v0.3.23' && k.startsWith('recite-pwa-')) {
+              caches.delete(k);
+            }
+          });
+        }).catch(() => {});
+      }
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/recite/sw.js', { updateViaCache: 'none' }).then((reg) => {
+          reg.update().catch(() => {});
+        }).catch(() => {});
+      }
+      try {
+        const resp = await fetch('/recite/cet-catalog.json');
+        state.catalog = await resp.json();
+        state.books = state.catalog.books || [];
+      } catch {}
+      render();
+      await checkIncomingOAuthCallback();
+      if (state.account) {
+        verifyMembership(false);
+      }
+      ensureBookLoaded(currentBookMeta().table);
+    }
+
+    init();
+  </script>
+</body>
+</html>

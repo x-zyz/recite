@@ -1,0 +1,151 @@
+{
+ "schema": 1,
+ "paper": "六级真题/2025.12/真题PDF/cet6_2025_12_3.pdf",
+ "blob": "378000b31b0e3ce981203e916583d5fb52474db7",
+ "level": "6",
+ "date": "2025.12",
+ "title": "2025.12 大学英语六级真题",
+ "minutes": 130,
+ "audio": "",
+ "sections": [
+  {
+   "part": "Part I • Writing",
+   "name": "",
+   "type": "writing",
+   "directions": "For this part, you are allowed 30 minutes to write an essay that begins with the sentence \"It is believed that teachers can exert a profound influence on their students' academic pursuit and personal development.\" You can make comments, cite examples or use your personal experiences to develop your essay. You should write at least 150 words but no more than 200 words."
+  },
+  {
+   "part": "Part III • Reading Comprehension",
+   "name": "Section C",
+   "type": "choice",
+   "directions": "",
+   "groups": [
+    {
+     "title": "Passage One",
+     "paragraphs": [
+      "Mindfulness has been shown to have a number of meaningful health benefits—it can help reduce anxiety and promote healing in those suffering from chronic illness. The practice is based on an insight first described in ancient Buddhist texts that human beings have the capacity to observe experience without being caught up in it. This means simply that it is possible to observe ourselves having a craving, or a happy thought, or even a scary emotion, without reacting in the moment in a way that amplifies the feeling or sends the mind spiraling off into thinking about old memories or anticipating events.",
+      "This practice of mindfulness can help calm the mind and the body as we learn not to react to experience with likes and dislikes or judgments of good and bad. It does not make us cold or indifferent but more fully present.",
+      "One of the challenges of practicing mindfulness in our contemporary world is that there has been a profound transformation in human attention. The artist Jenny Odell argues that in our \"attention economy\" human attention has been transformed into a commodity that big corporations buy and sell. This economy rests on a technological revolution of mobile phones and social media that makes it possible for corporations to target our attention with their content at every moment. The devices most people use are a perpetual diversion from the present moment. The result is that it can feel as though our ability to focus, and be fully present, has been stolen. But mindfulness can help us resist the attention economy and relish the things that make life special, like being together with those we love. Most mindfulness research focuses on the individual benefits of the practice, but some scholars assert that we can not only practice mindfulness for ourselves but also practice it for others. It can help us build stronger, healthier relationships. The sad truth is that living in the attention economy, most of us have become bad listeners. However, just as it is possible to watch ourselves having an experience without reacting, it's possible to watch another person have an experience without getting tied up in reactivity and judgment.",
+      "The gift of mindfulness is a practice of listening with compassion to others describe their experiences. To give this gift means putting away your phone, turning off social media, and setting aside other common distractions. It means practicing being fully present in another person's presence and listening to them with complete attention without judgment, while resisting the urge to make the interaction about you. If we judge the value of gifts based on their price, this gift may seem worthless, but in a distracted world, it is a precious one."
+     ],
+     "questions": [
+      {
+       "n": 46,
+       "options": [
+        "It triggers our mind to reflect on past experiences or anticipate future events.",
+        "It focuses our attention on the present moment without making judgments.",
+        "It concentrates our mind on our personal feelings, happy or scary.",
+        "It helps our mind to stay calm when facing judgments from others."
+       ],
+       "stem": "What do we learn from the passage about practicing mindfulness?"
+      },
+      {
+       "n": 47,
+       "options": [
+        "Focus on technological advances continuously updates products and services.",
+        "People's attention is turned into something that can be bought and sold.",
+        "Businesses profit from selling mobile phones and revolutionizing social media.",
+        "People tend to purchase products and services without careful thinking."
+       ],
+       "stem": "What do we see in today's \"attention economy\" according to Jenny Odell?"
+      },
+      {
+       "n": 48,
+       "options": [
+        "They keep distracting users from the here and now.",
+        "They render users incapable of resisting temptation.",
+        "They rob users of their ability to observe experience.",
+        "They tempt users to endorse the attention economy."
+       ],
+       "stem": "What happens with the prevalent use of mobile phones or social media?"
+      },
+      {
+       "n": 49,
+       "options": [
+        "It prevents us from making arbitrary judgments about others.",
+        "It shifts our attention from material things to spiritual pursuits.",
+        "It is conducive to our forging better interpersonal relationships.",
+        "It is helpful in regaining our ability to enjoy what we have in life."
+       ],
+       "stem": "What benefit can practicing mindfulness bring to us according to some scholars?"
+      },
+      {
+       "n": 50,
+       "options": [
+        "Share each other's experience frankly and compassionately.",
+        "Pay full attention to establishing close relationships with them.",
+        "Be attentive listeners while refraining from making judgments.",
+        "Remind them of the distraction from mobile phones and social media."
+       ],
+       "stem": "What does the author suggest we do in another person's presence?"
+      }
+     ]
+    },
+    {
+     "title": "Passage Two",
+     "paragraphs": [
+      "The other day I had to log into a service I hadn't used before. Since I was a new user, the website decided that it needed to check I wasn't a robot and so set me a Captcha test to determine whether the user is a person or a machine. I was presented with an image of a roadside scene over which was laid a grid. My \"challenge\" was to click on each cell in the grid that contained a traffic sign. I did so, a bit irritated. Then I was presented with another image and another grid—also with a request to identify road signs. Like a lamb, I compiled, after which the website accepted my input.",
+      "And then I realised what I had been doing was adding to a dataset for training the machine-learning software that guides self-driving cars. So, to gain access to an automated service that will benefit financially from my input, I first have to do some unpaid labour to help improve the performance of autonomous vehicles. Neat, eh? But note also the delicious additional irony that the Captcha is described as an \"automated Turing test\". The Turing test was conceived, you may recall, as a way of enabling humans to determine whether a machine could respond in such a way that one couldn't tell whether it was a human or a robot. So we have wandered into a world in which machines make us do tricks to prove that we are humans! The strangest aspect of this unparalleled shift is how under-discussed it has been. The metaphor of the boiling frog comes to mind. Have we become so subtly conditioned by digital technology that we don't see what's been happening to us? Have we been conditioned to accept a world governed by \"smart\" tech, trading convenience to the point where we become a bit like machines ourselves? In a recent startling and thoughtful book, two scholars—Brett Frischmann, a law professor, and Evan Selinger, a philosopher—argue that the answer to that question is \"yes\"",
+      "And they're right. There's nothing technophobic about that. We shape our tools and then our tools shape us. Technology is supposed to provide tools that serve human ends. But, as the machine-learning Captcha demonstrates, a significant proportion of digital tech now sees (and uses) humans as means to ends that are not ours. In the process, they reduce us to the status of cheery rats running on treadmills designed by people who do not have our interests at heart. So back to the frog metaphor. Are we smart enough to jump out before it's too late? You don't even have to Google it to know the answer."
+     ],
+     "questions": [
+      {
+       "n": 51,
+       "options": [
+        "He clicked on the cells randomly.",
+        "He accepted the challenge readily.",
+        "He completed it confidently.",
+        "He worked on it submissively."
+       ],
+       "stem": "How did the author respond to the Captcha test?"
+      },
+      {
+       "n": 52,
+       "options": [
+        "A machine can respond to the test as well as humans do.",
+        "A machine can outperform humans in object identification.",
+        "A test designed to test machines is now used by machines to test humans.",
+        "A test conceived to tell a human from a robot can now do tricks humans can't."
+       ],
+       "stem": "What is ironic about the Captcha test?"
+      },
+      {
+       "n": 53,
+       "options": [
+        "To show that humans are unwilling to trade convenience for control by smart tech.",
+        "To show that humans are unaware of the potential danger brought by smart tech.",
+        "To question whether humans are conditioned to accept digital tech.",
+        "To question whether humans are as vulnerable as the boiling frog."
+       ],
+       "stem": "Why does the author use the metaphor of the boiling frog?"
+      },
+      {
+       "n": 54,
+       "options": [
+        "A large part of digital tech is now making use of humans to meet its own ends.",
+        "Humans are now fast locked in a race against digital tech to control the world.",
+        "Digital tech can serve human needs in ways previously thought impossible.",
+        "Digital tech is now doing thinking while humans are doing repetitive work."
+       ],
+       "stem": "Why does the author think that Brett Frischmann and Evan Selinger are right?"
+      },
+      {
+       "n": 55,
+       "options": [
+        "It is not sensible to expect digital tech to take humans' interest to heart.",
+        "It is hard to say whether technology or humans will get the upper hand.",
+        "We may have to search the web to get the answer to the question.",
+        "We may not awake in time to the danger digital tech poses to us."
+       ],
+       "stem": "What does the author imply by asking \"Are we smart enough to jump out before it's too late?\" at the end of the passage?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "key": ".......................................................",
+ "notes": {},
+ "reference": {},
+ "source": {}
+}

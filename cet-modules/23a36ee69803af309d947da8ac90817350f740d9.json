@@ -1,0 +1,601 @@
+{
+ "schema": 1,
+ "paper": "六级真题/2018.12/真题PDF/2018.12六级真题第2套.pdf",
+ "blob": "23a36ee69803af309d947da8ac90817350f740d9",
+ "level": "6",
+ "date": "2018.12",
+ "title": "2018 年12 月大学英语六级考试真题(第2 套)",
+ "minutes": 130,
+ "audio": "",
+ "sections": [
+  {
+   "part": "Part I Writing (30 minutes)",
+   "name": "",
+   "type": "writing",
+   "directions": "For this part, you are allowed 30 minutes to write an essay on how to balance job responsibilities and personal interests. You should write at least 150 words but no more than 200 words."
+  },
+  {
+   "part": "Part II Listening Comprehension (30 minutes)",
+   "name": "Section A",
+   "type": "choice",
+   "directions": "In this section, you will hear two long conversations At the end of each conversation, you will hear four questions. Both the conversation and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C) and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 1 to 4",
+     "questions": [
+      {
+       "n": 1,
+       "options": [
+        "Stop worrying about him.",
+        "Keep away from the statue.",
+        "Take a picture of him.",
+        "Put on a smile for the photo."
+       ]
+      },
+      {
+       "n": 2,
+       "options": [
+        "Gaining great fame on the Internet.",
+        "Publishing a collection of his photos.",
+        "Collecting the best photos in the world.",
+        "Becoming a professional photographer."
+       ]
+      },
+      {
+       "n": 3,
+       "options": [
+        "Surfing various websites and collecting photos.",
+        "Editing his pictures and posting them online.",
+        "Following similar accounts to compare notes.",
+        "Studying the pictures in popular social media."
+       ]
+      },
+      {
+       "n": 4,
+       "options": [
+        "They are far from satisfactory.",
+        "They are mostly taken by her mom.",
+        "They make an impressive album.",
+        "They record her fond memories."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 5 to 8 are based on the conversation you have just heard.",
+     "questions": [
+      {
+       "n": 5,
+       "options": [
+        "A journal reporting the latest progress in physics.",
+        "An introductory course of modern physics.",
+        "An occasion for physicists to exchange ideas.",
+        "A series of interviews with outstanding physicists."
+       ]
+      },
+      {
+       "n": 6,
+       "options": [
+        "The future of the physical world.",
+        "The origin of the universe.",
+        "Sources of radiation.",
+        "Particle theory."
+       ]
+      },
+      {
+       "n": 7,
+       "options": [
+        "How matter collides with anti-matter.",
+        "Whether the universe will turn barren.",
+        "Why there exists anti-matter.",
+        "Why there is a universe at all."
+       ]
+      },
+      {
+       "n": 8,
+       "options": [
+        "Matter and anti-matter are opposites of each other.",
+        "Anti-matter allowed humans to come into existence.",
+        "The universe formed due to a sufficient amount of matter.",
+        "Anti-matter exists in very high-temperature environments."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part II Listening Comprehension (30 minutes)",
+   "name": "Section B",
+   "type": "choice",
+   "directions": "In this section, you will hear two passages. At the end of each passage, you will hear three or four questions. Both the passage and the questions will be spoken only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C)and D). Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 9 to 11 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 9,
+       "options": [
+        "She found herself speaking a foreign language.",
+        "She woke up speaking with a different accent.",
+        "She found some symptoms of her illness gone.",
+        "She woke up finding herself in another country."
+       ]
+      },
+      {
+       "n": 10,
+       "options": [
+        "It is usually caused by a stroke or brain injury.",
+        "It has not yet found any effective treatment.",
+        "It leaves the patient with a distorted memory.",
+        "It often happens to people with speech defects."
+       ]
+      },
+      {
+       "n": 11,
+       "options": [
+        "British.",
+        "Irish.",
+        "Russian.",
+        "Australian."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 12 to 15 are based on the passage you have just heard.",
+     "questions": [
+      {
+       "n": 12,
+       "options": [
+        "Water sports.",
+        "Racing in rivers.",
+        "Stories about women swimmers.",
+        "Books about swimming."
+       ]
+      },
+      {
+       "n": 13,
+       "options": [
+        "She succeeded in swimming across the English Channel.",
+        "She published a guide to London’s best swimming spots.",
+        "She told her story of adventures to some young swimmers.",
+        "She wrote a book about the history of swimwear in the UK."
+       ]
+      },
+      {
+       "n": 14,
+       "options": [
+        "They loved vacationing on the seashore.",
+        "They had a unique notion of modesty.",
+        "They were prohibited from swimming.",
+        "They were fully dressed when swimming."
+       ]
+      },
+      {
+       "n": 15,
+       "options": [
+        "She designed lots of appropriate swimwear for women.",
+        "She once successfully competed against men in swimming.",
+        "She was the first woman to swim across the English Channel.",
+        "She was an advocate of women’s right to swim in public pools."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part II Listening Comprehension (30 minutes)",
+   "name": "Section C",
+   "type": "choice",
+   "directions": "In this section, you will hear three recordings of lectures or talks followed by three or four questions. The recordings will be played only once. After you hear a question, you must choose the best answer from the four choices marked A), B), C)and D).Then mark the corresponding letter on Answer Sheet 1 with a single line through the centre.",
+   "groups": [
+    {
+     "intro": "Questions 16 to 18 are based on the recording you have just heard.",
+     "questions": [
+      {
+       "n": 16,
+       "options": [
+        "Build a machine that can detect lies.",
+        "Develop a magnetic brain scanner.",
+        "Test the credibility of court evidence.",
+        "Win people’s complete trust in them."
+       ]
+      },
+      {
+       "n": 17,
+       "options": [
+        "They are optimistic about its potential.",
+        "They are sceptical of its reliability.",
+        "They think it is but business promotion.",
+        "They celebrate it with great enthusiasm."
+       ]
+      },
+      {
+       "n": 18,
+       "options": [
+        "It is not to be trusted at all.",
+        "It does not sound economical.",
+        "It may intrude into people’s privacy.",
+        "It may lead to overuse in court trials."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 19 to 21 are based on the recording you have just heard.",
+     "questions": [
+      {
+       "n": 19,
+       "options": [
+        "Most of its residents speak several languages.",
+        "Some of its indigenous languages are dying out.",
+        "Each village there speaks a totally different language.",
+        "Its languages have interested researchers the world over."
+       ]
+      },
+      {
+       "n": 20,
+       "options": [
+        "They are spread randomly across the world.",
+        "Some are more difficult to learn than others.",
+        "More are found in tropical regions than in the mild zones.",
+        "They enrich and impact each other in more ways than one."
+       ]
+      },
+      {
+       "n": 21,
+       "options": [
+        "They used different methods to collect and analyze data.",
+        "They identified distinct patterns of language distribution.",
+        "Their conclusions do not correspond to their original hypotheses.",
+        "There is no conclusive account for the cause of language diversity."
+       ]
+      }
+     ]
+    },
+    {
+     "intro": "Questions 22 to 25 are based on the recording you have just heard.",
+     "questions": [
+      {
+       "n": 22,
+       "options": [
+        "Its middle-class is disappearing.",
+        "Its wealth is rationally distributed.",
+        "Its population is rapidly growing.",
+        "Its cherished dream is coming true."
+       ]
+      },
+      {
+       "n": 23,
+       "options": [
+        "Success was but a dream without conscientious effort.",
+        "They could realize their dreams through hard work.",
+        "A few dollars could go a long way.",
+        "Wealth was shared by all citizens."
+       ]
+      },
+      {
+       "n": 24,
+       "options": [
+        "Better working conditions.",
+        "Better-paying jobs.",
+        "High social status.",
+        "Full employment."
+       ]
+      },
+      {
+       "n": 25,
+       "options": [
+        "Reduce the administrative costs.",
+        "Adopt effective business models.",
+        "Hire part-time employees only.",
+        "Make use of the latest technology."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension (40 minutes)",
+   "name": "Section A",
+   "type": "bank",
+   "directions": "In this section, there is a passage with ten blanks. You are required to select one word for each blank from a list of choices given in a word bank following the passage. Read the passage through carefully before making your choices. Each choice in the bank is identified by a letter. Please mark the corresponding letter for each item on Answer Sheet 2 with a single line through the centre. You may not use any of the words in the bank more than once.",
+   "paragraphs": [
+    "Surfing the Internet during class doesn't just steal focus from the educator; it also hurts students who're already struggling to [[26]] the material. A new study from Michigan State University, though, argues that all students—including high achievers—see a decline in performance when they browse the Internet during class for non-academic purposes.",
+    "To measure the effects of Internet-based distractions during class, researchers [[27]] 500 students taking an introductory psychology class at Michigan State University. Researchers used ACT scores as a measure of intellectual [[28]] . Because previous research has shown that people with high intellectual abilities are better at [[29]] out distractions, researchers believed students with high ACT scores would not show a [[30]] decrease in performance due to their use of digital devices. But students who surfed the web during class did worse on their exams regardless of their ACT scores, suggesting that even the academically smartest students are harmed when they're distracted in class. College professors are increasingly [[31]] alarm bells about the effects smartphones, laptops, and tablets have on academic performance. One 2013 study of college students found that 80% of students use their phones or laptops during class, with the average student checking their digital device 11 times in a [[32]] class. A quarter of students report that their use of digital devices during class causes their grades to [[33]] .",
+    "Professors sometimes implement policies designed to [[34]] students' use of digital devices, and some instructors",
+    "even confiscate (没收) tablets and phones. In a world where people are increasingly dependent on their phones, though,",
+    "such strategies often fail. One international study found that 84% of people say they couldn't go a day without their smartphones. Until students are able to [[35]] the pull of social networking, texting, and endlessly surfing the web, they may continue to struggle in their classes."
+   ],
+   "bank": [
+    "aptitude",
+    "eradication",
+    "evaluated",
+    "evaporated",
+    "filtering",
+    "grasp",
+    "legacy",
+    "minimize",
+    "obscure",
+    "obsess",
+    "raising",
+    "resist",
+    "significant",
+    "suffer",
+    "typical"
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension (40 minutes)",
+   "name": "Section B",
+   "type": "match",
+   "directions": "In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once. Each paragraph is marked with a letter. Answer the questions by marking the corresponding letter on Answer Sheet 2.",
+   "title": "A Pioneering Woman of Science Re-Emerges after 300 Years",
+   "paragraphs": [
+    {
+     "label": "A",
+     "text": "Maria Sibylla Merian, like many European women of the 17th century, stayed busy managing a household and rearing children. But on top of that, Merian, a German-born woman who lived in the Netherlands, also managed a successful career as an artist, botanist, naturalist and entomologist (昆虫学家)."
+    },
+    {
+     "label": "B",
+     "text": "“She was a scientist on the level with a lot of people we spend a lot of time talking about,” said Kay Etheridge, a biologist at Gettysburg College in Pennsylvania who has been studying the scientific history of Merian’s work. “She didn't do as much to change biology as Charles Darwin, but she was significant.”"
+    },
+    {
+     "label": "C",
+     "text": "At a time when natural history was a valuable tool for discovery, Merian discovered facts about plants and insects that were not previously known. Her observations helped dismiss the popular belief that insects spontaneously emerged from mud. The knowledge she collected over decades didn't just satisfy those curious about nature, but also provided valuable insights into medicine and science. She was the first to bring together insects and their habitats, including food they ate, into a single ecological composition."
+    },
+    {
+     "label": "D",
+     "text": "After years of pleasing a fascinated audience across Europe with books of detailed descriptions and life-size paintings of familiar insects, in 1699 she sailed with her daughter nearly 5,000 miles from the Netherlands to South America to study insects in the jungles of what is now known as Suriname. She was 52 years old. The result was her masterpiece, Metamorphosis Insectorum Surinamensium."
+    },
+    {
+     "label": "E",
+     "text": "In her work, she revealed a side of nature so exotic, dramatic and valuable to Europeans of the time that she received much acclaim. But a century later, her findings came under scientific criticism. Shoddy (粗糙的)reproductions of her work along with setbacks to women's roles in 18th- and 19th-century Europe resulted in her efforts being largely forgotten. “It was kind of stunning when she sort of dropped off into oblivion (遗忘),” said Dr. Etheridge. “Victorians started putting women in a box, and they're still trying to crawl out of it.”"
+    },
+    {
+     "label": "F",
+     "text": "Today, the pioneering woman of the sciences has re-emerged. In recent years, feminists, historians and artists have all praised Merian's tenacity (坚韧), talent and inspirational artistic compositions. And now biologists like Dr. Etheridge are digging into the scientific texts that accompanied her art. Three hundred years after her death, Merian will be celebrated at an international symposium in Amsterdam this June."
+    },
+    {
+     "label": "G",
+     "text": "And last month, Metamorphosis Insectorum Surinamensium was republished. It contains 60 plates (插图) and original descriptions, along with stories about Merian's life and updated scientific descriptions. Before writing Metamorphosis, Merian spent decades documenting European plants and insects that she published in a series of books. She began in her 20s, making textless, decorative paintings of flowers with insects. “Then she got really serious,” Dr. Etheridge said. Merian started raising insects at home, mostly butterflies and caterpillars. “She would sit up all night until they came out of the pupa (蛹) so she could draw them,” she said."
+    },
+    {
+     "label": "H",
+     "text": "The results of her decades' worth of careful observations were detailed paintings and descriptions of European insects, followed by unconventional visuals and stories of insects and animals from a land that most at the time could only imagine. It's possible Merian used a magnifying glass to capture the detail of the split tongues of sphinx moths (斯芬克斯飞蛾) depicted in the painting. She wrote that the two tongues combine to form one tube for drinking nectar (花蜜). Some criticized this detail later, saying there was just one tongue, but Merian wasn't wrong. She may have observed the adult moth just as it emerged from its pupa. For a brief moment during that stage of its life cycle, the tongue consists of two tiny half-tubes before merging into one."
+    },
+    {
+     "label": "I",
+     "text": "It may not have been ladylike to depict a giant spider devouring a hummingbird, but when Merian did it at the turn of the 18th century, surprisingly, nobody objected. Dr. Etheridge called it revolutionary. The image, which also contained novel descriptions of ants, fascinated a European audience that was more concerned with the exotic story unfolding before them than the gender of the person who painted it."
+    },
+    {
+     "label": "J",
+     "text": "“All of these things shook up their nice, neat little view,” Dr. Etheridge said. But later, people of the Victorian era thought differently. Her work had been reproduced, sometimes incorrectly. A few observations were deemed impossible. “She'd been called a silly woman for saying that a spider could eat a bird,” Dr. Etheridge said. But Henry Walter Bates, a friend of Charles Darwin, observed it and put it in book in 1863, proving Merian was correct."
+    },
+    {
+     "label": "K",
+     "text": "In the same plate, Merian depicted and described leaf-cutter ants for the first time. “In America there are large ants which can eat whole trees bare as a broom handle in a single night,” she wrote in the description. Merian noted how the ants took the leaves below ground to their young. And she wouldn't have known this at the time, but the ants use the leaves to farm fungi (菌类) underground to feed their developing babies."
+    },
+    {
+     "label": "L",
+     "text": "Merian was correct about the giant bird-eating spiders, ants building bridges with their bodies and other details. But in the same drawing, she incorrectly lumped together army and leaf-cutter ants. And instead of showing just the typical pair of eggs in a hummingbird nest, she painted four. She made other mistakes in Metamorphosis Insectorum Surinamensium as well: not every caterpillar and butterfly matched."
+    },
+    {
+     "label": "M",
+     "text": "Perhaps one explanation for her mistakes is that she cut short her Suriname trip after getting sick, and completed the book at home in Amsterdam. And errors are common among some of history's most-celebrated scientific minds, too. “These errors no more invalidate Ms. Merian's work than do well-known misconceptions published by Charles Darwin or Isaac Newton,” Dr. Etheridge wrote in a paper that argued that too many have wrongly focused on the mistakes of her work."
+    },
+    {
+     "label": "N",
+     "text": "Merian’s paintings inspired artists and ecologists. In an 1801 drawing from his book, General Zoology Amphibia, George Shaw, an English botanist and zoologist, credited Merian for describing a frog in the account of her South American expedition, and named the young tree frog after her in his portrayal of it. It wouldn't be fair to give Merian all the credit. She received assistance naming plants, making sketches and referencing the work of others. Her daughters helped her color her drawings."
+    },
+    {
+     "label": "O",
+     "text": "Merian also made note of the help she received from the natives of Suriname, as well as slaves or servants that assisted her. In some instances she wrote moving passages that included her helpers in descriptions. As she wrote in her description of the peacock flower, “The Indians, who are not treated well by their Dutch masters, use the seeds to abort their children, so that they will not become slaves like themselves. The black slaves from Guinea and Angola have demanded to be well treated, threatening to refuse to have children. In fact, they sometimes take their own lives because they are treated so badly, and because they believe they will be born again, free and living in their own land. They told me this themselves.”"
+    },
+    {
+     "label": "P",
+     "text": "Londa Schiebinger, a professor of the history of science at Stanford University, called this passage rather astonishing. It's particularly striking centuries later when these issues are still prominent in public discussions about social justice and women’s rights. “She was ahead of her time,” Dr. Etheridge said."
+    }
+   ],
+   "statements": [
+    {
+     "n": 36,
+     "text": "Merian was the first scientist to study a type of American ant."
+    },
+    {
+     "n": 37,
+     "text": "The European audience was more interested in Merian's drawings than her gender."
+    },
+    {
+     "n": 38,
+     "text": "Merian's masterpiece came under attack a century after its publication."
+    },
+    {
+     "n": 39,
+     "text": "Merian’s mistakes in her drawings may be attributed to her shortened stay in South America."
+    },
+    {
+     "n": 40,
+     "text": "Merian often sat up the whole night through to observe and draw insects."
+    },
+    {
+     "n": 41,
+     "text": "Merian acknowledged the help she got from natives of South America."
+    },
+    {
+     "n": 42,
+     "text": "Merian contributed greatly to people's better understanding of medicine and science."
+    },
+    {
+     "n": 43,
+     "text": "Merian occasionally made mistakes in her drawings of insects and birds."
+    },
+    {
+     "n": 44,
+     "text": "Now, Merian's role as a female forerunner in sciences has been re-established."
+    },
+    {
+     "n": 45,
+     "text": "Merian made a long voyage to South America to study jungle insects over three centuries ago."
+    }
+   ]
+  },
+  {
+   "part": "Part III Reading Comprehension (40 minutes)",
+   "name": "Section C",
+   "type": "choice",
+   "directions": "There are 2 passages in this section. Each passage is followed by some question or unfinished statements. For each of them there are four choices marked A), B), C)and D). You should decide on the best choice and mark the corresponding letter on Answer Sheet 2 with a single line through the centre.",
+   "groups": [
+    {
+     "title": "Passage One",
+     "paragraphs": [
+      "While human achievements in mathematics continue to reach new levels of complexity, many of us who aren't",
+      "mathematicians at heart (or engineers by trade) may struggle to remember the last time we used calculus (微积分).",
+      "It’s a fact not lost on American educators, who amid rising math failure rates are debating how math can better meet the real-life needs of students. Should we change the way math is taught in schools, or eliminate some courses entirely? Andrew Hacker, Queens College political science professor, thinks that advanced algebra and other higher-level math should be cut from curricula in favor of courses with more routine usefulness, like statistics.",
+      "“We hear on all sides that we're not teaching enough mathematics, and the Chinese are running rings around us,” Hacker says. “I'm suggesting we're teaching too much mathematics to too many people…not everybody has to know",
+      "calculus. If you're going to become an aeronautical (航空的) engineer, fine. But most of us aren't.”",
+      "Instead, Hacker is pushing for more courses like the one he teaches at Queens College: Numeracy 101. There, his",
+      "students of “citizen statistics” learn to analyze public information like the federal budget and corporate reports. Such courses, Hacker argues, are a remedy for the numerical illiteracy of adults who have completed high-level math like algebra but are unable to calculate the price of, say, a carpet by area.",
+      "Hacker's argument has met with opposition from other math educators who say what's needed is to help students develop a better relationship with math earlier, rather than teaching them less math altogether. Maria Droujkova is a founder of Natural Math, and has taught basic calculus concepts to 5-year-olds. For Droujkova, high-level math is important, and what it could use in American classrooms is an injection of childlike wonder. “Make mathematics more available,” Droujkova says. “Redesign it so it's more accessible to more kinds of people: young children, adults who worry about it, adults who may have had bad experiences.”",
+      "Pamela Harris, a lecturer at the University of Texas at Austin, has a similar perspective. Harris says that American",
+      "education is suffering from an epidemic of “fake math”—an emphasis on rote memorization (死记硬背) of formulas and",
+      "steps, rather than an understanding of how math can influence the ways we see the world.",
+      "Andrew Hacker, for the record, remains skeptical.",
+      "“I'm going to leave it to those who are in mathematics to work out the ways to make their subject interesting and exciting so students want to take it,” Hacker says. “All that I ask is that alternatives be offered instead of putting all of us on the road to calculus.”"
+     ],
+     "questions": [
+      {
+       "n": 46,
+       "options": [
+        "They struggle to solve math problems.",
+        "They think math is a complex subject.",
+        "They find high-level math of little use.",
+        "They work hard to learn high-level math."
+       ],
+       "stem": "What does the author say about ordinary Americans?"
+      },
+      {
+       "n": 47,
+       "options": [
+        "America is not doing as well as China.",
+        "Math professors are not doing a good job.",
+        "It doesn't help students develop their literacy.",
+        "There has hardly been any innovation for years."
+       ],
+       "stem": "What is the general complaint about America's math education according to Hacker?"
+      },
+      {
+       "n": 48,
+       "options": [
+        "Allow students to learn high-level math step by step.",
+        "Enable students to make practical use of basic math.",
+        "Lay a solid foundation for advanced math studies.",
+        "Help students to develop their analytical abilities."
+       ],
+       "stem": "What does Andrew Hacker's Numeracy 101 aim to do?"
+      },
+      {
+       "n": 49,
+       "options": [
+        "Make complex concepts easy to understand.",
+        "Start teaching children math at an early age.",
+        "Help children work wonders with calculus.",
+        "Try to arouse students' curiosity in math."
+       ],
+       "stem": "What does Maria Droujkova suggest math teachers do in class?"
+      },
+      {
+       "n": 50,
+       "options": [
+        "To enable learners to understand the world better.",
+        "To help learners to tell fake math from real math.",
+        "To broaden Americans' perspectives on math.",
+        "To exert influence on world development."
+       ],
+       "stem": "What does Pamela Harris think should be the goal of math education?"
+      }
+     ]
+    },
+    {
+     "title": "Passage Two",
+     "paragraphs": [
+      "For years, the U.S. has experienced a shortage of registered nurses. The Bureau of Labor Statistics projects that while the number of nurses will increase by 19 percent by 2022, demand will grow faster than supply, and that there will be over one million unfilled nursing jobs by then.",
+      "So what's the solution? Robots.",
+      "Japan is ahead of the curve when it comes to this trend. Toyohashi University of Technology has developed Terapio, a robotic medical cart that can make hospital rounds, deliver medications and other items, and retrieve records. It follows a specific individual, such as a doctor or nurse, who can use it to record and access patient data. This type of robot will likely be one of the first to be implemented in hospitals because it has fairly minimal patient contact.",
+      "Robots capable of social engagement help with loneliness as well as cognitive functioning, but the robot itself doesn't have to engage directly—it can serve as an intermediary for human communication. Telepresence robots such as MantaroBot, Vgo, and Giraff can be controlled through a computer, smartphone, or tablet, allowing family members or doctors to remotely monitor patients or Skype them, often via a screen where the robot's ‘face’ would be. If you can't get to the nursing home to visit grandma, you can use a telepresence robot to hang out with her. A 2016 study found that users had a “consistently positive attitude” about the Giraff robot's ability to enhance communication and decrease feelings of loneliness.",
+      "A robot's appearance affects its ability to successfully interact with humans, which is why the RIKEN-TRI",
+      "Collaboration Center for Human-Interactive Robot Research decided to develop a robotic nurse that looks like a huge teddy bear. RIBA (Robot for Interactive Body On the less cute and more scary side there is Actroid F, which is so human-like that some patients may not know the difference. This conversational robot companion has cameras in its eyes, which allow it to track patients and use appropriate facial expressions and body language in its interactions. During a month-long hospital trial, researchers asked 70 patients how they felt being around the robot and “only three or four said they didn't like having it around.” It's important to note that robotic nurses don't decide courses of treatment or make diagnoses (though robot doctors and surgeons may not be far off). Instead, they perform routine and laborious tasks, freeing nurses up to attend to patients with immediate needs. This is one industry where it seems the integration of robots will lead to collaboration, not replacement."
+     ],
+     "questions": [
+      {
+       "n": 51,
+       "options": [
+        "It delivers the best medications for the elderly.",
+        "It takes the lead in providing robotic care.",
+        "It provides retraining for registered nurses.",
+        "It sets the trend in future robotics technology."
+       ],
+       "stem": "What does the author say about Japan?"
+      },
+      {
+       "n": 52,
+       "options": [
+        "It has been put to use in many Japanese hospitals.",
+        "It provides specific individualized care to patients.",
+        "It does not have much direct contact with patients.",
+        "It has not revolutionized medical service in Japan."
+       ],
+       "stem": "What do we learn about the robot Terapio?"
+      },
+      {
+       "n": 53,
+       "options": [
+        "Directly interact with patients to prevent them from feeling lonely.",
+        "Cater to the needs of patients for recovering their cognitive capacity.",
+        "Closely monitor the patients' movements and conditions around the clock.",
+        "Facilitate communication between patients and doctors or family members."
+       ],
+       "stem": "What are telepresence robots designed to do?"
+      },
+      {
+       "n": 54,
+       "options": [
+        "It interacts with patients just like a human companion.",
+        "It operates quietly without patients realizing its presence.",
+        "It likes to engage in everyday conversations with patients.",
+        "It uses body language even more effectively than words."
+       ],
+       "stem": "What is one special feature of the robot Actroid F?"
+      },
+      {
+       "n": 55,
+       "options": [
+        "Doctors and surgeons will soon be laid off.",
+        "The robotics industry will soon take off.",
+        "Robots will not make nurses redundant.",
+        "Collaboration will not replace competition."
+       ],
+       "stem": "What can we infer from the last paragraph?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "part": "Part IV Translation (30 minutes)",
+   "name": "",
+   "type": "translation",
+   "directions": "For this part, you are allowed 30 minutes to translate a passage from Chinese into English. You should write your answer on Answer Sheet 2.",
+   "paragraphs": [
+    "中国越来越重视公共图书馆，并鼓励人们充分加以利用。新近公布的统计数字表明，中国的公共图书馆数量在逐年增长。许多图书馆通过翻新和扩建，为读者创造了更为安静、舒适的环境。大型公共图书馆不仅提供种类繁多的参考资料，而且定期举办讲座、展览等活动。近年来，也出现了许多数字图书馆，从而节省了存放图书所需的空间。一些图书馆还推出了自助服务系统，使读者借书还书更加方便，进一步满足了读者的需求。"
+   ]
+  }
+ ],
+ "key": ".......................................................",
+ "notes": {},
+ "reference": {},
+ "source": {}
+}

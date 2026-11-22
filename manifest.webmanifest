@@ -1,0 +1,25 @@
+{
+  "name": "Recite 英语",
+  "short_name": "Recite",
+  "description": "离线背单词、发音、单词本与 165 套四六级结构化真题练习",
+  "start_url": "/recite/",
+  "scope": "/recite/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F2E8D5",
+  "theme_color": "#F2E8D5",
+  "icons": [
+    {
+      "src": "/recite/apple-touch-icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/recite/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
